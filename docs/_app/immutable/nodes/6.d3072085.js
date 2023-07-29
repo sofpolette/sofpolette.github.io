@@ -1,0 +1,5 @@
+import{s as i,n as a}from"../chunks/scheduler.63274e7e.js";import{S as l,i as o,g as h,h as c,y as u,k as p,a as d,f}from"../chunks/index.49796d5f.js";function m(r){let e,s=`<div class="col w-1/2"><a href="/"><img src="/icons/arrow_back_FILL0_wght400_GRAD0_opsz40.svg" alt="Return" class="fill-blue"/></a> <h1 class="text-3xl my-4">Sirel</h1> <p>Sirel is a beauty salon for pets and their human friends to enjoy together. It allows a space
+			where you and your furry friend can relax, as well as strengthen your relationship and improve
+			your overall health. Sirel offers you a highly personalized service that adapts to your
+			specific needs using high-quality, all-natural treatments, thus achieving the best possible
+			experience for you and your best friend!</p></div>`;return{c(){e=h("div"),e.innerHTML=s,this.h()},l(t){e=c(t,"DIV",{class:!0,"data-svelte-h":!0}),u(e)!=="svelte-1pm4dc0"&&(e.innerHTML=s),this.h()},h(){p(e,"class","my-8 flex space-x-8 h-2/3")},m(t,n){d(t,e,n)},p:a,i:a,o:a,d(t){t&&f(e)}}}class v extends l{constructor(e){super(),o(this,e,null,m,i,{})}}export{v as component};
