@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white min-h-screen w-full px-64">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="favicon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	%sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">
+
+	<!-- Menu -->
+	<header class="py-8 flex flex-row justify-between">
+		<!-- Logo -->
+		<a href="/">
+			<img src="/logo.png" alt="Logo" class="object-scale-down w-16" href="index.html" />
+		</a>
+
+		<!-- Navigation -->
+		<div class="space-x-8">
+			<a href="/projects">Projects</a>
+			<a href="/cv">CV</a>
+			<a href="/contact">Contact</a>
+		</div>
+	</header>
+
+	<!-- Body -->
+	<div style="display: contents">%sveltekit.body%</div>
+
+	<!-- Footer -->
+	<footer class="flex my-24 space-x-6 bg-red">
+		<!-- Favicon  -->
+		<div class="col w-1/2">
+			<img src="/favicon.svg" alt="Favicon" style="width: 80px;" />
+		</div>
+		<!-- Footer links -->
+		<div class="col w-1/2">
+			<a href="https://www.instagram.com/jacpolstu/" class="block text-end">Instagram</a>
+			<a href="https://www.behance.net/sofapolette1" class="block text-end">Behance</a>
+			<a href="www.linkedin.com/in/sofía-polette-stubb-72850a259" class="block text-end">LinkedIn</a>
+		</div>
+	</footer>
+</body>
+
+</html>
