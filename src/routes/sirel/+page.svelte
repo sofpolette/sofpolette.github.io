@@ -1,5 +1,54 @@
+<script>
+	import { Carousel, CarouselTransition } from 'flowbite-svelte';
+	let showThumbs = false;
+	let showCaptions = false;
+	let slideControls = false;
+	const images = [
+		{
+			id: 0,
+			name: 'Main logo',
+			imgurl: 'sirel/logo-sirel.png'
+		},
+		{
+			id: 1,
+			name: 'Special logo',
+			imgurl: 'sirel/logo2-sirel.png'
+		},
+		{
+			id: 2,
+			name: 'T-shirt',
+			imgurl: 'sirel/champu-sirel.png'
+		},
+		{
+			id: 3,
+			name: 'Assets',
+			imgurl: 'sirel/papeleria-sirel.png'
+		},
+		{
+			id: 4,
+			name: 'Pins',
+			imgurl: 'sirel/pins-sirel.png'
+		},
+		{
+			id: 5,
+			name: 'Sign',
+			imgurl: 'sirel/rotulo-sirel.png'
+		},
+		{
+			id: 5,
+			name: 'Hair comb',
+			imgurl: 'sirel/peine.png'
+		},
+		{
+			id: 5,
+			name: 'Social media',
+			imgurl: 'sirel/facebook-sirel.png'
+		}
+	];
+</script>
+
 <!-- Content -->
-<div class="my-8 flex space-x-8 h-2/3">
+<div class="my-8 flex space-x-8 h-full">
 	<!-- Text -->
 	<div class="col w-1/2">
 		<a href="/">
@@ -14,26 +63,7 @@
 			experience for you and your best friend!
 		</p>
 	</div>
-
-	<!-- Project reel
-	<div class="col w-1/2 h-2/3 self-end">
-		<img src="/sirel/logo-sirel.png" alt="Logo sirel" class="object-scale-down rounded-3xl" />
-		<div class="flex flex-row items-center">
-			<a href=""
-				><img
-					src="/icons/arrow_left_FILL0_wght400_GRAD0_opsz40.svg"
-					class="fill-red"
-					alt="Previous picture"
-				/></a
-			>
-			<p class="text-center">01/10</p>
-			<a href="" class="fill-blue"
-				><img
-					src="/icons/arrow_right_FILL0_wght400_GRAD0_opsz40.svg"
-					class="fill-blue"
-					alt="Previous picture"
-				/></a
-			>
-		</div>
-	</div> -->
+	<div class="col w-1/2">
+		<Carousel {images} {showCaptions} {showThumbs} {slideControls} />
+	</div>
 </div>
