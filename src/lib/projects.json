@@ -1,0 +1,115 @@
+[
+    {
+        "title": "Sirel",
+        "type": "Class",
+        "year": "2022",
+        "labels": [
+            "Branding",
+            "Packaging"
+        ],
+        "description": "",
+        "images": [
+            {
+                "caption": "Logotype",
+                "path": "sirel/logo-sirel.png"
+            },
+            {
+                "caption": "Second logotype",
+                "path": "sirel/logo2-sirel.png"
+            },
+            {
+                "caption": "T-shirt",
+                "path": "sirel/camiseta-sirel.png"
+            },
+            {
+                "caption": "Packaging",
+                "path": "sirel/champu-sirel.png"
+            },
+            {
+                "caption": "Social media",
+                "path": "sirel/facebook-sirel.png"
+            },
+            {
+                "caption": "Brand assets",
+                "path": "sirel/papeleria-sirel.png"
+            },
+            {
+                "caption": "Merchandising piece",
+                "path": "sirel/peine-sirel.png"
+            },
+            {
+                "caption": "Merchandising piece",
+                "path": "sirel/pins-sirel.png"
+            },
+            {
+                "caption": "Sign",
+                "path": "sirel/rotulo-sirel.png"
+            }
+        ]
+    },
+    {
+        "title": "No humanos",
+        "type": "Personal",
+        "year": "20",
+        "labels": [
+            "Merchandising"
+        ],
+        "description": "",
+        "images": [
+            {
+                "caption": "Kis design",
+                "path": "no-humanos/kis-design.png"
+            },
+            {
+                "caption": "Kis",
+                "path": "no-humanos/kis.png"
+            },
+            {
+                "caption": "Glenn design",
+                "path": "no-humanos/glenn-design.png"
+            },
+            {
+                "caption": "Glenn",
+                "path": "no-humanos/glenn.png"
+            },
+            {
+                "caption": "Federico design",
+                "path": "no-humanos/federico-design.png"
+            },
+            {
+                "caption": "Federico",
+                "path": "no-humanos/federico.png"
+            }
+        ]
+    },
+    {
+        "title": "Demeter",
+        "type": "",
+        "year": "",
+        "labels": [
+            ""
+        ],
+        "description": "",
+        "images": [
+            {
+                "caption": "",
+                "path": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "type": "",
+        "year": "",
+        "labels": [
+            ""
+        ],
+        "description": "",
+        "images": [
+            {
+                "caption": "",
+                "path": ""
+            }
+        ]
+    }
+]
