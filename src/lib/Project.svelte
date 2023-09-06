@@ -23,7 +23,7 @@
 			</div>
 		</div>
 		<!-- Labels -->
-		<Label labels={data.labels} />
+		<Label labels={data.areas} />
 	</div>
 	<!-- Carousel -->
 	<div class="col w-1/2">

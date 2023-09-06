@@ -1,12 +1,12 @@
 <!-- Content -->
 <div class="my-8 flex space-x-8">
 	<!-- Text -->
-	<div class="h-full space-y-24 flex-col w-1/2">
+	<div class="h-full space-y-16 flex-col w-1/2">
 		<p class="w-full text-4xl font-light">Hey! I’m Sofía ☻</p>
+		<p class="text-4xl font-light">I'm a Graphic Designer <br />with experience in branding,</p>
 		<p class="text-4xl font-light">
-			I’m studying Graphic <br />Design in Tenerife, <br />Canary Islands.
+			I’m also studying <br />Graphic Design <br />at the EASD Fernando Estévez, Canary Islands.
 		</p>
-		<p class="text-4xl font-light">Welcome to <br />my portfolio! ✷</p>
 	</div>
 	<!-- Project reel -->
 	<img
