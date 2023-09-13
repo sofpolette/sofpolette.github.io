@@ -2,7 +2,7 @@
     {
         "id": "0",
         "title": "Sirel",
-        "type": "Class",
+        "type": ["School"],
         "year": "2022",
         "areas": [
             "Branding",
@@ -46,12 +46,13 @@
                 "caption": "Sign",
                 "path": "sirel/rotulo-sirel.png"
             }
-        ]
+        ],
+        "link": "/sirel"
     },
     {
         "id": "1",
         "title": "No humanos",
-        "type": "Personal",
+        "type": ["Personal"],
         "year": "2018",
         "areas": [
             "NGO",
@@ -83,12 +84,13 @@
                 "caption": "Federico",
                 "path": "no-humanos/federico.png"
             }
-        ]
+        ],
+        "link": "/no-humanos"
     },
     {
         "id": "2",
         "title": "Demeter",
-        "type": "Class",
+        "type": ["School"],
         "year": "2023",
         "areas": [
             "Branding",
@@ -112,12 +114,13 @@
                 "caption": "Web mobile",
                 "path": "demeter/demeter-mobile.png"
             }
-        ]
+        ],
+        "link": "/demeter"
     },
     {
         "id": "3",
         "title": "Animal, plant, fungi",
-        "type": "Class",
+        "type": ["School"],
         "year": "2023",
         "areas": [
             "Illustration"
@@ -136,12 +139,13 @@
                 "caption": "Funghi",
                 "path": "animal-plant-fungi/funghi.png"
             }
-        ]
+        ],
+        "link": "/animal-plant-fungi"
     },
     {
         "id": "4",
         "title": "¿Te reconoces?",
-        "type": "Class",
+        "type": ["School"],
         "year": "2022",
         "areas": [
             "NGO",
@@ -169,12 +173,13 @@
                 "caption": "Roll-up",
                 "path": "proyecto-hombre-rollup"
             }
-        ]
+        ],
+        "link": "/te-reconoces"
     },
     {
         "id": "5",
         "title": "Szymborska",
-        "type": "Class",
+        "type": ["School"],
         "year": "2023",
         "areas": [
             "Poster"
@@ -185,12 +190,13 @@
                 "caption": "Poster",
                 "path": "szymborska/szymborska-poster.jpg"
             }
-        ]
+        ],
+        "link": "/szymborska"
     },
     {
         "id": "6",
         "title": "Gutiérrez Ledesma Abogados",
-        "type": "Client",
+        "type": ["Client"],
         "year": "2023",
         "areas": [
             "Branding"
@@ -229,12 +235,13 @@
                 "caption": "Sign",
                 "path": "megl/megl-rotulo.png"
             }
-        ]
+        ],
+        "link": "/megl"
     },
     {
         "id": "7",
         "title": "Cookbooks",
-        "type": "Personal",
+        "type": ["Personal"],
         "year": "2023",
         "areas": ["Editorial"],
         "description": "A collection of recipes as a tool to explore my own family history and connect with people who are far away through food and traditions. It is divided into two volumes, one for my father and one for my mother, each focusing on a very different culture and traditions that come together in my home.",
@@ -263,12 +270,13 @@
                 "caption": "Binding",
                 "path": "cookbook-binding"
             }
-        ]
+        ],
+        "link": "/cookbooks"
     },
     {
         "id": "8",
         "title": "Margenus",
-        "type": ["Class", "Client"],
+        "type": ["School", "Client"],
         "year": "2021",
         "areas": [
             "Branding"
@@ -299,12 +307,13 @@
                 "caption": "Packaging",
                 "path": "margenus/margenus-pack.png"
             }
-       ]
+       ],
+       "link": "/margenus"
     },
     {
         "id": "9",
         "title": "EO",
-        "type": "Class",
+        "type": ["School"],
         "year": "2023",
         "areas": [
             "Poster"
@@ -319,6 +328,7 @@
                 "caption": "Custom lettering",
                 "path": "eo/eo-lettering.png"
             }
-        ]
+        ],
+        "link": "/eo"
     }
 ]
