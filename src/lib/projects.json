@@ -241,34 +241,34 @@
     {
         "id": "7",
         "title": "Cookbooks",
-        "type": ["Personal"],
+        "type": ["Personal", "School"],
         "year": "2023",
         "areas": ["Editorial"],
         "description": "A collection of recipes as a tool to explore my own family history and connect with people who are far away through food and traditions. It is divided into two volumes, one for my father and one for my mother, each focusing on a very different culture and traditions that come together in my home.",
         "images": [
             {
                 "caption": "Covers",
-                "path": "cookbook-cover"
+                "path": "cookbooks/covers.png"
             },
             {
                 "caption": "Spread",
-                "path": "cookbook-spread1"
+                "path": "cookbooks/B-spread1.png"
             },
             {
                 "caption": "Spread",
-                "path": "cookbook-spread2"
+                "path": "cookbooks/B-spread2.png"
             },
             {
                 "caption": "Spread",
-                "path": "cookbook-spread3"
+                "path": "cookbooks/B-spread3.png"
             },
             {
                 "caption": "Spread",
-                "path": "cookbook-spread4"
+                "path": "cookbooks/B-spread4.png"
             },
             {
-                "caption": "Binding",
-                "path": "cookbook-binding"
+                "caption": "Spread",
+                "path": "cookbooks/B-spread5.png"
             }
         ],
         "link": "/cookbooks"

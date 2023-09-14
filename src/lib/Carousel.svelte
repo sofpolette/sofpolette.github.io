@@ -34,18 +34,24 @@
 			loop: true,
 			on: {
 				activeIndexChange: function () {
-					currIdx = swiperObj.realIndex;
+					if (isNaN(swiperObj.realIndex)) {
+						swiperObj.realIndex = 0;
+					} else {
+						currIdx = swiperObj.realIndex;
+					}
+					console.log(swiperObj);
+					console.log(swiperObj.activeIndex);
 				}
 			}
 		});
 	});
 </script>
 
-<div class="space-y-20">
+<div class="space-y-1 h-full">
 	<swiper-container bind:this={swiperEl}>
 		{#each images as img}
-			<swiper-slide class="flex w-full h-64 justify-left">
-				<img src={img.path} alt={img.caption} class="object-cover rounded-3xl w-full" />
+			<swiper-slide class="flex justify-left h-full max-h-[40rem]">
+				<img src={img.path} alt={img.caption} class="object-contain object-left" />
 			</swiper-slide>
 		{/each}
 	</swiper-container>

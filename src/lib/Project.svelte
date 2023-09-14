@@ -13,21 +13,16 @@
 </script>
 
 <!-- Content -->
-<div class="my-8 flex space-x-12 h-full">
-	<div class="col w-1/3 space-y-20">
-		<div class="space-y-8">
-			<Back />
-			<!-- Text -->
-			<div>
-				<h1 class="text-3xl">{data.title}</h1>
-				<p class="my-4">{data.description}</p>
-			</div>
-		</div>
-		<!-- Labels -->
+<h1 class="text-3xl mt-12 mb-2">{data.title}</h1>
+<div class="mb-8 flex space-x-24">
+	<div class="col w-2/5 flex flex-col justify-between">
+		<!-- <Back /> -->
+		<!-- Text and labels column -->
+		<p class="my-4">{data.description}</p>
 		<Label labels={labelsObj} />
 	</div>
 	<!-- Carousel -->
-	<div class="col w-2/3">
+	<div class="col w-3/5 h-full">
 		<Carousel images={data.images} />
 	</div>
 </div>
