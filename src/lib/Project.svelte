@@ -1,7 +1,6 @@
 <script>
 	import Carousel from '$lib/Carousel.svelte';
 	import Label from '$lib/Label.svelte';
-	import Back from '$lib/Back.svelte';
 	import { mergeLabelsColors } from '$lib/utils.js';
 
 	export let data;
@@ -13,10 +12,9 @@
 </script>
 
 <!-- Content -->
-<h1 class="text-3xl mt-12 mb-2">{data.title}</h1>
+<h1 class="text-3xl my-8">{data.title}</h1>
 <div class="mb-8 flex space-x-24">
 	<div class="col w-2/5 flex flex-col justify-between">
-		<!-- <Back /> -->
 		<!-- Text and labels column -->
 		<p class="my-4">{data.description}</p>
 		<Label labels={labelsObj} />

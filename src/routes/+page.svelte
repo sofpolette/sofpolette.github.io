@@ -10,7 +10,7 @@
 	</div>
 	<!-- Project reel -->
 	<img
-		src="/proyecto-hombre/mockup-mupi-sofia.png"
+		src="/project-reel.gif"
 		alt="Images of projects"
 		class="col w-1/2 object-cover rounded-3xl"
 	/>

@@ -47,11 +47,11 @@
 	});
 </script>
 
-<div class="space-y-1 h-full">
+<div class="space-y-4 h-full">
 	<swiper-container bind:this={swiperEl}>
 		{#each images as img}
-			<swiper-slide class="flex justify-left h-full max-h-[40rem]">
-				<img src={img.path} alt={img.caption} class="object-contain object-left" />
+			<swiper-slide class="flex justify-right h-full max-h-[28rem]">
+				<img src={img.path} alt={img.caption} class="rounded-3xl object-contain object-left" />
 			</swiper-slide>
 		{/each}
 	</swiper-container>

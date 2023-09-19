@@ -9,17 +9,7 @@
 	// Props
 	export let images;
 
-	let currIdx = 0;
-
 	let swiperEl, swiperObj;
-
-	function prev() {
-		swiperObj.slidePrev();
-	}
-
-	function next() {
-		swiperObj.slideNext();
-	}
 
 	onMount(() => {
 		swiperObj = new Swiper(swiperEl, {

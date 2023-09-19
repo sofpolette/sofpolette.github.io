@@ -9,9 +9,13 @@
             "Packaging"
         ],
         "description": "This project aims to create a brand for the Sirel beauty salon. Sirel offers services for dogs and people. It offers a space where you and your pet can relax, in addition to strengthening your relationship and improving your health together, being able to enjoy a personalized service that adapts to your needs through high quality natural treatments, achieving a pleasant moment for both of you.",
+        "thumbnail": {
+            "caption": "Thumbnail",
+            "path": "sirel/thumbnail-sirel.png"
+        },
         "images": [
             {
-                "caption": "Logotype",
+                "caption": "Logotype with tagline",
                 "path": "sirel/logo-sirel.png"
             },
             {
@@ -51,41 +55,45 @@
     },
     {
         "id": "1",
-        "title": "No humanos",
+        "title": "No Humanos",
         "type": ["Personal"],
         "year": "2018",
         "areas": [
             "NGO",
             "Merchandising"
         ],
-        "description": "No Humanos is a crowdfunding initiative carried out in conjunction with the CREASD platform with the aim of raising funds for Finca Arkadia, a farm animal sanctuary located in Tenerife. Three designs inspired by the inhabitants of the farm were made and marketed, and in this way the objective was exceeded with a collection of €1,387, 231% of the expected result.",
+        "description": "No Humanos is a crowdfunding initiative carried out in conjunction with the CREASD platform, aiming to raise funds for Finca Arkadia, a farm animal sanctuary located in Tenerife. Three designs inspired by the inhabitants of the farm were designed, manufactured and sold. The initial fundraising target set by the stakeholders was exceeded 2.3 times.",
+        "thumbnail": {
+            "caption": "Thumbnail",
+            "path": "no-humanos/thumbnail-nh.png"
+        },
         "images": [
             {
                 "caption": "Kis design",
-                "path": "no-humanos/kis-design.png"
-            },
-            {
-                "caption": "Kis",
                 "path": "no-humanos/kis.png"
             },
             {
-                "caption": "Glenn design",
-                "path": "no-humanos/glenn-design.png"
+                "caption": "Kis t-shirt",
+                "path": "no-humanos/kis-tshirt.png"
             },
             {
-                "caption": "Glenn",
-                "path": "no-humanos/glenn.png"
+                "caption": "Glenn design",
+                "path": "no-humanos/glenn-.png"
+            },
+            {
+                "caption": "Glenn t-shirt",
+                "path": "no-humanos/glenn-tshirt.png"
             },
             {
                 "caption": "Federico design",
-                "path": "no-humanos/federico-design.png"
+                "path": "no-humanos/federico.png"
             },
             {
-                "caption": "Federico",
-                "path": "no-humanos/federico.png"
+                "caption": "Federico t-shirt",
+                "path": "no-humanos/federico-tshirt.png"
             }
         ],
-        "link": "/no-humanos"
+        "link": "/nohumanos"
     },
     {
         "id": "2",
@@ -97,18 +105,26 @@
             "UX"
         ],
         "description": "Demeter is an ecological publisher inspired by the Greek goddess Demeter, responsible for agriculture as well as the cycle of life and death. Based on this figure, I built an initial that starts from the concept of the cycle of life, being born from a seed and growing until it reaches a leaf that twists on itself until it dies and reaches the same soil where its origin is located.",
+        "thumbnail": {
+            "caption": "Thumbnail",
+            "path": "demeter/thumbnail-demeter.png"
+        },
         "images": [
-            {
-                "caption": "Symbol",
-                "path": "demeter/demeter-symbol.png"
-            },
             {
                 "caption": "Logotype",
                 "path": "demeter/demeter-logo.png"
             },
             {
                 "caption": "Web desktop",
-                "path": "demeter/demeter-desktop.png"
+                "path": "demeter/demeter-desktop1.png"
+            },
+            {
+                "caption": "Web desktop",
+                "path": "demeter/demeter-desktop2.png"
+            },
+            {
+                "caption": "Web desktop",
+                "path": "demeter/demeter-desktop3.png"
             },
             {
                 "caption": "Web mobile",
@@ -126,6 +142,10 @@
             "Illustration"
         ],
         "description": "Inspired by Otl Aicher's illustrations for the city of Ulm, this project constitutes a triptych of geometric illustrations based on the landscapes and the fauna, flora and fungi of the Canary Islands.",
+        "thumbnail": {
+            "caption": "Thumbnail",
+            "path": "animal-plant-fungi/thumbnail-apf.png"
+        },
         "images": [
             {
                 "caption": "Plant",
@@ -152,26 +172,35 @@
             "Advertising"
         ],
         "description": "This project consists of the creation of an advertising campaign that promotes the NOVA program of the NGO Proyecto Hombre Canarias, with the aim of preventing addiction in minors and encourage them to ask for help if they find themselves in said situation. The pixel element is used to distort the portrait of a teenager. With the phrase 'Do you recognize yourself?' it is defined that this distorted person is the reader, inviting them to think about the consequences that addiction has on their perception of reality and even of themselves.",
+        "thumbnail":
+        {
+            "caption": "Thumbnail",
+            "path": "te-reconoces/te-reconoces-poster.png"
+        },
         "images": [
             {
-                "caption": "Poster",
-                "path": "proyecto-hombre-poster"
+                "caption": "Posters",
+                "path": "te-reconoces/te-reconoces-poster.png"
             },
             {
-                "caption": "Mupi",
-                "path": "proyecto-hombre-mupi"
+                "caption": "Tote bag",
+                "path": "te-reconoces/proyecto-hombre-tote.png"
+            },
+            {
+                "caption": "Roll-up V1",
+                "path": "te-reconoces/te-reconoces-rollup.png"
+            },
+            {
+                "caption": "Roll-up V2",
+                "path": "te-reconoces/te-reconoces-rollup2.png"
             },
             {
                 "caption": "Hat",
-                "path": "proyecto-hombre-hat"
+                "path": "te-reconoces/proyecto-hombre-hat.png"
             },
             {
                 "caption": "T-shirt",
-                "path": "proyecto-hombre-tshirt"
-            },
-            {
-                "caption": "Roll-up",
-                "path": "proyecto-hombre-rollup"
+                "path": "te-reconoces/proyecto-hombre-tshirt.png"
             }
         ],
         "link": "/te-reconoces"
@@ -185,10 +214,14 @@
             "Poster"
         ],
         "description": "Poster inspired by Wisława Szymborska, the Nobel Prize-winning Polish poet. Szymborska is known and loved in Poland for her sense of humor and irony, so I decided to show her cartoonish side using what she used to call one of her residences in Krakow: 'Szymborska's drawer' (because of its small size). The typography is custom and inspired by the writing on the cover of her book 'Rymowanki'.",
+        "thumbnail": {
+            "caption": "Thumbnail",
+            "path": "szymborska/thumbnail-szymborska.png"
+        },
         "images": [
             {
                 "caption": "Poster",
-                "path": "szymborska/szymborska-poster.jpg"
+                "path": "szymborska/szymborska-poster.png"
             }
         ],
         "link": "/szymborska"
@@ -202,6 +235,10 @@
             "Branding"
         ],
         "description": "Branding for the law firm Mª Elena Gutierrez Ledesma, based in Tejina, Tenerife. The symbol stems from the fusion between the letter G from Gutiérrez and L from Ledesma to create a monogram. It was decided to use the Greek equivalent of these letters due to the close relationship between ancient Greece and the symbolism related to law (The goddess Themis and her scales, as an example). The symbol merges the letters Gamma and Lambda. At the same time it resembles the letter 'm', the first initial of the office name.",
+        "thumbnail": {
+            "caption": "Thumbnail",
+            "path": "megl/thumbnail-megl.png"
+        },
         "images": [
             {
                 "caption": "Logo",
@@ -209,31 +246,35 @@
             },
             {
                 "caption": "Alternative signatures",
-                "path": "megl/megl-firmas.png"
+                "path": "megl/megl-logo2.png"
             },
             {
                 "caption": "Folder",
-                "path": "megl/megl-carpeta.png"
-            },
-            {
-                "caption": "Pen",
-                "path": "megl/megl-boli.png"
-            },
-            {
-                "caption": "Vinil",
-                "path": "megl/megl-vinilo.png"
+                "path": "megl/megl-folder.png"
             },
             {
                 "caption": "Business card",
-                "path": "megl/megl-tarjeta.png"
+                "path": "megl/megl-card.png"
+            },
+            {
+                "caption": "Vinil",
+                "path": "megl/megl-vinil.png"
+            },
+            {
+            "caption": "Corporate stamp",
+            "path": "megl/megl-stamp.png"
+            },
+            {
+                "caption": "Pen",
+                "path": "megl/megl-pen.png"
             },
             {
                 "caption": "Planner",
-                "path": "megl/megl-agenda.png"
+                "path": "megl/megl-planner.png"
             },
             {
                 "caption": "Sign",
-                "path": "megl/megl-rotulo.png"
+                "path": "megl/megl-sign.png"
             }
         ],
         "link": "/megl"
@@ -245,6 +286,11 @@
         "year": "2023",
         "areas": ["Editorial"],
         "description": "A collection of recipes as a tool to explore my own family history and connect with people who are far away through food and traditions. It is divided into two volumes, one for my father and one for my mother, each focusing on a very different culture and traditions that come together in my home.",
+        "thumbnail":
+        {
+            "caption": "Thumbnail",
+            "path": "cookbooks/thumbnail-cookbooks.png"
+        },
         "images": [
             {
                 "caption": "Covers",
@@ -269,6 +315,26 @@
             {
                 "caption": "Spread",
                 "path": "cookbooks/B-spread5.png"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/A-spread1.png"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/A-spread2.png"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/A-spread3.png"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/A-spread4.png"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/A-spread5.png"
             }
         ],
         "link": "/cookbooks"
@@ -281,31 +347,37 @@
         "areas": [
             "Branding"
         ],
-        "description": "Margenus is an emerging fashion brand that, making elegant, daring, sensual and versatile garnments, aim to position themselves as a 'new luxury' for professional women. The creation of unique garments is sought through upcycling. Contrast is a recurring concept in the identity of the brand, in addition to the concept of the cycle and reinvention, which appears in the closed line that makes up the symbol, a feminine and organic shape.",
+        "description": "Margenus is an emerging fashion brand that, making elegant, daring, sensual and versatile garnments, aim to position themselves as a 'new luxury' for professional women. The creation of unique garments is sought through upcycling. Contrast is a recurring concept in the identity of the brand, in addition to the concept of the cycle and reinvention. This is showed through the closed line that makes up the symbol, creating a feminine and organic shape.",
+        "thumbnail":
+        {
+            "caption": "Thumbnail",
+            "path": "margenus/thumbnail-margenus.png"
+        },
         "images": [
-            {
-                "caption": "Packaging",
-                "path": "margenus/margenus-pack.png"
-            },
             {
                 "caption": "Logotype",
                 "path": "margenus/margenus-logo.png"
-            },
-            {
-                "caption": "Symbol",
-                "path": "margenus/margenus-symbol.png"
             },
             {
                 "caption": "T-shirt",
                 "path": "margenus/margenus-tshirt.png"
             },
             {
-                "caption": "Social media",
-                "path": "margenus/margenus-social.png"
+                "caption": "Tag",
+                "path": "margenus/margenus-tag.png"
             },
+            {
+                "caption": "Instagram direction",
+                "path": "margenus/margenus-ig.png"
+            },
+
             {
                 "caption": "Packaging",
                 "path": "margenus/margenus-pack.png"
+            },
+            {
+                "caption": "Size tags",
+                "path": "margenus/margenus-sizes.png"
             }
        ],
        "link": "/margenus"
@@ -318,7 +390,12 @@
         "areas": [
             "Poster"
         ],
-        "description": "EO is a film about a circus donkey and its wanderings through rural Poland, an exploration of the relationship between animals and people. For this poster I decided to use a euphemism just like the movie does in the most violent moments in the story. I decided to use a donkey-shaped piñata as a symbol not only of the objectification of animals but also to allude to the violence that awaits them because they have been created and trained for this purpose.",
+        "description": "EO is a film about a circus donkey and its wanderings through rural Poland, an exploration of the relationship between animals and people. For this poster I decided to use a euphemism just like the movie does in the most violent moments in the story. I decided to use a donkey-shaped piñata as a symbol not only of the objectification of animals but also to allude to the violence that awaits them since they have been created and trained for this purpose.",
+        "thumbnail":
+        {
+            "caption": "Thumbnail",
+            "path": "eo/thumbnail-eo.png"
+        },
         "images": [
             {
                 "caption": "Poster",
