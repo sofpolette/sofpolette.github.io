@@ -6,10 +6,10 @@
 
 <!-- Education -->
 <div>
-	<p class="text-2xl mb-8 underline">Education</p>
+	<p class="text-xl mb-8 underline">Education</p>
 	<div class="grid grid-cols-3 space-x-8">
 		<!-- Vocational Training -->
-		<div class="col">
+		<div class="col space-y-4">
 			<div class="space-y-2 mb-2">
 				<img src="/easd-symbol.png" alt="EASD logo" class="h-16 mb-4" />
 				<p class="text-md font-light uppercase">EASD Fernando Estévez</p>
@@ -33,7 +33,7 @@
 		</div>
 
 		<!-- ERASMUS+ -->
-		<div class="col">
+		<div class="col space-y-4">
 			<div class="space-y-2 mb-2">
 				<img src="/asp-symbol.png" alt="EASD logo" class="h-16 mb-4" />
 				<p class="text-md font-light uppercase mb-2">ASP im. Jana Matejki <br />w Krakowie</p>
@@ -81,7 +81,7 @@
 	<div class="grid grid-cols-3 space-x-8 mt-12">
 		<!-- Languages -->
 		<div class="space-y-4">
-			<p class="text-2xl mb-8 underline">Languages</p>
+			<p class="text-xl mb-8 underline">Languages</p>
 			<div>
 				<p class="text-lg italic font-medium">Spanish</p>
 				<p>Native or bilingual proficiency</p>
@@ -98,7 +98,7 @@
 
 		<!-- Skills -->
 		<div>
-			<p class="text-2xl mb-8 underline">Skills</p>
+			<p class="text-xl mb-8 underline">Skills</p>
 			<ul class="list-image-[url(/icons/done_black_24dp.svg)] ml-6">
 				<li>Visual identity</li>
 				<li>Editorial design</li>
@@ -113,7 +113,7 @@
 
 		<!-- Achievements and interests -->
 		<div>
-			<p class="text-2xl mb-8 underline">Achievements</p>
+			<p class="text-xl mb-8 underline">Achievements</p>
 			<p>
 				In 2020 I received the Honorable Mention for my Web and Multimedia final project, as well as
 				an Extraordinary Price for Professional Artistic Education in Plastic Arts and Design.
