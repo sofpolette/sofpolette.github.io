@@ -11,7 +11,7 @@
 	</div>
 	<div>
 		<p>
-			Feel free to send me an email at <a href="sofayaeasd@gmail.com">sofayaeasd@example.com.</a>
+			Feel free to send me an email at <a href="sofayaeasd@gmail.com">sofayaeasd@gmail.com.</a>
 		</p>
 		<p>
 			You can also connect with me through social media to stay updated on my latest work and
