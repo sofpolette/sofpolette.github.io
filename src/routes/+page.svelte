@@ -3,7 +3,7 @@
 	<!-- Text -->
 	<div class="h-full space-y-16 flex-col w-1/2">
 		<p class="w-full text-4xl font-light">Hey! I’m Sofía ☻</p>
-		<p class="text-4xl font-light">I'm a Graphic Designer <br />with experience in branding,</p>
+		<p class="text-4xl font-light">I'm a Graphic Designer <br />specialized in branding.</p>
 		<p class="text-4xl font-light">
 			I’m also studying <br />Graphic Design <br />at the EASD Fernando Estévez, Canary Islands.
 		</p>

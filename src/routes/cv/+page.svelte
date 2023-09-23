@@ -12,6 +12,50 @@
 <!-- Education -->
 <div class="space-y-16">
 	<div>
+		<!-- Bachelor -->
+		<div class="col space-y-4">
+			<div class="space-y-2 mb-2">
+				<img src="/easd-symbol.png" alt="EASD logo" class="h-12 mb-4" />
+				<p class="text-md font-light uppercase">EASD Fernando Estévez</p>
+				<p class="text-xl italic font-medium">Graphic Design, Bachelor</p>
+				<div>
+					<p class="italic font-light">Sep 2020 - Jun 2024</p>
+					<p class="font-light underline">Ongoing</p>
+				</div>
+			</div>
+			<p>
+				Throughout this degree, <br />I've improved on generating, developing, and materializing
+				ideas, concepts, and graphics for complex communication programs. <br />I acquired technical
+				capabilities and skills as well as the correct use of methods and processes associated with
+				Graphic Design. This year I am focusing on infographic design, art direction, and app
+				design.
+			</p>
+			<p class="font-light mt-2 opacity-70">
+				Branding · Typography · UX Design · Editorial Design · Design Thinking
+			</p>
+		</div>
+
+		<!-- ERASMUS+ -->
+		<div class="col space-y-4">
+			<div class="space-y-2 mb-2">
+				<img src="/asp-symbol.png" alt="EASD logo" class="h-12 mb-4" />
+				<p class="text-md font-light uppercase mb-2">ASP im. Jana Matejki <br />w Krakowie</p>
+				<p class="text-xl italic font-medium mb-2">Graphic Arts, ERASMUS+</p>
+				<div>
+					<p class="italic font-light">Feb 2023 - Jun 2023</p>
+					<p class="font-light">Overall grade (out of 10): 9,7</p>
+				</div>
+			</div>
+			<p>
+				During this mobility, I developed my knowledge of photography, visual communication,
+				typography, and poster design. I also participated in a 3-month course where I learned about
+				traditional printing techniques (Lithography, mokulito, engraving, monotype...).
+			</p>
+			<p class="font-light mt-2 opacity-70">
+				Lightroom · Visual Communication · Poster Design · Typography · Photography
+			</p>
+		</div>
+
 		<!-- Vocational Training -->
 		<p class="text-xl underline mb-8">Education</p>
 		<div class="grid grid-cols-3 space-x-8">
@@ -35,50 +79,6 @@
 				</p>
 				<p class="font-light mt-2 opacity-70">
 					Wireframing · Adobe Photoshop · Cascading Style Sheets (CSS) · Adobe Premiere Pro · HTML
-				</p>
-			</div>
-
-			<!-- ERASMUS+ -->
-			<div class="col space-y-4">
-				<div class="space-y-2 mb-2">
-					<img src="/asp-symbol.png" alt="EASD logo" class="h-12 mb-4" />
-					<p class="text-md font-light uppercase mb-2">ASP im. Jana Matejki <br />w Krakowie</p>
-					<p class="text-xl italic font-medium mb-2">Graphic Arts, ERASMUS+</p>
-					<div>
-						<p class="italic font-light">Feb 2023 - Jun 2023</p>
-						<p class="font-light">Overall grade (out of 10): 9,7</p>
-					</div>
-				</div>
-				<p>
-					During this mobility, I developed my knowledge of photography, visual communication,
-					typography, and poster design. I also participated in a 3-month course where I learned
-					about traditional printing techniques (Lithography, mokulito, engraving, monotype...).
-				</p>
-				<p class="font-light mt-2 opacity-70">
-					Lightroom · Visual Communication · Poster Design · Typography · Photography
-				</p>
-			</div>
-
-			<!-- Bachelor -->
-			<div class="col space-y-4">
-				<div class="space-y-2 mb-2">
-					<img src="/easd-symbol.png" alt="EASD logo" class="h-12 mb-4" />
-					<p class="text-md font-light uppercase">EASD Fernando Estévez</p>
-					<p class="text-xl italic font-medium">Graphic Design, Bachelor</p>
-					<div>
-						<p class="italic font-light">Sep 2020 - Jun 2024</p>
-						<p class="font-light underline">Ongoing</p>
-					</div>
-				</div>
-				<p>
-					Throughout this degree, <br />I've improved on generating, developing, and materializing
-					ideas, concepts, and graphics for complex communication programs. <br />I acquired
-					technical capabilities and skills as well as the correct use of methods and processes
-					associated with Graphic Design. This year I am focusing on infographic design, art
-					direction, and app design.
-				</p>
-				<p class="font-light mt-2 opacity-70">
-					Branding · Typography · UX Design · Editorial Design · Design Thinking
 				</p>
 			</div>
 		</div>
