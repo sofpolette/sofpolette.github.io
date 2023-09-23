@@ -78,7 +78,7 @@
             },
             {
                 "caption": "Glenn design",
-                "path": "no-humanos/glenn-.png"
+                "path": "no-humanos/glenn.png"
             },
             {
                 "caption": "Glenn t-shirt",
@@ -156,8 +156,8 @@
                 "path": "animal-plant-fungi/animal.png"
             },
             {
-                "caption": "Funghi",
-                "path": "animal-plant-fungi/funghi.png"
+                "caption": "Fungi",
+                "path": "animal-plant-fungi/fungi.png"
             }
         ],
         "link": "/animal-plant-fungi"
@@ -184,7 +184,7 @@
             },
             {
                 "caption": "Tote bag",
-                "path": "te-reconoces/proyecto-hombre-tote.png"
+                "path": "te-reconoces/te-reconoces-tote.png"
             },
             {
                 "caption": "Roll-up V1",
@@ -196,11 +196,11 @@
             },
             {
                 "caption": "Hat",
-                "path": "te-reconoces/proyecto-hombre-hat.png"
+                "path": "te-reconoces/te-reconoces-hat.png"
             },
             {
                 "caption": "T-shirt",
-                "path": "te-reconoces/proyecto-hombre-tshirt.png"
+                "path": "te-reconoces/te-reconoces-tshirt.png"
             }
         ],
         "link": "/te-reconoces"

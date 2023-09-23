@@ -11,7 +11,9 @@
 	</div>
 	<div>
 		<p>
-			Feel free to send me an email at <a href="sofayaeasd@gmail.com">sofayaeasd@gmail.com.</a>
+			Feel free to send me an email at <a href="mailto:sofayaeasd@gmail.com"
+				>sofayaeasd@gmail.com.</a
+			>
 		</p>
 		<p>
 			You can also connect with me through social media to stay updated on my latest work and
@@ -22,7 +24,9 @@
 			<li>Instagram — <a href="https://www.instagram.com/jacpolstu/">@jacpolstu</a></li>
 			<li>Béhance — <a href="https://www.behance.net/sofapolette1">Sofía Polette</a></li>
 			<li>
-				LinkedIn — <a href="">Sofía Polette Stubb</a>
+				LinkedIn — <a href="https://www.linkedin.com/in/sof%C3%ADa-polette-stubb-72850a259/"
+					>Sofía Polette Stubb</a
+				>
 			</li>
 		</ul>
 	</div>
