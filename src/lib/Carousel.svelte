@@ -14,33 +14,36 @@
 	let swiperEl, swiperObj;
 
 	function prev() {
+		console.log('prev');
 		swiperObj.slidePrev();
 	}
 
 	function next() {
+		console.log('next');
 		swiperObj.slideNext();
 	}
 
 	onMount(() => {
 		swiperObj = new Swiper(swiperEl, {
-			navigation: true,
-			pagination: true,
-			autoplay: {
-				delay: 4000,
-				disableOnInteraction: false
-			},
-			slidesPerView: 1,
-			spaceBetween: 10,
+			// navigation: true,
+			// pagination: true,
+			// autoplay: {
+			// 	delay: 4000,
+			// 	disableOnInteraction: false
+			// },
+			// slidesPerView: 1,
+			// spaceBetween: 10,
 			loop: true,
 			on: {
 				activeIndexChange: function () {
-					if (isNaN(swiperObj.realIndex)) {
-						swiperObj.realIndex = 0;
-					} else {
-						currIdx = swiperObj.realIndex;
-					}
+					// if (isNaN(swiperObj.realIndex)) {
+					// 	swiperObj.realIndex = 0;
+					// } else {
+					// 	currIdx = swiperObj.realIndex;
+					// }
+					currIdx = swiperObj.activeIndex;
 					console.log(swiperObj);
-					console.log(swiperObj.activeIndex);
+					console.log('active: ' + swiperObj.activeIndex);
 				}
 			}
 		});
