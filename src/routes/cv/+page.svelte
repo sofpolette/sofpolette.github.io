@@ -2,9 +2,11 @@
 	import Label from '../../lib/Label.svelte';
 </script>
 
+<h1 class="text-3xl my-4">CV</h1>
+
 <div class="mt-12 mb-12">
-	<p class="text-3xl font-semibold">Sofía J. Polette Stubb</p>
-	<p class="text-3xl font-light">Graphic Designer</p>
+	<p class="text-3xl font-medium">Sofía J. Polette Stubb</p>
+	<p class="text-3xl font-light opacity-70">Graphic Designer</p>
 </div>
 
 <!-- Education -->
