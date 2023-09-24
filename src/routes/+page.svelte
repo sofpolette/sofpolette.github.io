@@ -9,9 +9,5 @@
 		</p>
 	</div>
 	<!-- Project reel -->
-	<!-- <img
-		src="/project-reel.gif"
-		alt="Images of projects"
-		class="col w-1/2 object-cover rounded-3xl"
-	/> -->
+	<img src="/index.gif" alt="Images of projects" class="col w-1/2 object-cover rounded-3xl" />
 </div>
