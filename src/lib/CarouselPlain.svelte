@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { register } from 'swiper/element/bundle';
 	import Swiper from 'swiper';
-	import 'swiper/swiper-bundle.css';
+	//import 'swiper/swiper-bundle.css';
 
 	register();
 

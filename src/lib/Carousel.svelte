@@ -1,10 +1,18 @@
 <script>
-	import { onMount } from 'svelte';
 	import { register } from 'swiper/element/bundle';
+	import { onMount } from 'svelte';
 	import Swiper from 'swiper';
-	import 'swiper/swiper-bundle.css';
 
 	register();
+
+	const spaceBetween = 10;
+	const onProgress = (e) => {
+		const [swiper, progress] = e.detail;
+		console.log(progress);
+	};
+	const onSlideChange = (e) => {
+		console.log('slide changed');
+	};
 
 	// Props
 	export let images;
@@ -15,25 +23,27 @@
 
 	function prev() {
 		console.log('prev');
+		console.log(swiperObj);
 		swiperObj.slidePrev();
 	}
 
 	function next() {
 		console.log('next');
+		console.log(swiperObj);
 		swiperObj.slideNext();
 	}
 
 	onMount(() => {
 		swiperObj = new Swiper(swiperEl, {
-			// navigation: true,
-			// pagination: true,
-			// autoplay: {
-			// 	delay: 4000,
-			// 	disableOnInteraction: false
-			// },
-			// slidesPerView: 1,
+			navigation: true,
+			pagination: true,
+			autoplay: {
+				delay: 4000,
+				disableOnInteraction: false
+			},
+			slidesPerView: 1,
 			// spaceBetween: 10,
-			loop: true,
+			// loop: true,
 			on: {
 				activeIndexChange: function () {
 					// if (isNaN(swiperObj.realIndex)) {
@@ -51,6 +61,13 @@
 </script>
 
 <div class="space-y-4 h-full">
+	<!-- <swiper-container bind:this={swiperEl}>
+		{#each images as img}
+			<swiper-slide class="flex justify-right h-full max-h-[28rem]">
+				<img src={img.path} alt={img.caption} class="rounded-3xl object-contain object-left" />
+			</swiper-slide>
+		{/each}
+	</swiper-container> -->
 	<swiper-container bind:this={swiperEl}>
 		{#each images as img}
 			<swiper-slide class="flex justify-right h-full max-h-[28rem]">
