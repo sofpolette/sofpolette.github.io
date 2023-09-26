@@ -30,12 +30,12 @@
 	});
 </script>
 
-<div class="glide">
-	<div class="glide__track" data-glide-el="track">
-		<ul class="glide__slides">
+<div class="glide w-full">
+	<div class="glide__track w-full" data-glide-el="track">
+		<ul class="glide__slides w-full">
 			{#each images as img}
-				<li class="glide__slide">
-					<img src={img.path} alt={img.caption} />
+				<li class="glide__slide flex justify-right w-full max-h-[28rem]">
+					<img src={img.path} alt={img.caption} class="rounded-3xl object-contain object-left" />
 				</li>
 			{/each}
 		</ul>

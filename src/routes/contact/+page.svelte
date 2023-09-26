@@ -30,11 +30,5 @@
 			</li>
 		</ul>
 	</div>
-	<div>
-		<p>
-			Don't hesitate to send me a message or follow me on these platforms to see what I'm currently
-			working on and to discuss any design-related inquiries. I'm excited to hear from you and
-			explore the possibilities of working together on your next design project!
-		</p>
-	</div>
+	<div />
 </div>
