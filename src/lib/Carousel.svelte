@@ -1,5 +1,6 @@
 <script>
 	import { register } from 'swiper/element/bundle';
+	// import Glider from '/@glidejs/glide/dist/glide.min.js';
 	import { onMount } from 'svelte';
 	import Swiper from 'swiper';
 
