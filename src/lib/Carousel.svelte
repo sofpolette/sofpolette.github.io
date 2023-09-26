@@ -1,5 +1,7 @@
 <script>
 	import Glide, { Controls, Breakpoints } from '@glidejs/glide/dist/glide.modular.esm';
+	import '@glidejs/glide/dist/css/glide.core.min.css';
+	import '@glidejs/glide/dist/css/glide.theme.min.css';
 	import { onMount } from 'svelte';
 
 	// Props
@@ -7,10 +9,6 @@
 
 	var currIdx = 0;
 	var glide;
-
-	// on:swipe.move() {
-	// 	currIdx = glide.index;
-	// }
 
 	onMount(() => {
 		glide = new Glide('.glide', {
@@ -32,8 +30,6 @@
 	});
 </script>
 
-<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
-<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css" />
 <div class="glide">
 	<div class="glide__track" data-glide-el="track">
 		<ul class="glide__slides">
