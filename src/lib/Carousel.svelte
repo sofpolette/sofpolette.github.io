@@ -30,16 +30,18 @@
 	});
 </script>
 
-<div class="glide w-full">
-	<div class="glide__track w-full" data-glide-el="track">
-		<ul class="glide__slides w-full">
+<div class="glide space-y-2">
+	<!-- Images -->
+	<div class="glide__track" data-glide-el="track">
+		<ul class="glide__slides">
 			{#each images as img}
-				<li class="glide__slide flex justify-right w-full max-h-[28rem]">
+				<li class="glide__slide">
 					<img src={img.path} alt={img.caption} class="rounded-3xl object-contain object-left" />
 				</li>
 			{/each}
 		</ul>
 	</div>
+	<!-- Controls and caption -->
 	<div data-glide-el="controls" class="flex flex-row items-center space-x-1">
 		<button data-glide-dir="<"
 			><img
