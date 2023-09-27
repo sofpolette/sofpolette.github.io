@@ -8,7 +8,7 @@
 		</p>
 		<!-- Mobile -->
 		<img src="/index.gif" alt="Images of projects" class="md:hidden object-cover rounded-3xl" />
-		<p class="max-2xl:text-3xl 2xl:text-4xl font-light">
+		<p class="max-2xl:text-3xl 2xl:text-5xl font-light">
 			Additionally, I'm currently pursuing a Graphic Design bachelor's at EASD Fernando Estévez in
 			the Canary Islands.
 		</p>
