@@ -1,16 +1,23 @@
 <!-- Content -->
-<div class="h-[70vh] my-8 flex space-x-8">
+<div class="md:h-[70vh] max-md:h-full my-8 md:flex md:space-x-8 xs:flex-col">
 	<!-- Text -->
-	<div class="flex flex-col justify-between w-2/5 h-full">
-		<p class="text-4xl font-light">Hi there! I'm Sofía ☻</p>
-		<p class="text-4xl font-light">
+	<div class="flex flex-col justify-between md:w-2/5 max-md:space-y-8">
+		<p class="max-md:text-3xl md:text-4xl font-light">Hi there! I'm Sofía ☻</p>
+		<p class="max-md:text-3xl md:text-4xl font-light">
 			I'm a Graphic Designer specializing in branding, editorial, multimedia and UX.
 		</p>
-		<p class="text-4xl font-light">
+		<!-- Mobile -->
+		<img src="/index.gif" alt="Images of projects" class="md:hidden object-cover rounded-3xl" />
+		<p class="max-md:text-3xl md:text-4xl font-light">
 			Additionally, I'm currently pursuing a Graphic Design bachelor's at EASD Fernando Estévez in
 			the Canary Islands.
 		</p>
 	</div>
 	<!-- Project reel -->
-	<img src="/index.gif" alt="Images of projects" class="w-3/5 object-cover rounded-3xl" />
+	<!-- Desktop -->
+	<img
+		src="/index.gif"
+		alt="Images of projects"
+		class="max-md:hidden w-3/5 object-cover rounded-3xl"
+	/>
 </div>

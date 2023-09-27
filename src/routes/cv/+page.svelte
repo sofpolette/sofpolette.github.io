@@ -5,15 +5,15 @@
 <h1 class="text-3xl my-4">CV</h1>
 
 <div class="mt-12 mb-12">
-	<p class="text-3xl font-medium">Sofía J. Polette Stubb</p>
-	<p class="text-3xl font-light opacity-70">Graphic Designer</p>
+	<p class="max-md:text-2xl md:text-3xl font-medium">Sofía J. Polette Stubb</p>
+	<p class="max-md:text-2xl md:text-3xl font-light opacity-70">Graphic Designer</p>
 </div>
 
 <!-- Education -->
 <div class="space-y-16">
 	<div>
 		<p class="text-xl underline mb-8">Education</p>
-		<div class="grid grid-cols-3 space-x-8">
+		<div class="grid max-md:grid-cols-1 md:grid-cols-3 md:space-x-8 max-md:space-y-8">
 			<!-- Bachelor -->
 			<div class="col space-y-4">
 				<div class="space-y-2 mb-2">
@@ -87,7 +87,7 @@
 	<div class="space-y-4">
 		<!-- Achievements and interests -->
 		<p class="text-xl mb-8 underline">Achievements</p>
-		<div class="grid grid-cols-3 space-x-8">
+		<div class="grid max-md:grid-cols-1 md:grid-cols-3 md:space-x-8 max-md:space-y-4">
 			<div>
 				<p class="text-lg italic mb-1">International Scholarship, 2017</p>
 				<p>
@@ -112,7 +112,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid grid-cols-3 space-x-8">
+	<div class="grid max-md:grid-cols-1 md:grid-cols-3 md:space-x-8 max-md:space-y-12">
 		<!-- Languages -->
 		<div class="space-y-4">
 			<p class="text-xl mb-8 underline">Languages</p>

@@ -2,7 +2,7 @@
 </script>
 
 <h1 class="text-3xl my-4">Contact</h1>
-<div class="grid grid-cols-3 space-x-8">
+<div class="grid max-md:grid-cols-1 md:grid-cols-3 max-md:space-y-6 md:space-x-8">
 	<div>
 		<p>
 			Thank you for taking the time to explore my portfolio! I'd love to hear from you, whether it's
@@ -11,8 +11,8 @@
 	</div>
 	<div>
 		<p>
-			Feel free to send me an email at <a href="mailto:sofayaeasd@gmail.com"
-				>sofayaeasd@gmail.com.</a
+			Feel free to send me an email at <a href="mailto:sofpolette@gmail.com"
+				>sofpolette@gmail.com.</a
 			>
 		</p>
 		<p>

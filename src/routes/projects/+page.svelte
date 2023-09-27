@@ -14,7 +14,7 @@
 </script>
 
 <h1 class="text-3xl my-8">Projects</h1>
-<div class="grid grid-cols-3 gap-x-8 gap-y-16">
+<div class="grid max-md:grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-x-8 gap-y-16">
 	{#each projects as project, i}
 		<div>
 			<a href={project.link}
