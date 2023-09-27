@@ -13,18 +13,18 @@
 
 <!-- Content -->
 <h1 class="text-3xl my-8">{data.title}</h1>
-<div class="mb-8 flex space-x-16">
-	<div class="flex col md:w-2/5 max-md:w-full flex-col max-md:space-y-8 md:justify-between">
+<div class="mb-8 flex md:space-x-16 max-md:space-y-8 max-md:flex-col md:flex-row">
+	<div class="flex md:w-2/5 max-md:w-full flex-col max-md:space-y-8 md:justify-between">
 		<!-- Carousel mobile -->
-		<div class="col h-full md:hidden">
+		<!-- <div class="col h-full md:hidden">
 			<Carousel images={data.images} />
-		</div>
+		</div> -->
 		<!-- Text and labels column -->
-		<p class="my-4">{data.description}</p>
+		<p class="my-4 2xl:text-xl">{data.description}</p>
 		<Label labels={labelsObj} />
 	</div>
 	<!-- Carousel desktop -->
-	<div class="col w-3/5 h-full max-md:hidden">
+	<div class="md:w-3/5 md:pt-8">
 		<Carousel images={data.images} />
 	</div>
 </div>
