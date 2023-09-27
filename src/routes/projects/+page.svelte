@@ -20,7 +20,9 @@
 			<a href={project.link}
 				><CarouselPlain images={[project.thumbnail].concat(project.images)} /></a
 			>
-			<a href={project.link}><h1 class="text-lg mt-3 mb-1">{project.title}</h1></a>
+			<a href={project.link}
+				><h1 class="max-2xl:text-lg 2xl:text-xl mt-3 mb-1">{project.title}</h1></a
+			>
 			<Label labels={labelsObjs[i]} />
 		</div>
 	{/each}
