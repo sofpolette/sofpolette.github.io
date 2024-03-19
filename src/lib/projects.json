@@ -97,17 +97,18 @@
     },
     {
         "id": "2",
-        "title": "Demeter",
+        "title": "Endemic bees",
         "type": ["School"],
-        "year": "2023",
+        "year": "2024",
         "areas": [
-            "Branding",
-            "UX"
+            "Infographic",
+            "Illustration",
+            "Iconography"
         ],
         "description": "This project draws its inspiration from the Greek goddess Demeter, the deity responsible for agriculture and the cycle of life and death. My goal was to bring this symbolism to life through a compelling and meaningful brand identity and website for this ecological publishing house. Rooted in this ancient figure, this design concept unfolds as a visual narrative of the life cycle. It begins with a seed, representing birth and potential, and unfolds into a growing plant with leaves, one sprouting and one that curls inward, symbolizing the cycle's eventual culmination.",
         "thumbnail": {
             "caption": "Thumbnail",
-            "path": "demeter/thumbnail-demeter.png"
+            "path": "abejas/thumbnail.png"
         },
         "images": [
             {
@@ -131,7 +132,7 @@
                 "path": "demeter/demeter-mobile.png"
             }
         ],
-        "link": "/demeter"
+        "link": "/abejas"
     },
     {
         "id": "3",
@@ -207,24 +208,20 @@
     },
     {
         "id": "5",
-        "title": "Szymborska",
+        "title": "Trevis",
         "type": ["School"],
-        "year": "2023",
+        "year": "2024",
         "areas": [
-            "Poster"
+            "Branding",
+            "UX"
         ],
-        "description": "This project is a tribute to Wisława Szymborska, the beloved Nobel Prize-winning Polish poet celebrated for her unique blend of humor and irony. The poster design draws inspiration from Szymborska's whimsical side and a place she affectionately referred to as 'Szymborska's drawer,' a nod to its cozy, small size. The typography featured in the poster is custom-designed, taking cues from the distinctive writing on the cover of her book 'Rymowanki.' This poster encapsulates the essence of Szymborska's literary charm, offering a visual homage to her distinctive voice and personality as a cherished literary figure.",
+        "description": "",
         "thumbnail": {
             "caption": "Thumbnail",
-            "path": "szymborska/thumbnail-szymborska.png"
+            "path": "trevis/thumbnail.png"
         },
-        "images": [
-            {
-                "caption": "Poster",
-                "path": "szymborska/szymborska-poster.png"
-            }
-        ],
-        "link": "/szymborska"
+        "images": [],
+        "link": "/trevis"
     },
     {
         "id": "6",

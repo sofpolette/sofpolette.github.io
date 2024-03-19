@@ -12,8 +12,11 @@
 </script>
 
 <!-- Content -->
-<h1 class="text-3xl my-8">{data.title}</h1>
+<div class="mt-16">
+	<Label labels={labelsObj} />
+</div>
 
+<!-- Old content structure -->
 <!-- <h1 class="text-3xl my-8">{data.title}</h1>
 <div class="mb-8 flex md:space-x-16 max-md:space-y-8 max-md:flex-col md:flex-row">
 	<div class="flex md:w-2/5 max-md:w-full flex-col max-md:space-y-8 md:justify-between">
