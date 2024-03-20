@@ -34,7 +34,7 @@
 	<!-- Image grid -->
 	<div class="max-md:flex-col md:flex-row space-y-4">
 		<div class="flex max-md:flex-col md:flex-row md:space-x-4 max-md:space-y-4 w-full">
-			<img class="md:w-1/3 max-md:w-full" src="te-reconoces/te-reconoces-poster.png" alt="Poster" />
+			<img class="md:w-1/3 max-md:w-full" src="te-reconoces/te-reconoces-poster.jpg" alt="Poster" />
 			<img
 				class="md:w-1/3 max-md:w-full"
 				src="te-reconoces/te-reconoces-rollup.png"

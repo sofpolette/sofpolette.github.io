@@ -41,14 +41,22 @@
 			/>
 		</div>
 		<div class="flex max-md:flex-col md:flex-row md:space-x-4 max-md:space-y-4 w-full">
-			<img class="md:w-1/3 max-md:w-full" src="megl/megl-sign.png" alt="Main logo" />
-			<img class="md:w-1/3 max-md:w-full" src="megl/megl-card.png" alt="Alternative logo" />
-			<img class="md:w-1/3 max-md:w-full" src="megl/megl-pen.png" alt="Main logo" />
+			<img class="md:w-1/3 max-md:w-full" src="megl/megl-sign.png" alt="Sign" />
+			<img
+				class="md:w-1/3 max-md:w-full object-contain"
+				src="megl/megl-card.png"
+				alt="Business card"
+			/>
+			<img
+				class="md:w-1/3 max-md:w-full object-contain"
+				src="megl/megl-pen.png"
+				alt="Branded pen"
+			/>
 		</div>
 		<div class="flex max-md:flex-col md:flex-row md:space-x-4 max-md:space-y-4 w-full">
-			<img class="md:w-1/3 max-md:w-full" src="megl/megl-stamp.png" alt="Main logo" />
-			<img class="md:w-1/3 max-md:w-full" src="megl/megl-vinil.png" alt="Alternative logo" />
-			<img class="md:w-1/3 max-md:w-full" src="megl/megl-folder.png" alt="Main logo" />
+			<img class="md:w-1/3 max-md:w-full" src="megl/megl-stamp.png" alt="Stamp" />
+			<img class="md:w-1/3 max-md:w-full" src="megl/megl-vinil.png" alt="Vinil" />
+			<img class="md:w-1/3 max-md:w-full" src="megl/megl-folder.png" alt="Folder" />
 		</div>
 	</div>
 </div>
