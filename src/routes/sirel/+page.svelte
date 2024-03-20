@@ -10,8 +10,8 @@
 	<!-- Text -->
 	<div class="flex flex-col space-y-16">
 		<h1 class="text-4xl font-normal leading-snug">
-			<b>Sirel</b> is a beauty salon for pets and their human friends <br />to enjoy, look and feel
-			their best together.
+			<b>Sirel</b> is a beauty salon for pets and their human friends to enjoy, look and feel their best
+			together.
 		</h1>
 		<!-- Text -->
 		<div class="flex md:space-x-8 max-md:space-y-8 max-md:flex-col md:flex-row">
@@ -25,7 +25,7 @@
 			</p>
 			<p class="text-xl md:w-1/3 max-md:w-full">
 				<u>Results:</u><br />
-				Sirel stems from the word ‘mermaid’ in spanish (sirena), which serves as a symbol of beauty.
+				Sirel stems from the word 'mermaid' in spanish (sirena), which serves as a symbol of beauty.
 				The logotype is inspired by this same concept.
 			</p>
 		</div>

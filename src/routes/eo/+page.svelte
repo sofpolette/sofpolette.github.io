@@ -17,7 +17,7 @@
 		<div class="flex md:space-x-8 max-md:space-y-8 max-md:flex-col md:flex-row">
 			<p class="text-xl md:w-1/3 max-md:w-full">
 				<u>Main goal:</u><br />
-				Express the film’s theme in a subtle, simple and clear manner.
+				Express the film's theme in a subtle, simple and clear manner.
 			</p>
 			<p class="text-xl md:w-1/3 max-md:w-full">
 				<u>How?</u><br />

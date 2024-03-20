@@ -10,8 +10,8 @@
 	<!-- Text -->
 	<div class="flex flex-col space-y-16">
 		<h1 class="text-4xl font-normal leading-snug">
-			<b>Trevis</b> is a digital platform designed to streamline <br />professional connections
-			between local small businesses <br />and design students.
+			<b>Trevis</b> is a digital platform designed to streamline professional connections between local
+			small businesses and design students.
 		</h1>
 		<!-- Text -->
 		<div class="flex md:space-x-8 max-md:space-y-8 max-md:flex-col md:flex-row">

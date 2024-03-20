@@ -10,7 +10,7 @@
 	<!-- Text -->
 	<div class="flex flex-col space-y-16">
 		<h1 class="text-4xl font-normal leading-snug">
-			This data visualization highlights the <b>Canary Island’s <br />bee biodiversity.</b>
+			This data visualization highlights the <b>Canary Island's <br />bee biodiversity.</b>
 		</h1>
 		<!-- Text -->
 		<div class="flex md:space-x-8 max-md:space-y-8 max-md:flex-col md:flex-row">
@@ -20,7 +20,7 @@
 			</p>
 			<p class="text-xl md:w-1/3 max-md:w-full">
 				<u>Subject:</u><br />
-				I chose the theme of local bees to highlight the archipielago’s biodiversity, why it’s important,
+				I chose the theme of local bees to highlight the archipielago's biodiversity, why it's important,
 				what factors endanger it, and what you can do to protect it.
 			</p>
 			<p class="text-xl md:w-1/3 max-md:w-full">

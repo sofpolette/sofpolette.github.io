@@ -17,7 +17,7 @@
 		<div class="flex md:space-x-8 max-md:space-y-8 max-md:flex-col md:flex-row">
 			<p class="text-xl md:w-1/3 max-md:w-full">
 				<u>Main goal:</u><br />
-				Create a triptic of scenes from using Otl Aicher’s iconic illustrations, particularly for the
+				Create a triptic of scenes from using Otl Aicher's iconic illustrations, particularly for the
 				city of Ulm.
 			</p>
 			<p class="text-xl md:w-1/3 max-md:w-full">
@@ -28,7 +28,7 @@
 			<p class="text-xl md:w-1/3 max-md:w-full">
 				<u>Stylistic choices</u><br />
 				The black and white color scheme as well as the geometric style capture the essence of the places
-				they’re inspired by while showing a different side of them.
+				they're inspired by while showing a different side of them.
 			</p>
 		</div>
 	</div>
