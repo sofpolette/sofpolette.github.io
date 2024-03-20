@@ -15,9 +15,9 @@
 
 		<div>
 			<p class="text-3xl underline mb-8">Education</p>
-			<div class="flex md:space-x-16 max-md:space-y-16">
+			<div class="flex md:space-x-16 max-md:space-y-16 max-md:flex-col md:flex-row" :>
 				<!-- Bachelor -->
-				<div class="w-1/3 space-y-4">
+				<div class="md:w-1/3 max-md:w-full space-y-4">
 					<div class="space-y-2 mb-2">
 						<img src="/easd-symbol.png" alt="EASD logo" class="h-12 mb-4" />
 						<p class="text-md font-light uppercase">EASD Fernando Estévez</p>
@@ -39,7 +39,7 @@
 				</div>
 
 				<!-- ERASMUS+ -->
-				<div class="w-1/3 space-y-4">
+				<div class="md:w-1/3 max-md:w-full space-y-4">
 					<div class="space-y-2 mb-2">
 						<img src="/asp-symbol.png" alt="EASD logo" class="h-12 mb-4" />
 						<p class="text-md font-light uppercase mb-2">ASP im. Jana Matejki w Krakowie</p>
@@ -60,7 +60,7 @@
 				</div>
 
 				<!-- Vocational Training -->
-				<div class="w-1/3 space-y-4">
+				<div class="md:w-1/3 max-md:w-full space-y-4 max-md:flex-col md:flex-row">
 					<div class="space-y-2 mb-2">
 						<img src="/easd-symbol.png" alt="EASD logo" class="h-12 mb-4" />
 						<p class="text-md font-light uppercase">EASD Fernando Estévez</p>
@@ -85,9 +85,9 @@
 			</div>
 		</div>
 
-		<div class="md:space-x-16 max-md:space-y-16 flex">
+		<div class="md:space-x-16 max-md:space-y-16 flex max-md:flex-col md:flex-row">
 			<!-- Experience -->
-			<div class="w-1/3 space-y-4">
+			<div class="md:w-1/3 max-md:w-full space-y-4">
 				<p class="text-3xl mb-8 underline">Experience</p>
 				<div class="space-y-2 mb-2">
 					<img src="/descubre-logo.jpeg" alt="DescubreGroup logo" class="h-12 mb-4 rounded-lg" />
@@ -111,7 +111,7 @@
 			</div>
 
 			<!-- Achievements -->
-			<div class="space-y-8 w-1/3">
+			<div class="space-y-8 md:w-1/3 max-md:w-full">
 				<p class="text-3xl underline">Achievements</p>
 				<div class="space-y-6">
 					<div class="space-y-2">
@@ -140,7 +140,7 @@
 			</div>
 
 			<!-- Languages and skills -->
-			<div class="space-y-8 w-1/3">
+			<div class="space-y-8 md:w-1/3 max-md:w-full">
 				<!-- Languages -->
 				<div class="space-y-4">
 					<p class="text-3xl mb-8 underline">Languages</p>
