@@ -9,12 +9,12 @@
 	<p class="max-md:text-2xl md:text-3xl font-light opacity-70">Graphic Designer</p>
 </div>
 
-<p>
+<!-- <p>
 	Proactive, versatile and collaborative Junior Graphic Designer with a background in visual
 	identity, multimedia, UX/UI, and editorial design. Skilled in creative concept development, print
 	and web design, research, and meeting deadlines. Experienced in creating and maintaining brand
 	guidelines, with strong typographic skills and a problem-solving mindset.
-</p>
+</p> -->
 
 <!-- Education -->
 <div class="space-y-16">
