@@ -1,0 +1,5 @@
+import{s as c,n as m}from"./scheduler.63274e7e.js";import{S as u,i as d,g as f,r as p,h as _,j as h,u as v,f as o,k as g,a as b,v as $,d as w,t as y,w as P}from"./index.decf922b.js";import{L,m as j}from"./utils.b7d0e954.js";/*!
+ * Glide.js v3.6.0
+ * (c) 2013-2022 Jędrzej Chałubek (https://github.com/jedrzejchalubek/)
+ * Released under the MIT License.
+ */var E=!1;try{var l=Object.defineProperty({},"passive",{get:function(){E=!0}});window.addEventListener("testPassive",null,l),window.removeEventListener("testPassive",null,l)}catch{}function x(n){let t,s,a;return s=new L({props:{labels:n[0]}}),{c(){t=f("div"),p(s.$$.fragment),this.h()},l(e){t=_(e,"DIV",{class:!0});var r=h(t);v(s.$$.fragment,r),r.forEach(o),this.h()},h(){g(t,"class","mt-16")},m(e,r){b(e,t,r),$(s,t,null),a=!0},p:m,i(e){a||(w(s.$$.fragment,e),a=!0)},o(e){y(s.$$.fragment,e),a=!1},d(e){e&&o(t),P(s)}}}function C(n,t,s){let{data:a}=t,e=[a.year];e.push(...a.type),e.push(...a.areas);let r=j(e);return n.$$set=i=>{"data"in i&&s(1,a=i.data)},[r,a]}class q extends u{constructor(t){super(),d(this,t,C,x,c,{data:1})}}export{q as P};
