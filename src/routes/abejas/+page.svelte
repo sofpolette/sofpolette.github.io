@@ -26,27 +26,21 @@
 			<p class="text-xl md:w-1/3 max-md:w-full">
 				<u>Stylistic choices:</u><br />
 				I decided not to use the color yellow to stray away from the stereotipical honeybee, since most
-				canarian bees are not yellow and do ot produce honey. I created iconography and illustrations
+				canarian bees are not yellow and do not produce honey. I created iconography and illustrations
 				as visual aid to the text as well as to appeal to the viewer.
 			</p>
 		</div>
 	</div>
 	<!-- Image grid -->
-	<div class="max-md:flex-col md:flex-row space-y-4">
-		<div class="flex max-md:flex-col md:flex-row md:space-x-4 max-md:space-y-4 w-full">
-			<img class="md:w-1/4 max-md:w-full" src="abejas/consejo-agua.png" alt="Kis design" />
-			<img class="md:w-1/4 max-md:w-full" src="abejas/consejo-refugio.png" alt="Kis design" />
-			<img class="md:w-1/4 max-md:w-full" src="abejas/consejo-pesticida.png" alt="Kis design" />
-			<img class="md:w-1/4 max-md:w-full" src="abejas/consejo-flores.png" alt="Kis design" />
-			<img class="md:w-1/4 max-md:w-full" src="abejas/amenaza-agricultura.png" alt="Kis design" />
-			<img class="md:w-1/4 max-md:w-full" src="abejas/amenaza-invasora.png" alt="Kis design" />
-			<img class="md:w-1/4 max-md:w-full" src="abejas/amenaza-pesticida.png" alt="Kis design" />
-			<img
-				class="md:w-1/4 max-md:w-full"
-				src="abejas/amenaza-calentamientoglobal.png"
-				alt="Kis design"
-			/>
-		</div>
+	<div class="flex max-md:flex-col md:flex-row w-full">
+		<img class="w-1/6" src="abejas/consejo-agua.png" alt="Kis design" />
+		<img class="w-1/6" src="abejas/consejo-refugio.png" alt="Kis design" />
+		<img class="w-1/6" src="abejas/consejo-pesticida.png" alt="Kis design" />
+		<img class="w-1/6" src="abejas/consejo-flores.png" alt="Kis design" />
+		<img class="w-1/6" src="abejas/amenaza-agricultura.png" alt="Kis design" />
+		<img class="w-1/6" src="abejas/amenaza-invasora.png" alt="Kis design" />
+		<img class="w-1/6" src="abejas/amenaza-pesticida.png" alt="Kis design" />
+		<img class="w-1/6" src="abejas/amenaza-calentamientoglobal.png" alt="Kis design" />
 	</div>
 	<!-- Main image -->
 	<img src="abejas/abejas.png" alt="Illustrations" />

@@ -239,11 +239,11 @@
         "images": [
             {
                 "caption": "Logo",
-                "path": "megl/megl-logo.png"
+                "path": "megl/logo.png"
             },
             {
                 "caption": "Alternative signatures",
-                "path": "megl/megl-logo2.png"
+                "path": "megl/logo2.png"
             },
             {
                 "caption": "Folder",
