@@ -34,15 +34,15 @@
 	</div>
 	<!-- Image grid -->
 	<div class="max-md:flex-col md:flex-row space-y-16">
-		<div class="flex flex-row space-x-4 w-full">
+		<div class="flex flex-row space-x-4 w-full max-md:hidden">
 			<img class="md:w-1/3 max-md:w-full" src="animal-plant-fungi/fungi.png" alt="Fungi" />
 			<img class="md:w-1/3 max-md:w-full" src="animal-plant-fungi/animal.png" alt="Animal" />
 			<img class="md:w-1/3 max-md:w-full" src="animal-plant-fungi/plant.png" alt="Plant" />
 		</div>
 		<div class="flex flex-col md:space-x-4 max-md:space-y-4 w-full items-center">
-			<img class="w-8/12" src="animal-plant-fungi/fungi.png" alt="Fungi" />
-			<img class="w-8/12" src="animal-plant-fungi/animal.png" alt="Animal" />
-			<img class="w-8/12" src="animal-plant-fungi/plant.png" alt="Plant" />
+			<img class="md:w-8/12 max-md:w-full" src="animal-plant-fungi/fungi.png" alt="Fungi" />
+			<img class="md:w-8/12 max-md:w-full" src="animal-plant-fungi/animal.png" alt="Animal" />
+			<img class="md:w-8/12 max-md:w-full" src="animal-plant-fungi/plant.png" alt="Plant" />
 		</div>
 	</div>
 </div>

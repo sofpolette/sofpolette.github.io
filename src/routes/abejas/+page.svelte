@@ -32,15 +32,15 @@
 		</div>
 	</div>
 	<!-- Image grid -->
-	<div class="flex max-md:flex-col md:flex-row w-full">
-		<img class="w-1/6" src="abejas/consejo-agua.png" alt="Kis design" />
-		<img class="w-1/6" src="abejas/consejo-refugio.png" alt="Kis design" />
-		<img class="w-1/6" src="abejas/consejo-pesticida.png" alt="Kis design" />
-		<img class="w-1/6" src="abejas/consejo-flores.png" alt="Kis design" />
-		<img class="w-1/6" src="abejas/amenaza-agricultura.png" alt="Kis design" />
-		<img class="w-1/6" src="abejas/amenaza-invasora.png" alt="Kis design" />
-		<img class="w-1/6" src="abejas/amenaza-pesticida.png" alt="Kis design" />
-		<img class="w-1/6" src="abejas/amenaza-calentamientoglobal.png" alt="Kis design" />
+	<div class="flex flex-row justify-center">
+		<img class="w-1/12" src="abejas/consejo-agua.png" alt="Kis design" />
+		<img class="w-1/12" src="abejas/consejo-refugio.png" alt="Kis design" />
+		<img class="w-1/12" src="abejas/consejo-pesticida.png" alt="Kis design" />
+		<img class="w-1/12" src="abejas/consejo-flores.png" alt="Kis design" />
+		<img class="w-1/12" src="abejas/amenaza-agricultura.png" alt="Kis design" />
+		<img class="w-1/12" src="abejas/amenaza-invasora.png" alt="Kis design" />
+		<img class="w-1/12" src="abejas/amenaza-pesticida.png" alt="Kis design" />
+		<img class="w-1/12" src="abejas/amenaza-calentamientoglobal.png" alt="Kis design" />
 	</div>
 	<!-- Main image -->
 	<img src="abejas/abejas.png" alt="Illustrations" />

@@ -32,7 +32,11 @@
 	</div>
 	<!-- Main images -->
 	<div class="flex max-md:flex-col md:flex-row md:space-x-8 max-md:space-y-8">
-		<img class="md:w-1/2 max-md:w-full" src="sirel/logo-sirel.png" alt="Logotype with tagline" />
+		<img
+			class="md:w-1/2 max-md:w-full object-contain"
+			src="sirel/logo-sirel.png"
+			alt="Logotype with tagline"
+		/>
 		<img class="md:w-1/2 max-md:w-full" src="sirel/logo2-sirel.png" alt="Second logotype" />
 	</div>
 	<!-- Image grid -->

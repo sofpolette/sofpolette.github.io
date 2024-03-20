@@ -33,7 +33,7 @@
 	</div>
 	<!-- Main image -->
 	<div class="flex justify-center">
-		<img class="w-3/4" src="eo/eo-poster.jpg" alt="Film poster" />
+		<img class="md:w-3/4 full-md:w-full" src="eo/eo-poster.jpg" alt="Film poster" />
 	</div>
 	<!-- Image grid -->
 	<div class="max-md:flex-col md:flex-row space-y-4">
