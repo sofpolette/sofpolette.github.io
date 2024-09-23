@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "title": "International Scholarship",
+        "date": "2017",
+        "description": "Awarded a scholarship for a 3-month study exchange program in Canada, gaining valuable international exposure and academic experience."
+    },
+    {
+        "id": 1,
+        "title": "Crowdfunding Leadership",
+        "date": "2018",
+        "description": "Spearheaded a successful crowdfunding initiative to raise funds for animal shelter Finca Arkadia, surpassing the initial fundraising goal 2.3 times."
+    },
+    {
+        "id": 2,
+        "title": "Academic recognition",
+        "date": "2021",
+        "description": "Received an Honorable Mention for my Web and Multimedia final project. In addition, honored with the Extraordinary Prize for Professional Artistic Education in Plastic Arts and Design."
+    }
+]

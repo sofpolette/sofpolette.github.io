@@ -42,6 +42,7 @@
 		"flowbite": "^1.8.0",
 		"flowbite-svelte": "^0.40.2",
 		"siema": "^1.5.1",
+		"svelte-fast-marquee": "^0.7.0",
 		"swiper": "^10.3.0",
 		"tailwind-merge": "^1.14.0"
 	},

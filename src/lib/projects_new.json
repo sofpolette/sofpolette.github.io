@@ -1,0 +1,257 @@
+[
+    {
+        "title": "GL Law Firm",
+        "context": ["Client"],
+        "year": "2022",
+        "areas": [
+            "Branding",
+            "Visual Identity",
+            "Stationary Design"
+        ],
+        "description": "Visual identity for a law firm known for its expertise and its approachable, client-focused service.",
+        "brief": "I drew inspiration from Ancient Greece to design an identity that conveys the firm's tradition and experience. I used a neutral color palette that reflects the firm's professionalism, complemented by warm bronze to add approachability. The symbol I created is a monogram that merges the Greek letters Gamma and Lambda, representing the firm's initials in a unique and sophisticated way. The result of this fusion also resembles the letter M, which is the initial of the lawyer’s name.",
+        "solution": "The law firm Gutiérrez Ledesma approached me to develop a visual identity that reflected their values of tradition, professionalism, and commitment to justice. The biggest challenge was to avoid the visual clichés of the legal sector, such as scales or the goddess Themis, in order to create a brand that truly stood out from the competition.",
+        "images": [
+            {
+                "caption": "Corporate stationary",
+                "path": "megl/stationary2.png"
+            },
+            {
+                "caption": "Corporate stamp",
+                "path": "megl/stamp.jpg"
+            },
+            {
+                "caption": "Corporate notebook",
+                "path": "megl/notebook.png"
+            },
+            {
+                "caption": "Corporate stationary",
+                "path": "megl/stationary.jpg"
+            },
+            {
+                "caption": "Vinyl",
+                "path": "megl/vinyl.png"
+            },
+            {
+                "caption": "Process",
+                "path": "megl/process1.png"
+            },
+            {
+                "caption": "Process",
+                "path": "megl/process2.png"
+            },
+            {
+                "caption": "Process",
+                "path": "megl/process3.png"
+            },
+            {
+                "caption": "Color palette",
+                "path": "megl/color.png"
+            },
+            {
+                "caption": "Logo",
+                "path": "megl/logo.png"
+            },
+            {
+                "caption": "Scales",
+                "path": "megl/scale.png"
+            },
+            {
+                "caption": "Corporate card",
+                "path": "megl/card.png"
+            },
+            {
+                "caption": "Special signature",
+                "path": "megl/signature1.png"
+            },
+            {
+                "caption": "Themis",
+                "path": "megl/themis.png"
+            },
+            {
+                "caption": "Special signature",
+                "path": "megl/signature2.png"
+            }
+        ],
+        "link": "/megl"
+    },
+    {
+        "title": "Cookbooks",
+        "context": ["Personal", "School"],
+        "year": "2023",
+        "areas": [
+            "Editorial",
+            "Photography",
+            "Typography"
+        ],
+        "description": "Two cookbooks that explore heritage through shared recipes and traditions.",
+        "thumbnail":
+        {
+            "caption": "GIF Cookbooks",
+            "path": "cookbooks/cookbooks.gif"
+        },
+        "images": [
+            {
+                "caption": "Spread",
+                "path": "cookbooks/mom-flat.jpg"
+            },
+            {
+                "caption": "Mom Cover",
+                "path": "cookbooks/mom-cover.jpg"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/dad-bg.jpg"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/mom-bg1.jpg"
+            },
+            {
+                "caption": "Photo of process",
+                "path": "cookbooks/mom-col1.jpg"
+            },
+            {
+                "caption": "Scanned recipes",
+                "path": "cookbooks/mom-col2.jpg"
+            },
+            {
+                "caption": "3 spreads",
+                "path": "cookbooks/mom3-flat.jpg"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/mom-bg2.jpg"
+            },
+            {
+                "caption": "Dad Cover",
+                "path": "cookbooks/dad-cover.jpg"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/dad-flat.jpg"
+            },
+
+            {
+                "caption": "3 spreads",
+                "path": "cookbooks/dad3-flat.jpg"
+            },
+            {
+                "caption": "Photo of process",
+                "path": "cookbooks/dad-col1.jpg"
+            },
+            {
+                "caption": "Scanned photos and recipes",
+                "path": "cookbooks/dad-col2.jpg"
+            },
+            {
+                "caption": "Spread",
+                "path": "cookbooks/dad-flat2.jpg"
+            }
+        ],
+        "link": "/cookbooks"
+    },
+    {
+        "title": "Abejas endémicas de Canarias",
+        "context": ["School"],
+        "year": "2024",
+        "thumbnail": {
+            "caption": "GIF Abejas",
+            "path": "abejas/abejas.gif"
+        },
+        "areas": [
+            "Infographic",
+            "Illustration",
+            "Iconography"
+        ],
+        "description": "This project educates residents of the Canary Islands about the local bee ecosystem.",
+        "brief": "This educational project targets people in the Canary Islands who are interested in the local ecosystem but lack specific knowledge about bees. The motivation comes from global concerns about bee conservation, aiming to answer the key question: what is the situation of bees in the Canary Islands? During the research, important data was gathered on endemic species, their role in pollination, and the threats they face. The main challenges were selecting and synthesizing the abundant information and avoiding common graphic clichés that would detract from the design.",
+        "solution": "To avoid graphic clichés, I focused on more specific visual elements. Rather than automatically linking bees to honey production, which doesn't apply to many local species, I chose to highlight their diversity and ecological role with illustrations of the endemic bees. I also avoided stereotypical graphics like hexagons associated with honeycombs, opting instead for comparative diagrams that contextualize the importance of Canarian bees compared to other regions. These strategies helped convey the information clearly and uniquely, moving away from superficial visuals.",
+        "images": [
+            {
+                "caption": "Infografía exterior",
+                "path": "abejas/exterior.png"
+            },
+            {
+                "caption": "Infografía naranjas",
+                "path": "abejas/naranjas.png"
+            },
+            {
+                "caption": "Flyer",
+                "path": "abejas/flyer.png"
+            },
+            {
+                "caption": "Tote bag",
+                "path": "abejas/tote.png"
+            },
+            {
+                "caption": "T-shirt",
+                "path": "abejas/tshirt.png"
+            },
+            {
+                "caption": "Iconography",
+                "path": "abejas/icons.png"
+            },
+            {
+                "caption": "Illustration",
+                "path": "abejas/abejas.png"
+            }
+        ],
+        "link": "/abejas"
+    },
+    {
+        "title": "EO",
+        "context": ["Academic"],
+        "year": "2023",
+        "areas": [
+            "Poster",
+            "Lettering"
+        ],
+        "description": "Poster promoting the film and its exploration of human-animal relationships.",
+        "brief": "This film poster was created to promote EO, a film that explores the complex relationship between animals and humans through the eyes of a donkey in rural Poland. The main goal was to express the film’s themes in a subtle yet powerful way. One of the main challenges was capturing the contrasting tones of the film, which shifts from friendly and lighthearted to violent and somber.",
+        "solution": "To convey these contrasts, I represented the donkey as a piñata, symbolizing innocence and playfulness, while also using the shadow of a bat to subtly foreshadow the violence and darkness that the character encounters later in the film. This euphemistic approach allowed me to address the harsh treatment of animals without being overtly graphic. I also drew inspiration from the film’s visual style, using a vibrant color palette to mirror the recurring circus imagery, as the main character, EO, begins his journey as a circus donkey. The use of handmade lettering complements the rough yet colorful aesthetic of the film, enhancing the overall emotional tone of the poster.",
+        "images": [
+            {
+                "caption": "Posters",
+                "path": "eo/2posters.png"
+            },
+            {
+                "caption": "Custom lettering",
+                "path": "eo/letters3.png"
+            },
+            {
+                "caption": "Ticket",
+                "path": "eo/ticket.png"
+            },
+            {
+                "caption": "Poster",
+                "path": "eo/poster.png"
+            },
+            {
+                "caption": "Stand",
+                "path": "eo/stand.png"
+            },
+            {
+                "caption": "Custom lettering",
+                "path": "eo/letters1.png"
+            },
+            {
+                "caption": "Custom lettering",
+                "path": "eo/letters2.png"
+            },
+            {
+                "caption": "Texture experimentation",
+                "path": "eo/texture1.png"
+            },
+            {
+                "caption": "Texture experimentation",
+                "path": "eo/texture2.png"
+            },
+            {
+                "caption": "Texture experimentation",
+                "path": "eo/texture3.png"
+            }
+        ],
+        "link": "/eo"
+    }
+]

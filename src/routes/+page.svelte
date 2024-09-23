@@ -1,23 +1,43 @@
-<!-- Content -->
-<div class="md:h-[70vh] max-md:h-full my-8 md:flex md:space-x-8 xs:flex-col">
-	<!-- Text -->
-	<div class="flex flex-col justify-between md:w-2/5 max-md:space-y-8">
-		<p class="max-md:text-3xl max-2xl:text-4xl 2xl:text-5xl font-light">Hi there! I'm Sofía ☻</p>
-		<p class="max-md:text-3xl max-2xl:text-4xl 2xl:text-5xl font-light">
-			I'm a Junior Graphic Designer with experience in branding, editorial, multimedia and UX.
-		</p>
-		<!-- Mobile -->
-		<img src="/index.gif" alt="Images of projects" class="md:hidden object-cover rounded-3xl" />
-		<p class="max-md:text-3xl max-2xl:text-4xl 2xl:text-5xl font-light">
-			I'm currently pursuing a Graphic Design bachelor's at EASD Fernando Estévez in the Canary
-			Islands.
-		</p>
+<script>
+	import projects_data from '$lib/projects_new.json';
+</script>
+
+<div class="px-0 mx-0 space-y-24">
+	<!-- Hero text -->
+	<p
+		class="text-7xl font-light leading-tight max-md:px-[1vh] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]"
+	>
+		Hi! I’m a self-motivated and <br />detail-oriented <span class="lora">Graphic Designer</span>
+		<br />with a keen eye for typography. <br />I bring hands-on experience in <br /><span
+			class="lora">branding, print, and UX/UI design.</span
+		>
+	</p>
+
+	<!-- Projects -->
+	<div>
+		{#each projects_data as project}
+			<div
+				class="flex flex-row justify-between py-8 border-t-[1px] border-[#1040B0] max-md:px-[1vh] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]"
+			>
+				<div class="flex flex-row space-x-8">
+					<p class="text-2xl">{project.title}</p>
+					<div class="flex flex-row flex-wrap">
+						{#each project.areas as area}
+							<p
+								class="tag text-nowrap align-center w-fit rounded-2xl border-[1px] border-[#1040b0] h-min px-2 py-0.75 mr-1 my-[3px]"
+							>
+								{area}
+							</p>
+						{/each}
+					</div>
+				</div>
+				<p class="w-1/3 text-sm">{project.description}</p>
+			</div>
+			<div class="flex flex-row h-96 border-t-[1px] border-[#1040B0]">
+				{#each project.images.slice(0, 3) as image}
+					<img class="md:w-1/3 max-md:w-full object-cover" src={image.path} alt={image.caption} />
+				{/each}
+			</div>
+		{/each}
 	</div>
-	<!-- Project reel -->
-	<!-- Desktop -->
-	<img
-		src="/index.gif"
-		alt="Images of projects"
-		class="max-md:hidden w-3/5 object-cover rounded-3xl"
-	/>
 </div>

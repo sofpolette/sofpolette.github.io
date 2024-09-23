@@ -1,0 +1,57 @@
+[
+    {
+        "id": 0,
+        "title": "Graphic Design",
+        "type": "Bachelor",
+        "start_date": "Sep 2020",
+        "end_date": "Jun 2024",
+        "where": "EASD Fernando Estévez",
+        "grade": "Overall grade (out of 10): 9,7",
+        "description": "Throughout this degree, I've improved on generating, developing, and materializing ideas, concepts, and graphics for complex communication programs. I acquired technical capabilities and skills as well as the correct use of methods and processes associated with Graphic Design.",
+        "skills": [
+            "Branding",
+            "Typography",
+            "UX/UI",
+            "Editorial",
+            "Design Thinking",
+            "Infographics",
+            "Art Direction"
+        ]
+    },
+    {
+        "id": 0,
+        "title": "Graphic Arts",
+        "type": "Erasmus+",
+        "start_date": "Feb 2023",
+        "end_date": "Jun 2023",
+        "where": "ASP im. Jana Matejki w Krakowie",
+        "grade": "Overall grade (out of 5,5): 5,17",
+        "description": "During this mobility, I developed my knowledge of photography, visual communication, typography, and poster design. I also participated in a 3-month course where I learned about traditional printing techniques (Lithography, mokulito, engraving, monotype...).",
+        "skills": [
+            "Visual Communication",
+            "Poster Design",
+            "Typography",
+            "Photography",
+            "Lightroom",
+            "Photoshop",
+            "Figma"
+        ]
+    },
+    {
+        "id": 0,
+        "title": "Web and Multimedia",
+        "type": "Vocational Training",
+        "start_date": "Sep 2018",
+        "end_date": "Jun 2020",
+        "where": "EASD Fernando Estévez",
+        "grade": "Overall grade (out of 10): 9,62",
+        "description": "This two-year vocational program focused on design and development skills to assist in the creation and upkeep of multimedia and web-based products.",
+        "skills": [
+            "Wireframing",
+            "Photoshop",
+            "HTML",
+            "Cascading Style Sheets (CSS)",
+            "Premiere"
+        ]
+    }
+]

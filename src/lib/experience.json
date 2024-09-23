@@ -1,0 +1,18 @@
+[
+    {
+        "id": 0,
+        "title": "Graphic Designer",
+        "type": "Apprenticeship",
+        "start_date": "Feb 2024",
+        "end_date": "April 2024",
+        "where": "Descubre Group",
+        "description": "I worked on turist information services, mainly web applications and TV channels. I was responsible for creating and adapting content for different clients, including banners, videos, iconography and directories. I also delved into template design, web application design and some translation tasks while participating in meetings and training sessions.",
+        "skills": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Cascading Style Sheets (CSS)",
+            "Figma",
+            "Adobe After Effects"
+        ]
+    }
+]

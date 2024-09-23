@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "title": "Visual identity"
+        },
+    {
+        "id": 1,
+        "title": "Print design"
+    },
+    {
+        "id": 2,
+        "title": "UX/UI Design"
+    },
+    {
+        "id": 3,
+        "title": "Figma"
+    },
+    {
+        "id": 4,
+        "title": "Illustrator"
+    },
+    {
+        "id": 5,
+        "title": "indesign"
+    },
+    {
+        "id": 6,
+        "title": "Photoshop"
+    },
+    {
+        "id": 7,
+        "title": "Lightroom"
+    },
+    {
+        "id": 8,
+        "title": "Premiere"
+    },
+    {
+        "id": 9,
+        "title": "After Effects"
+    }
+]
