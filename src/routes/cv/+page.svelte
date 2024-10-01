@@ -64,7 +64,7 @@
 					<div class="space-y-4">
 						<!-- When and where -->
 						<div class="space-x-8 flex flex-row">
-							<p class="font-light uppercase w-2/5">
+							<p class="w-fit font-light uppercase">
 								{experience.start_date} /<br />
 								{experience.end_date}
 							</p>
@@ -100,7 +100,7 @@
 			<h2>Achievements</h2>
 			<div class="space-y-6">
 				{#each achievements_data as achievements}
-					<div>
+					<div class="space-y-1">
 						<div class="flex flex-row space-x-8">
 							<p class="font-light uppercase">{achievements.date}</p>
 							<p class="font-bold">{achievements.title}</p>
@@ -117,17 +117,17 @@
 			<div class="space-y-8">
 				<h2>Languages</h2>
 				<div class="space-y-6">
-					<div>
+					<div class="space-y-1">
 						<p class="font-bold">Spanish</p>
-						<p>Native or bilingual proficiency</p>
+						<p>Native or bilingual proficiency.</p>
 					</div>
-					<div>
+					<div class="space-y-1">
 						<p class="font-bold">English</p>
-						<p>Native or bilingual proficiency</p>
+						<p>Native or bilingual proficiency.</p>
 					</div>
-					<div>
+					<div class="space-y-1">
 						<p class="font-bold">Swedish</p>
-						<p>Native or bilingual proficiency</p>
+						<p>Native or bilingual proficiency.</p>
 					</div>
 				</div>
 			</div>

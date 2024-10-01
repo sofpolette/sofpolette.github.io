@@ -1,5 +1,160 @@
 [
     {
+        "title": "Influyo",
+        "context": "Academic, Bachelor's Thesis (Graphic Design)",
+        "year": "2024",
+        "areas": [
+            "UX", 
+            "UI", 
+            "Visual Identity", 
+            "Naming", 
+            "Illustration"
+        ],
+        "description": "An intuitive digital kit for the autonomous development of emotional skills in art and design students.",
+        "brief": "The project aimed to enhance art and design students' emotional competencies—an essential factor in their academic, social, and personal success—through design. Students often experience intense emotions such as stress, anxiety, and frustration, which significantly impact their well-being and academic performance. The main challenge was to convey emotional management techniques in an engaging and accessible way for a diverse student audience, varying in gender, age, and personal experiences. Unlike other platforms that primarily focus on achieving happiness, this project adopted an exploratory approach, encouraging students to explore and understand their emotions without the pressure to quickly reach emotional well-being.",
+        "solution": "A digital platform was designed to promote self-awareness and emotional self-management. The design process was iterative, focused on making information more accessible and engaging by breaking down content into small, understandable fragments, supported by illustrations that simplify interpretation. The name INFLUYO combines several concepts: The verb INFLUIR (to influence), the use of the first person and the component YO (I) highlights the individual agency of each student. The visual identity is based on the Wheel of Plutchik, using a palette of eight colors that represent different emotions. The logo includes a symbol formed by a circle that abstractly reflects emotion, replacing the last O in INFLUYO.",
+        "images": [
+            {
+                "caption": "Promotional stickers",
+                "path": "influyo/stickers.png"
+            },
+            {
+                "caption": "Homepage",
+                "path": "influyo/homepage.png"
+            },
+            {
+                "caption": "Emotional ID process",
+                "path": "influyo/emotional-ID.png"
+            },
+            {
+                "caption": "Itinerary",
+                "path": "influyo/itinerary.png"
+            },
+            {
+                "caption": "Educational cards",
+                "path": "influyo/cards.jpg"
+            },
+            {
+                "caption": "Thesis promotional poster",
+                "path": "influyo/plafon2.jpg"
+            },
+
+            {
+                "caption": "Promotional tote bag",
+                "path": "influyo/tote.png"
+            },
+            {
+                "caption": "Launch campaign kit",
+                "path": "influyo/stationary.png"
+            },
+            
+            {
+                "caption": "Logo",
+                "path": "influyo/logo.jpg"
+            },
+            {
+                "caption": "Symbol",
+                "path": "influyo/symbol.jpg"
+            },
+            {
+                "caption": "GIF Logo",
+                "path": "influyo/gif-logo.gif"
+            },
+            {
+                "caption": "Icons for content categorization",
+                "path": "influyo/icons.jpg"
+            },
+            {
+                "caption": "Promotional stickers",
+                "path": "influyo/laptop.jpg"
+            },
+            {
+                "caption": "Educational cards",
+                "path": "influyo/cards.gif"
+            },
+            {
+                "caption": "Promotional tote bag",
+                "path": "influyo/tote.png"
+            },
+            
+            {
+                "caption": "Thesis promotional poster",
+                "path": "influyo/plafon.jpg"
+            }
+        ]
+    },
+    {
+        "title": "Margenus",
+        "context": "Academic, collaboration with Fashion Design student",
+        "year": "2022",
+        "areas": [
+            "Branding",
+            "Visual Identity",
+            "Naming", 
+            "Merchandising"
+        ],
+        "description": "A striking yet refined visual identity for an emerging fashion brand, dedicated to redefining luxury for professional women.",
+        "brief": "Margenus is an emerging fashion brand with a mission to redefine luxury for professional women. The goal was to develop a brand identity that captured the designer’s unique approach to fashion while appealing to women who value individuality, boldness, and sustainability. A key challenge was setting the brand apart in a fashion landscape where most competitors use monochromatic, all-caps logos, while also highlighting its focus on upcycling.",
+        "solution": "The brand differentiates itself through its use of color and typography. Instead of relying on a monochromatic palette, I introduced red, light pink, and deep blue to convey the brand’s uniqueness. The logo, composed in lowercase to stand out from competitors, combines a modern sans-serif typeface with a traditional serif, symbolizing the fusion of strength and elegance. The symbol, made from a continuous line that forms a closed shape, represents the cycle of reinvention. Corporate patterns deconstruct and reuse this symbol to reinforce the brand’s emphasis on upcycling and sustainability.",
+        "images": [
+            
+            {
+                "caption": "Tags",
+                "path": "margenus/tags.jpg"
+            },
+            {
+                "caption": "Bags",
+                "path": "margenus/bags.jpg"
+            },
+            
+            {
+                "caption": "Packaging",
+                "path": "margenus/pack.jpg"
+            },
+            {
+                "caption": "Lanyard",
+                "path": "margenus/lanyard.jpg"
+            },
+            {
+                "caption": "Promotional sweatshirt",
+                "path": "margenus/sweatshirt.jpg"
+            },
+            {
+                "caption": "Corporate vehicle",
+                "path": "margenus/van.jpg"
+            },
+            {
+                "caption": "Promotional t-shirt",
+                "path": "margenus/tshirt.jpg"
+            },
+            {
+                "caption": "Billboard",
+                "path": "margenus/mupi.jpg"
+            },
+            
+            {
+                "caption": "Stand",
+                "path": "margenus/sign.jpg"
+            },
+            {
+                "caption": "Corporate tape",
+                "path": "margenus/tape.jpg"
+            },
+            {
+                "caption": "Color palette",
+                "path": "margenus/color.jpg"
+            },
+            {
+                "caption": "Logo",
+                "path": "margenus/logo.jpg"
+            },
+            {
+                "caption": "Symbol",
+                "path": "margenus/symbol.jpg"
+            }
+        ]
+    },
+    {
         "title": "GL Law Firm",
         "context": ["Client"],
         "year": "2022",
@@ -84,7 +239,7 @@
             "Photography",
             "Typography"
         ],
-        "description": "Two cookbooks that explore heritage through shared recipes and traditions.",
+        "description": "A series of two cookbooks that explore heritage through shared recipes and traditions.",
         "thumbnail":
         {
             "caption": "GIF Cookbooks",
@@ -207,7 +362,7 @@
             "Poster",
             "Lettering"
         ],
-        "description": "Poster promoting the film and its exploration of human-animal relationships.",
+        "description": "Eye-catching poster promoting the film and its exploration of human-animal relationships.",
         "brief": "This film poster was created to promote EO, a film that explores the complex relationship between animals and humans through the eyes of a donkey in rural Poland. The main goal was to express the film’s themes in a subtle yet powerful way. One of the main challenges was capturing the contrasting tones of the film, which shifts from friendly and lighthearted to violent and somber.",
         "solution": "To convey these contrasts, I represented the donkey as a piñata, symbolizing innocence and playfulness, while also using the shadow of a bat to subtly foreshadow the violence and darkness that the character encounters later in the film. This euphemistic approach allowed me to address the harsh treatment of animals without being overtly graphic. I also drew inspiration from the film’s visual style, using a vibrant color palette to mirror the recurring circus imagery, as the main character, EO, begins his journey as a circus donkey. The use of handmade lettering complements the rough yet colorful aesthetic of the film, enhancing the overall emotional tone of the poster.",
         "images": [

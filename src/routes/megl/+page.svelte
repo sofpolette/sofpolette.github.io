@@ -1,11 +1,12 @@
 <script>
-	import projects from '$lib/projects.json';
+	import projects_data from '$lib/projects_new.json';
 	import Project from '$lib/Project.svelte';
 	let data = projects[6];
 </script>
 
 <!-- Content -->
 <Project {data} />
+
 <div class="space-y-24 mt-16">
 	<!-- Text -->
 	<div class="flex flex-col space-y-16">

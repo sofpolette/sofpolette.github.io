@@ -16,7 +16,8 @@
 	<!-- Projects -->
 	<div>
 		{#each projects_data as project}
-			<div
+			<a
+				href={project.link}
 				class="flex flex-row justify-between py-8 border-t-[1px] border-[#1040B0] max-md:px-[1vh] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]"
 			>
 				<div class="flex flex-row space-x-8">
@@ -32,7 +33,7 @@
 					</div>
 				</div>
 				<p class="w-1/3 text-sm">{project.description}</p>
-			</div>
+			</a>
 			<div class="flex flex-row h-96 border-t-[1px] border-[#1040B0]">
 				{#each project.images.slice(0, 3) as image}
 					<img class="md:w-1/3 max-md:w-full object-cover" src={image.path} alt={image.caption} />
