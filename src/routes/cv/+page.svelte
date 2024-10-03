@@ -10,11 +10,11 @@
 <div class="space-y-16 mb-16 max-md:px-[1vh] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
 	<h1>CV</h1>
 
-	<p class="text-3xl font-light leading-snug">
+	<!-- <p class="text-3xl font-light leading-snug">
 		I’m a self motivated and detail-oriented Graphic Designer with a keen eye for typography. <br />
-		I bring hands-on experience in branding, print, and UI/UX design. Actively seeking in-house opportunities
-		and willing to relocate.
-	</p>
+		I bring hands-on experience in branding, print, and UI/UX design. Actively seeking junior in-house
+		opportunities and willing to relocate.
+	</p> -->
 
 	<!-- Education -->
 	<div>
@@ -33,8 +33,8 @@
 						</div>
 
 						<!-- Title and description -->
-						<p class="text-2xl">
-							<span class="font-bold">{education.title},</span>
+						<p class="text-3xl font-light">
+							<span class="lora">{education.title},</span>
 							{education.type}
 						</p>
 						<div class="space-y-1">
@@ -78,8 +78,8 @@
 						</div>
 
 						<!-- Title and description -->
-						<p class="text-2xl">
-							<span class="font-bold">{experience.title},</span>
+						<p class="text-3xl font-light">
+							<span class="lora">{experience.title},</span>
 							{experience.type}
 						</p>
 						<p>
@@ -109,7 +109,7 @@
 					<div class="space-y-1">
 						<div class="flex flex-row space-x-8">
 							<p class="font-light uppercase">{achievements.date}</p>
-							<p class="font-bold">{achievements.title}</p>
+							<p class="font-semibold lora">{achievements.title}</p>
 						</div>
 						<p>{achievements.description}</p>
 					</div>
@@ -124,15 +124,15 @@
 				<h2>Languages</h2>
 				<div class="space-y-6">
 					<div class="space-y-1">
-						<p class="font-bold">Spanish</p>
+						<p class="font-semibold lora">Spanish</p>
 						<p>Native or bilingual proficiency.</p>
 					</div>
 					<div class="space-y-1">
-						<p class="font-bold">English</p>
+						<p class="font-semibold lora">English</p>
 						<p>Native or bilingual proficiency.</p>
 					</div>
 					<div class="space-y-1">
-						<p class="font-bold">Swedish</p>
+						<p class="font-semibold lora">Swedish</p>
 						<p>Native or bilingual proficiency.</p>
 					</div>
 				</div>

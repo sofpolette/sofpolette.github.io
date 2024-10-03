@@ -2,6 +2,7 @@
     {
         "title": "Influyo",
         "color": "#C8E6EA",
+        "link": "/influyo",
         "context": "Academic, Bachelor's Thesis (Graphic Design)",
         "year": "2024",
         "areas": [
@@ -87,6 +88,7 @@
     {
         "title": "Margenus",
         "color":"#F04C41",
+        "link": "/margenus",
         "context": "Academic, collaboration with Fashion Design student",
         "year": "2022",
         "areas": [
@@ -159,6 +161,7 @@
     {
         "title": "GL Law Firm",
         "color":"#EBEEED",
+        "link": "/megl",
         "context": ["Client"],
         "year": "2022",
         "areas": [
@@ -230,12 +233,12 @@
                 "caption": "Special signature",
                 "path": "megl/signature2.png"
             }
-        ],
-        "link": "/megl"
+        ]
     },
     {
         "title": "Cookbooks",
         "color":"#FEE3FA",
+        "link": "/cookbooks",
         "context": ["Personal", "School"],
         "year": "2023",
         "areas": [
@@ -309,12 +312,12 @@
                 "caption": "Spread",
                 "path": "cookbooks/dad-flat2.jpg"
             }
-        ],
-        "link": "/cookbooks"
+        ]
     },
     {
         "title": "Abejas endémicas de Canarias",
         "color": "#EFECD9",
+        "link": "/abejas",
         "context": ["School"],
         "year": "2024",
         "thumbnail": {
@@ -358,7 +361,6 @@
                 "caption": "Illustration",
                 "path": "abejas/abejas.png"
             }
-        ],
-        "link": "/abejas"
+        ]
     }
 ]
