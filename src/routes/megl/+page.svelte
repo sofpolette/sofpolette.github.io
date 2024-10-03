@@ -1,7 +1,7 @@
 <script>
 	import projects_data from '$lib/projects_new.json';
 	import Project from '$lib/Project.svelte';
-	let data = projects[6];
+	let data = Project[3];
 </script>
 
 <!-- Content -->
@@ -11,7 +11,8 @@
 	<!-- Text -->
 	<div class="flex flex-col space-y-16">
 		<h1 class="text-4xl font-normal leading-snug">
-			<b>Gutiérrez Ledesma Abogados</b> is a Law Firm based in Tejina, Tenerife.
+			Visual identity for a law firm known for its expertise and its approachable, client-focused
+			service.
 		</h1>
 		<!-- Text -->
 		<div class="flex md:space-x-8 max-md:space-y-8 max-md:flex-col md:flex-row">

@@ -10,6 +10,12 @@
 <div class="space-y-16 mb-16 max-md:px-[1vh] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
 	<h1>CV</h1>
 
+	<p class="text-3xl font-light leading-snug">
+		I’m a self motivated and detail-oriented Graphic Designer with a keen eye for typography. <br />
+		I bring hands-on experience in branding, print, and UI/UX design. Actively seeking in-house opportunities
+		and willing to relocate.
+	</p>
+
 	<!-- Education -->
 	<div>
 		<div class="space-y-8">
@@ -19,11 +25,11 @@
 					<div class="space-y-4 w-1/3">
 						<!-- When and where -->
 						<div class="space-x-8 flex flex-row font-light uppercase">
-							<p class="w-fit">
+							<p class="w-1/3">
 								{education.start_date} / <br />
 								{education.end_date}
 							</p>
-							<p>{education.where}</p>
+							<p class="w-2/3">{education.where}</p>
 						</div>
 
 						<!-- Title and description -->
@@ -64,11 +70,11 @@
 					<div class="space-y-4">
 						<!-- When and where -->
 						<div class="space-x-8 flex flex-row">
-							<p class="w-fit font-light uppercase">
+							<p class="w-1/3 font-light uppercase">
 								{experience.start_date} /<br />
 								{experience.end_date}
 							</p>
-							<p class="font-light uppercase w-3/5">{experience.where}</p>
+							<p class="font-light uppercase w-2/3">{experience.where}</p>
 						</div>
 
 						<!-- Title and description -->

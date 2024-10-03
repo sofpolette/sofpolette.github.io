@@ -1,6 +1,7 @@
 [
     {
         "title": "Influyo",
+        "color": "#C8E6EA",
         "context": "Academic, Bachelor's Thesis (Graphic Design)",
         "year": "2024",
         "areas": [
@@ -85,6 +86,7 @@
     },
     {
         "title": "Margenus",
+        "color":"#F04C41",
         "context": "Academic, collaboration with Fashion Design student",
         "year": "2022",
         "areas": [
@@ -156,6 +158,7 @@
     },
     {
         "title": "GL Law Firm",
+        "color":"#EBEEED",
         "context": ["Client"],
         "year": "2022",
         "areas": [
@@ -232,6 +235,7 @@
     },
     {
         "title": "Cookbooks",
+        "color":"#FEE3FA",
         "context": ["Personal", "School"],
         "year": "2023",
         "areas": [
@@ -240,6 +244,8 @@
             "Typography"
         ],
         "description": "A series of two cookbooks that explore heritage through shared recipes and traditions.",
+        "brief":"This project is a personal exploration of my heritage through family recipes and traditions. These cookbooks also serve as a family archive, connecting generations through shared culinary experiences. The main challenge was creating a cohesive set while ensuring each book reflected the unique cultural backgrounds of both sides of my family.",
+        "solution":"To unify the distinct heritages, I cooked and photographed the recipes with a raw, homemade aesthetic, keeping the kitchen settings natural. The books are distinguished by typography, color, and composition. My father’s Chilean book uses bold imagery, a serif typeface, and deep red tones to evoke savory flavors, while my mother’s Finnish book features smaller pieces, a sans-serif typeface, and lighter blue tones, reflecting sweeter dishes. Despite their differences, both books share a handmade, scrapbook aesthetic, evoking the feeling of sorting through a drawer of memories and family heirlooms.",
         "thumbnail":
         {
             "caption": "GIF Cookbooks",
@@ -308,6 +314,7 @@
     },
     {
         "title": "Abejas endémicas de Canarias",
+        "color": "#EFECD9",
         "context": ["School"],
         "year": "2024",
         "thumbnail": {
@@ -353,60 +360,5 @@
             }
         ],
         "link": "/abejas"
-    },
-    {
-        "title": "EO",
-        "context": ["Academic"],
-        "year": "2023",
-        "areas": [
-            "Poster",
-            "Lettering"
-        ],
-        "description": "Eye-catching poster promoting the film and its exploration of human-animal relationships.",
-        "brief": "This film poster was created to promote EO, a film that explores the complex relationship between animals and humans through the eyes of a donkey in rural Poland. The main goal was to express the film’s themes in a subtle yet powerful way. One of the main challenges was capturing the contrasting tones of the film, which shifts from friendly and lighthearted to violent and somber.",
-        "solution": "To convey these contrasts, I represented the donkey as a piñata, symbolizing innocence and playfulness, while also using the shadow of a bat to subtly foreshadow the violence and darkness that the character encounters later in the film. This euphemistic approach allowed me to address the harsh treatment of animals without being overtly graphic. I also drew inspiration from the film’s visual style, using a vibrant color palette to mirror the recurring circus imagery, as the main character, EO, begins his journey as a circus donkey. The use of handmade lettering complements the rough yet colorful aesthetic of the film, enhancing the overall emotional tone of the poster.",
-        "images": [
-            {
-                "caption": "Posters",
-                "path": "eo/2posters.png"
-            },
-            {
-                "caption": "Custom lettering",
-                "path": "eo/letters3.png"
-            },
-            {
-                "caption": "Ticket",
-                "path": "eo/ticket.png"
-            },
-            {
-                "caption": "Poster",
-                "path": "eo/poster.png"
-            },
-            {
-                "caption": "Stand",
-                "path": "eo/stand.png"
-            },
-            {
-                "caption": "Custom lettering",
-                "path": "eo/letters1.png"
-            },
-            {
-                "caption": "Custom lettering",
-                "path": "eo/letters2.png"
-            },
-            {
-                "caption": "Texture experimentation",
-                "path": "eo/texture1.png"
-            },
-            {
-                "caption": "Texture experimentation",
-                "path": "eo/texture2.png"
-            },
-            {
-                "caption": "Texture experimentation",
-                "path": "eo/texture3.png"
-            }
-        ],
-        "link": "/eo"
     }
 ]
