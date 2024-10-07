@@ -13,6 +13,9 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: light;
 	color: #1040b0;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 a {
@@ -20,13 +23,13 @@ a {
 }
 
 p {
-	font-size: 18px;
+	font-size: 1.1rem;
 	line-height: 26px;
 }
 
 h1 {
 	font-weight: 300;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	line-height: 1.25;
 	text-align: center;
 }
@@ -38,6 +41,12 @@ h2 {
 	font-size: 2.6rem;
 }
 
+h3 {
+	font-size: 1.9rem;
+	line-height: 2.5rem;
+	font-weight: light;
+}
+
 button {
 	text-align: left;
 }
@@ -45,6 +54,11 @@ button {
 li {
 	font-size: 18px;
 	line-height: 24px;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
 }
 
 .lora {
@@ -61,5 +75,18 @@ li {
 
 .tag {
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 1rem;
+}
+
+.image-container {
+	border-bottom-width: 1px;
+	border-color: #1040b0;
+}
+
+.full-width-image {
+	object-fit: cover;
+	max-height: 120vh;
+	overflow: hidden;
+	border-top-width: 1px;
+	border-color: #1040b0;
 }

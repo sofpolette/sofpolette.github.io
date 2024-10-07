@@ -33,10 +33,12 @@
 						</div>
 
 						<!-- Title and description -->
-						<p class="text-3xl font-light">
+						<!-- <p class="text-3xl font-light"> -->
+						<h3>
 							<span class="lora">{education.title},</span>
 							{education.type}
-						</p>
+						</h3>
+						<!-- </p> -->
 						<div class="space-y-1">
 							<p class="font-light">{education.grade}</p>
 							<p>
@@ -78,10 +80,10 @@
 						</div>
 
 						<!-- Title and description -->
-						<p class="text-3xl font-light">
+						<h3>
 							<span class="lora">{experience.title},</span>
 							{experience.type}
-						</p>
+						</h3>
 						<p>
 							{experience.description}
 						</p>

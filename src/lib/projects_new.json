@@ -3,7 +3,7 @@
         "title": "Influyo",
         "color": "#C8E6EA",
         "link": "/influyo",
-        "context": "Academic, Bachelor's Thesis (Graphic Design)",
+        "context": "Bachelor's Thesis",
         "year": "2024",
         "areas": [
             "UX", 
@@ -12,9 +12,13 @@
             "Naming", 
             "Illustration"
         ],
-        "description": "An intuitive digital kit for the autonomous development of emotional skills in art and design students.",
-        "brief": "The project aimed to enhance art and design students' emotional competencies—an essential factor in their academic, social, and personal success—through design. Students often experience intense emotions such as stress, anxiety, and frustration, which significantly impact their well-being and academic performance. The main challenge was to convey emotional management techniques in an engaging and accessible way for a diverse student audience, varying in gender, age, and personal experiences. Unlike other platforms that primarily focus on achieving happiness, this project adopted an exploratory approach, encouraging students to explore and understand their emotions without the pressure to quickly reach emotional well-being.",
-        "solution": "A digital platform was designed to promote self-awareness and emotional self-management. The design process was iterative, focused on making information more accessible and engaging by breaking down content into small, understandable fragments, supported by illustrations that simplify interpretation. The name INFLUYO combines several concepts: The verb INFLUIR (to influence), the use of the first person and the component YO (I) highlights the individual agency of each student. The visual identity is based on the Wheel of Plutchik, using a palette of eight colors that represent different emotions. The logo includes a symbol formed by a circle that abstractly reflects emotion, replacing the last O in INFLUYO.",
+        "description": "A digital kit for the autonomous development of emotional skills in art and design students.",
+        "brief": "The project aimed to enhance the emotional competencies of art and design students. Intense emotions—such as stress, anxiety, and frustration—significantly impact students' well-being and academic performance. A primary challenge was to useful information and techniques in an engaging and accessible manner, catering to a diverse student audience that varies in gender, age, and personal experiences.",
+        "solution": "A digital platform was developed to promote self-awareness and emotional self-management. The design process was iterative, emphasizing accessibility and engagement by breaking content into small, easily digestible fragments, complemented by illustrations that aid interpretation and captivate users. This project aimed to foster an exploratory approach, encouraging students to delve into their emotions without the pressure of rapidly achieving emotional well-being.",
+        "thumbnail": {
+            "caption": "Itinerary",
+            "path": "influyo/itinerary.png"
+        },
         "images": [
             {
                 "caption": "Promotional stickers",
@@ -87,7 +91,7 @@
     },
     {
         "title": "Margenus",
-        "color":"#F04C41",
+        "color":"#EDABD9",
         "link": "/margenus",
         "context": "Academic, collaboration with Fashion Design student",
         "year": "2022",
@@ -100,6 +104,10 @@
         "description": "A striking yet refined visual identity for an emerging fashion brand, dedicated to redefining luxury for professional women.",
         "brief": "Margenus is an emerging fashion brand with a mission to redefine luxury for professional women. The goal was to develop a brand identity that captured the designer’s unique approach to fashion while appealing to women who value individuality, boldness, and sustainability. A key challenge was setting the brand apart in a fashion landscape where most competitors use monochromatic, all-caps logos, while also highlighting its focus on upcycling.",
         "solution": "The brand differentiates itself through its use of color and typography. Instead of relying on a monochromatic palette, I introduced red, light pink, and deep blue to convey the brand’s uniqueness. The logo, composed in lowercase to stand out from competitors, combines a modern sans-serif typeface with a traditional serif, symbolizing the fusion of strength and elegance. The symbol, made from a continuous line that forms a closed shape, represents the cycle of reinvention. Corporate patterns deconstruct and reuse this symbol to reinforce the brand’s emphasis on upcycling and sustainability.",
+        "thumbnail": {
+            "caption": "Animated GIF",
+            "path": "margenus/tags.gif"
+        },
         "images": [
             
             {
@@ -162,7 +170,7 @@
         "title": "GL Law Firm",
         "color":"#EBEEED",
         "link": "/megl",
-        "context": ["Client"],
+        "context": ["Client work"],
         "year": "2022",
         "areas": [
             "Branding",
@@ -172,6 +180,10 @@
         "description": "Visual identity for a law firm known for its expertise and its approachable, client-focused service.",
         "brief": "I drew inspiration from Ancient Greece to design an identity that conveys the firm's tradition and experience. I used a neutral color palette that reflects the firm's professionalism, complemented by warm bronze to add approachability. The symbol I created is a monogram that merges the Greek letters Gamma and Lambda, representing the firm's initials in a unique and sophisticated way. The result of this fusion also resembles the letter M, which is the initial of the lawyer’s name.",
         "solution": "The law firm Gutiérrez Ledesma approached me to develop a visual identity that reflected their values of tradition, professionalism, and commitment to justice. The biggest challenge was to avoid the visual clichés of the legal sector, such as scales or the goddess Themis, in order to create a brand that truly stood out from the competition.",
+        "thumbnail": {
+            "caption": "Animated GIF",
+            "path": "megl/megl.gif"
+        },
         "images": [
             {
                 "caption": "Corporate stationary",
@@ -237,9 +249,9 @@
     },
     {
         "title": "Cookbooks",
-        "color":"#FEE3FA",
+        "color":"#FFFCC5",
         "link": "/cookbooks",
-        "context": ["Personal", "School"],
+        "context": "Personal/Academic work",
         "year": "2023",
         "areas": [
             "Editorial",
@@ -251,7 +263,7 @@
         "solution":"To unify the distinct heritages, I cooked and photographed the recipes with a raw, homemade aesthetic, keeping the kitchen settings natural. The books are distinguished by typography, color, and composition. My father’s Chilean book uses bold imagery, a serif typeface, and deep red tones to evoke savory flavors, while my mother’s Finnish book features smaller pieces, a sans-serif typeface, and lighter blue tones, reflecting sweeter dishes. Despite their differences, both books share a handmade, scrapbook aesthetic, evoking the feeling of sorting through a drawer of memories and family heirlooms.",
         "thumbnail":
         {
-            "caption": "GIF Cookbooks",
+            "caption": "Animated GIF",
             "path": "cookbooks/cookbooks.gif"
         },
         "images": [
@@ -316,12 +328,12 @@
     },
     {
         "title": "Abejas endémicas de Canarias",
-        "color": "#EFECD9",
+        "color": "#FEA656",
         "link": "/abejas",
-        "context": ["School"],
+        "context": ["Academic work"],
         "year": "2024",
         "thumbnail": {
-            "caption": "GIF Abejas",
+            "caption": "Animated GIF",
             "path": "abejas/abejas.gif"
         },
         "areas": [

@@ -5,7 +5,7 @@
 <div class="flex flex-col space-y-10">
 	<!-- Hero text -->
 	<p
-		class="snap-start text-7xl font-light leading-tight max-md:px-[1vh] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]"
+		class="snap-start text-7xl font-light leading-tight max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]"
 	>
 		Hi! I’m a self-motivated and <br />detail-oriented <span class="lora">Graphic Designer</span>
 		<br />with a keen eye for typography. <br />I bring hands-on experience in <br /><span
@@ -37,7 +37,7 @@
 				<a href={project.link}>
 					<div
 						style="background-color: {project.color};"
-						class="flex flex-row justify-between py-8 border-t-[1px] border-[#1040b0] max-md:px-[1vh] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]"
+						class="flex flex-row justify-between py-8 border-t-[1px] border-[#1040b0] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]"
 					>
 						<div class="flex flex-row space-x-8">
 							<p class="text-2xl">{project.title}</p>
