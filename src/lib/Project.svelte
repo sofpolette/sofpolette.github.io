@@ -32,7 +32,9 @@
 </div>
 
 <!-- Thumbnail -->
-<div class="bg-cover max-h-[80vh] overflow-hidden border-b-[1px] border-t-[1px] border-[#1040b0]">
+<div
+	class="bg-cover max-h-[120vh] overflow-hidden border-b-[1px] border-t-[1px] border-[#1040b0] flex justify-center items-center"
+>
 	<img src={data.thumbnail.path} alt={data.thumbnail.alt} />
 </div>
 

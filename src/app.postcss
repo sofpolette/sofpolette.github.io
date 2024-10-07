@@ -84,9 +84,44 @@ ul {
 }
 
 .full-width-image {
+	display: flex; /* Use flexbox */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	width: 100%; /* Full width of the container */
 	object-fit: cover;
 	max-height: 120vh;
 	overflow: hidden;
 	border-top-width: 1px;
 	border-color: #1040b0;
+}
+
+.image-row {
+	width: 100%; /* Full width of the container */
+	display: flex; /* Enable flexbox layout */
+	justify-content: space-between; /* Distribute space between images */
+	border-top-width: 1px;
+	border-color: #1040b0;
+}
+
+.row-image {
+	width: 33.333333vw;
+	height: auto; /* Maintain aspect ratio */
+	object-fit: cover; /* Ensure the image covers its area */
+}
+
+.middle-image {
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-color: #1040b0;
+}
+
+.right-image {
+	border-left-width: 1px;
+	border-color: #1040b0;
+}
+
+.pair-image {
+	width: 50vw;
+	height: auto; /* Maintain aspect ratio */
+	object-fit: cover; /* Ensure the image covers its area */
 }

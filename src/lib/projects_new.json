@@ -93,7 +93,7 @@
         "title": "Margenus",
         "color":"#EDABD9",
         "link": "/margenus",
-        "context": "Academic, collaboration with Fashion Design student",
+        "context": "Coursework, collaboration with Fashion Design student",
         "year": "2022",
         "areas": [
             "Branding",
@@ -178,8 +178,8 @@
             "Stationary Design"
         ],
         "description": "Visual identity for a law firm known for its expertise and its approachable, client-focused service.",
-        "brief": "I drew inspiration from Ancient Greece to design an identity that conveys the firm's tradition and experience. I used a neutral color palette that reflects the firm's professionalism, complemented by warm bronze to add approachability. The symbol I created is a monogram that merges the Greek letters Gamma and Lambda, representing the firm's initials in a unique and sophisticated way. The result of this fusion also resembles the letter M, which is the initial of the lawyer’s name.",
-        "solution": "The law firm Gutiérrez Ledesma approached me to develop a visual identity that reflected their values of tradition, professionalism, and commitment to justice. The biggest challenge was to avoid the visual clichés of the legal sector, such as scales or the goddess Themis, in order to create a brand that truly stood out from the competition.",
+        "brief": "The law firm Gutiérrez Ledesma approached me to develop a visual identity that reflected their values of tradition, professionalism, and commitment to justice. The biggest challenge was to avoid the visual clichés of the legal sector, such as scales or the goddess Themis, in order to create a brand that truly stood out from the competition.",
+        "solution": "I drew inspiration from Ancient Greece to design an identity that conveys the firm's tradition and experience. I used a neutral color palette that reflects the firm's professionalism, complemented by warm bronze to add approachability. The symbol I created is a monogram that merges the Greek letters Gamma and Lambda, representing the firm's initials in a unique and sophisticated way. The result of this fusion also resembles the letter M, which is the initial of the lawyer’s name.",
         "thumbnail": {
             "caption": "Animated GIF",
             "path": "megl/megl.gif"
@@ -251,7 +251,7 @@
         "title": "Cookbooks",
         "color":"#FFFCC5",
         "link": "/cookbooks",
-        "context": "Personal/Academic work",
+        "context": "Coursework",
         "year": "2023",
         "areas": [
             "Editorial",
@@ -330,7 +330,7 @@
         "title": "Abejas endémicas de Canarias",
         "color": "#FEA656",
         "link": "/abejas",
-        "context": ["Academic work"],
+        "context": ["Coursework"],
         "year": "2024",
         "thumbnail": {
             "caption": "Animated GIF",
