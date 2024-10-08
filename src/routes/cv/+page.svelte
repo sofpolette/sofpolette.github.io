@@ -7,7 +7,7 @@
 	import skills_data from '$lib/skills.json';
 </script>
 
-<div class="space-y-16 mb-16 max-md:px-[1vh] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
+<div class="space-y-16 mb-16 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
 	<h1>CV</h1>
 
 	<!-- <p class="text-3xl font-light leading-snug">
@@ -20,9 +20,9 @@
 	<div>
 		<div class="space-y-8">
 			<h2>Education</h2>
-			<div class="flex flex-row space-x-8">
+			<div class="flex flex-row max-lg:flex-col lg:gap-8 max-lg:gap-12">
 				{#each education_data as education}
-					<div class="space-y-4 w-1/3">
+					<div class="space-y-4 max-lg:full-width lg:w-1/3">
 						<!-- When and where -->
 						<div class="space-x-8 flex flex-row font-light uppercase">
 							<p class="w-1/3">
@@ -63,9 +63,9 @@
 	</div>
 
 	<!-- 2nd row -->
-	<div class="flex flex-row space-x-8">
+	<div class="flex flex-row max-lg:flex-col gap-8 max-lg:space-y-8">
 		<!-- Experience -->
-		<div class="w-1/3 space-y-8">
+		<div class="w-1/3 max-lg:w-full space-y-8">
 			<h2>Experience</h2>
 			<div class="flex flex-row space-x-8">
 				{#each experience_data as experience}
@@ -104,7 +104,7 @@
 		</div>
 
 		<!-- Achievements -->
-		<div class="space-y-8 w-1/3">
+		<div class="space-y-8 w-1/3 max-lg:w-full">
 			<h2>Achievements</h2>
 			<div class="space-y-6">
 				{#each achievements_data as achievements}
@@ -120,7 +120,7 @@
 		</div>
 
 		<!-- Languages and skills -->
-		<div class="space-y-16 w-1/3">
+		<div class="space-y-16 w-1/3 max-lg:w-full">
 			<!-- Languages -->
 			<div class="space-y-8">
 				<h2>Languages</h2>

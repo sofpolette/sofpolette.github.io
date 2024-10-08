@@ -1,16 +1,16 @@
 <script>
 </script>
 
-<div class="space-y-16 mb-16 max-md:px-[1vh] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
-	<h1>Let's collaborate!</h1>
-	<div class="flex gap-8">
-		<div class="w-1/3">
+<div class="space-y-16 mb-16 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+	<h1>Get in touch</h1>
+	<div class="flex max-lg:flex-col gap-8">
+		<div class="w-1/3 max-lg:w-full">
 			<p>
 				Thank you for taking the time to explore my portfolio! I'd love to hear from you, whether
 				it's about a potential project, collaboration, or just to say hello.
 			</p>
 		</div>
-		<div class="w-1/3">
+		<div class="w-1/3 max-lg:w-full">
 			<p>
 				Feel free to send me an email at <a
 					class="lora underline"

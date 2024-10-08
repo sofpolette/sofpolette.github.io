@@ -2,15 +2,24 @@
 	import projects_data from '$lib/projects_new.json';
 </script>
 
-<div class="flex flex-col space-y-10">
-	<!-- Hero text -->
+<div class="flex flex-col gap-10">
+	<!-- Hero text desktop -->
 	<p
-		class="snap-start text-7xl font-light leading-tight max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]"
+		class="max-lg:hidden text-7xl font-light leading-tight max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
 	>
 		Hi! I’m a self-motivated and <br />detail-oriented <span class="lora">Graphic Designer</span>
 		<br />with a keen eye for typography. <br />I bring hands-on experience in <br /><span
 			class="lora">branding, print, and UX/UI design.</span
 		>
+	</p>
+
+	<!-- Hero text mobile -->
+	<p
+		class="lg:hidden max-sm:text-4xl max-sm:leading-tight sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight font-light max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+	>
+		Hi! I’m a self-motivated and detail-oriented <span class="lora">Graphic Designer.</span> <br />I
+		bring hands-on experience in
+		<span class="lora">branding, print, and UX/UI design.</span>
 	</p>
 
 	<!-- Transition -->
@@ -30,18 +39,18 @@
 		</div>
 	</div>
 
-	<!-- Projects -->
-	<div class="h-fit overflow-y-scroll snap-y snap-mandatory">
+	<!-- Projects desktop -->
+	<div class="h-fit overflow-y-scroll max-lg:hidden">
 		{#each projects_data as project}
-			<div class="snap-center">
+			<div>
 				<a href={project.link}>
 					<div
 						style="background-color: {project.color};"
-						class="flex flex-row justify-between py-8 border-t-[1px] border-[#1040b0] max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]"
+						class="flex justify-between py-8 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
 					>
-						<div class="flex flex-row space-x-8">
+						<div class="flex gap-8">
 							<p class="text-2xl">{project.title}</p>
-							<div class="flex flex-row flex-wrap">
+							<div class="justify-start flex flex-row flex-wrap">
 								{#each project.areas as area}
 									<p
 										class="tag text-nowrap align-center w-fit rounded-2xl border-[1px] border-[#1040b0] h-min px-2 py-0.75 mr-1 my-[3px]"
@@ -56,6 +65,42 @@
 
 					<div class="flex flex-row h-96 border-t-[1px] border-[#1040B0]">
 						{#each project.images.slice(0, 3) as image}
+							<img
+								class="md:w-1/3 max-md:w-full object-cover"
+								src={image.path}
+								alt={image.caption}
+							/>
+						{/each}
+					</div>
+				</a>
+			</div>
+		{/each}
+	</div>
+
+	<!-- Project mobile -->
+	<div class="h-fit overflow-y-scroll lg:hidden">
+		{#each projects_data as project}
+			<div>
+				<a href={project.link}>
+					<div
+						style="background-color: {project.color};"
+						class="flex flex-col gap-3 py-6 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+					>
+						<p class="text-2xl text-center">{project.title}</p>
+						<div class="justify-center flex flex-row flex-wrap">
+							{#each project.areas as area}
+								<p
+									class="uppercase text-nowrap text-sm align-center w-fit rounded-2xl border-[1px] border-[#1040b0] h-min px-1.5 py-0.75 mr-1 my-[3px]"
+								>
+									{area}
+								</p>
+							{/each}
+						</div>
+						<p class="text-sm text-center">{project.description}</p>
+					</div>
+
+					<div class="flex flex-row h-96 border-t-[1px] border-[#1040B0]">
+						{#each project.images.slice(2, 3) as image}
 							<img
 								class="md:w-1/3 max-md:w-full object-cover"
 								src={image.path}
