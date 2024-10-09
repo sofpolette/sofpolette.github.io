@@ -2,7 +2,7 @@
 	export let data;
 </script>
 
-<div class="space-y-10 mb-16 max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
+<div class="space-y-10 mb-16 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
 	<!-- Title, year, context -->
 	<div class=" flex flex-col gap-3">
 		<h1>{data.title}</h1>
@@ -39,12 +39,14 @@
 </div>
 
 <!-- Brief and solution -->
-<div class="flex flex-row gap-8 my-12 max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
-	<div class="flex flex-col gap-4 w-1/2">
+<div
+	class="flex lg:flex-row max-lg:flex-col gap-8 my-12 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+>
+	<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 		<h3 class="lora font-light">Brief</h3>
 		<p>{data.brief}</p>
 	</div>
-	<div class="flex flex-col gap-4 w-1/2">
+	<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 		<h3 class="lora font-light">Solution</h3>
 		<p>{data.solution}</p>
 	</div>

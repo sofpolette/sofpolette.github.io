@@ -11,39 +11,6 @@
 		</div>
 	</Marquee>
 
-	<!-- Mobile menu -->
-	<div
-		class="flex flex-col w-full gap-4 my-6 py-2 md:hidden max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
-	>
-		<a href="/" class="flex justify-center w-full menu-item">SOFÍA J. POLETTE STUBB</a>
-		<div class="flex flex-row justify-between w-full my-6">
-			<div><a href="/cv" class="menu-item">CV</a></div>
-			<div class="opacity-60">
-				<a href="/additional" class="justify-center menu-item">Additional works</a>
-				<p class=" text-sm justify-center w-fit">(under construction)</p>
-			</div>
-			<div class="flex flex-row h-fit items-center gap-2">
-				<a href="/contact" class="menu-item">Get in touch</a>
-				<div class="w-4 justify-end">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="#1040b0"
-						viewBox="0 0 24 24"
-						stroke-width="3"
-						stroke="currentColor"
-						class="size-6"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-						/>
-					</svg>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<!-- Desktop menu -->
 	<div
 		class="flex flex-row w-full justify-between my-6 py-2 max-md:hidden max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
@@ -73,6 +40,39 @@
 						d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
 					/>
 				</svg>
+			</div>
+		</div>
+	</div>
+
+	<!-- Mobile menu -->
+	<div
+		class="flex flex-col w-full gap-4 my-6 py-2 md:hidden max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+	>
+		<a href="/" class="flex justify-center w-full menu-item text-center">SOFÍA J. POLETTE STUBB</a>
+		<div class="flex flex-col gap-4 w-full my-6 items-center">
+			<div><a href="/cv" class="menu-item text-center">CV</a></div>
+			<div class="opacity-60 text-center">
+				<p href="" class=" menu-item text-center">Additional works</p>
+				<p class=" text-sm text-center">(under construction)</p>
+			</div>
+			<div class="flex flex-row h-fit items-center gap-2">
+				<a href="/contact" class="menu-item">Get in touch</a>
+				<div class="w-4 justify-end">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="#1040b0"
+						viewBox="0 0 24 24"
+						stroke-width="3"
+						stroke="currentColor"
+						class="size-6"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+						/>
+					</svg>
+				</div>
 			</div>
 		</div>
 	</div>
