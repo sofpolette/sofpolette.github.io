@@ -1,6 +1,4 @@
 <script>
-	import { P } from 'flowbite-svelte';
-	import Label from '../../lib/Label.svelte';
 	import education_data from '$lib/education.json';
 	import experience_data from '$lib/experience.json';
 	import achievements_data from '$lib/achievements.json';

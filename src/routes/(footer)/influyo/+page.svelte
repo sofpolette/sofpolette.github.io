@@ -9,13 +9,13 @@
 <div class="flex flex-col gap-12">
 	<div class="image-container">
 		<div class="full-width-image">
-			<img src="influyo/logo.jpg" alt="Logo" />
+			<img src="influyo/logo.jpg" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/symbol.jpg" alt="Logo" />
+			<img src="influyo/symbol.jpg" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/logo.gif" alt="Logo" />
+			<img src="influyo/logo.gif" alt="" />
 		</div>
 	</div>
 	<div class="flex flex-row gap-8 max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
