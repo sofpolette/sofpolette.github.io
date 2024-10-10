@@ -2,6 +2,14 @@
 	import projects_data from '$lib/projects_new.json';
 </script>
 
+<svelte:head>
+	<meta
+		name="description"
+		content="Hi! I’m a self-motivated and detail-oriented Graphic Designer with a keen eye for typography. I bring hands-on experience in branding, print, and UX/UI design.."
+	/>
+	<title>Sofía J. Polette Stubb | Junior Graphic Designer | Branding, Editorial & UX/UI</title>
+</svelte:head>
+
 <div class="flex flex-col gap-10">
 	<!-- Hero text desktop -->
 	<p
