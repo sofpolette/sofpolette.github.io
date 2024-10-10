@@ -46,7 +46,7 @@
 				<a href={project.link}>
 					<div
 						style="background-color: {project.color};"
-						class="flex justify-between py-8 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+						class="flex justify-between py-4 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
 					>
 						<div class="flex gap-8">
 							<p class="text-2xl">{project.title}</p>
@@ -84,7 +84,7 @@
 				<a href={project.link}>
 					<div
 						style="background-color: {project.color};"
-						class="flex flex-col gap-3 py-6 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+						class="flex flex-col gap-2 py-4 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
 					>
 						<p class="text-2xl text-center">{project.title}</p>
 						<div class="justify-center flex flex-row flex-wrap">

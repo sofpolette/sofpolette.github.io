@@ -18,11 +18,11 @@
 			<img src="influyo/logo.gif" alt="" />
 		</div>
 	</div>
-	<div class="flex flex-row gap-8 max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
-		<div class="flex flex-col gap-4 w-1/2">
+	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<h3 class="lora font-light">Emotional ID process</h3>
 		</div>
-		<div class="flex flex-col gap-4 w-1/2">
+		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<p>
 				Identifying emotions is key to enhancing students' self-awareness. The emotional ID process
 				was developed to make this process more approachable. The Plutchnik emotional model is used
@@ -42,11 +42,11 @@
 	<div class="full-width-image">
 		<img src="influyo/emotional-ID.png" alt="" />
 	</div>
-	<div class="flex flex-row gap-8 max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
-		<div class="flex flex-col gap-4 w-1/2">
+	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<h3 class="lora font-light">Content categorization: <br />Reflect, face, project</h3>
 		</div>
-		<div class="flex flex-col gap-4 w-1/2">
+		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<p>
 				The resources on the platform are organized into three categories, which students can
 				explore freely or through structured pathways:
@@ -78,11 +78,11 @@
 		</div>
 	</div>
 
-	<div class="flex flex-row gap-8 max-lg:px-[8vh] max-2xl:px-[12vh] 2xl:px-[24vh]">
-		<div class="flex flex-col gap-4 w-1/2">
+	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<h3 class="lora font-light">Launch campaign</h3>
 		</div>
-		<div class="flex flex-col gap-4 w-1/2">
+		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<p>
 				To ensure that students were aware of and used the platform, a launch campaign was designed
 				that included the delivery of a physical starter kit to each student. This kit included:

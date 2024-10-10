@@ -3,7 +3,7 @@
 
 <div class="space-y-16 mb-16 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
 	<h1>Get in touch</h1>
-	<div class="flex max-lg:flex-col gap-8">
+	<div class="flex max-lg:flex-col gap-12">
 		<div class="w-1/3 max-lg:w-full">
 			<p>
 				Thank you for taking the time to explore my portfolio! I'd love to hear from you, whether
