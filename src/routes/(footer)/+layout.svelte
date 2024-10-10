@@ -8,7 +8,7 @@
 
 	<!-- Footer -->
 	<footer class="">
-		<button
+		<a
 			href="/contact"
 			class="flex flex-row w-full justify-between bg-[#1040b0] py-4 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
 		>
@@ -29,6 +29,6 @@
 					/>
 				</svg>
 			</div>
-		</button>
+		</a>
 	</footer>
 </main>

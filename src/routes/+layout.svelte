@@ -4,10 +4,23 @@
 </script>
 
 <main>
+	<!-- Desktop marquee -->
 	<Marquee class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
-		<div class="gap-5 flex flex-row w-fit">
-			<span>Actively seeking in-house and agency opportunities</span>
-			<!-- <span>/</span> -->
+		<div class="max-lg:hidden flex flex-row justify-between w-[95vw]">
+			<span>Actively seeking in-house opportunities</span>
+			<span>/</span>
+			<span>Actively seeking in-house opportunities</span>
+			<span>/</span>
+			<span>Actively seeking in-house opportunities</span>
+			<span>/</span>
+		</div>
+	</Marquee>
+
+	<!-- Mobile marquee -->
+	<Marquee class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
+		<div class="lg:hidden flex flex-row gap-16 w-[100vw]">
+			<span>Actively seeking in-house opportunities</span>
+			<span>/</span>
 		</div>
 	</Marquee>
 
@@ -25,7 +38,7 @@
 		<a href="/" class="flex justify-center w-1/3 menu-item">SOFÍA J. POLETTE STUBB</a>
 		<div class="flex flex-row w-1/3 justify-end h-fit items-center space-x-2">
 			<a href="/contact" class="menu-item">Get in touch</a>
-			<div class="w-4">
+			<a href="/contact" class="w-4">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="#1040b0"
@@ -40,7 +53,7 @@
 						d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
 					/>
 				</svg>
-			</div>
+			</a>
 		</div>
 	</div>
 
