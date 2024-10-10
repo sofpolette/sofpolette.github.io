@@ -5,7 +5,7 @@
 <svelte:head>
 	<meta
 		name="description"
-		content="Hi! I’m a self-motivated and detail-oriented Graphic Designer with a keen eye for typography. I bring hands-on experience in branding, print, and UX/UI design.."
+		content="Hi! I’m a self-motivated and detail-oriented Graphic Designer with a keen eye for typography. I bring hands-on experience in branding, print, and UX/UI design."
 	/>
 	<title>Sofía J. Polette Stubb | Junior Graphic Designer | Branding, Editorial & UX/UI</title>
 </svelte:head>
@@ -13,7 +13,7 @@
 <div class="flex flex-col gap-10">
 	<!-- Hero text desktop -->
 	<p
-		class="max-lg:hidden text-7xl font-light leading-tight max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+		class="max-lg:hidden text-7xl font-light leading-tight max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]"
 	>
 		Hi! I’m a self-motivated and <br />detail-oriented <span class="lora">Graphic Designer</span>
 		<br />with a keen eye for typography. <br />I bring hands-on experience in <br /><span
@@ -23,7 +23,7 @@
 
 	<!-- Hero text mobile -->
 	<p
-		class="lg:hidden max-sm:text-4xl max-sm:leading-tight sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight font-light max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+		class="lg:hidden max-sm:text-5xl max-sm:leading-tight sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight font-light max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]"
 	>
 		Hi! I’m a self-motivated and detail-oriented <span class="lora">Graphic Designer.</span> <br />I
 		bring hands-on experience in
@@ -54,7 +54,7 @@
 				<a href={project.link}>
 					<div
 						style="background-color: {project.color};"
-						class="flex justify-between py-4 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+						class="flex justify-between py-4 border-t-[1px] border-[#1040b0] max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]"
 					>
 						<div class="flex gap-8">
 							<p class="text-2xl">{project.title}</p>
@@ -92,7 +92,7 @@
 				<a href={project.link}>
 					<div
 						style="background-color: {project.color};"
-						class="flex flex-col gap-2 py-4 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+						class="flex flex-col gap-2 py-4 border-t-[1px] border-[#1040b0] max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]"
 					>
 						<p class="text-2xl text-center">{project.title}</p>
 						<div class="justify-center flex flex-row flex-wrap">

@@ -18,7 +18,7 @@
 			<img src="/influyo/logo.gif" alt="" />
 		</div>
 	</div>
-	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]">
 		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<h3 class="lora font-light">Emotional ID process</h3>
 		</div>
@@ -42,7 +42,7 @@
 	<div class="full-width-image">
 		<img src="/influyo/emotional-ID.png" alt="" />
 	</div>
-	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]">
 		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<h3 class="lora font-light">Content categorization: <br />Reflect, face, project</h3>
 		</div>
@@ -78,7 +78,7 @@
 		</div>
 	</div>
 
-	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]">
 		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<h3 class="lora font-light">Launch campaign</h3>
 		</div>

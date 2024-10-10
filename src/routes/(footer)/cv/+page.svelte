@@ -5,7 +5,7 @@
 	import skills_data from '$lib/skills.json';
 </script>
 
-<div class="space-y-16 mb-16 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+<div class="space-y-16 mb-16 max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]">
 	<h1>CV</h1>
 
 	<!-- <p class="text-3xl font-light leading-snug">

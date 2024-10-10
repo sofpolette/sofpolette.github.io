@@ -5,7 +5,7 @@
 
 <main>
 	<!-- Desktop marquee -->
-	<Marquee class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
+	<Marquee speed="50" class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
 		<div class="max-lg:hidden flex flex-row justify-between w-[95vw]">
 			<span>Actively seeking in-house opportunities</span>
 			<span>/</span>
@@ -17,16 +17,16 @@
 	</Marquee>
 
 	<!-- Mobile marquee -->
-	<Marquee class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
+	<Marquee speed="50" class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
 		<div class="lg:hidden flex flex-row gap-16 w-[100vw]">
 			<span>Actively seeking in-house opportunities</span>
-			<span>/</span>
+			<!-- <span>/</span> -->
 		</div>
 	</Marquee>
 
 	<!-- Desktop menu -->
 	<div
-		class="flex flex-row w-full justify-between my-6 py-2 max-md:hidden max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+		class="flex flex-row w-full justify-between my-6 py-2 max-md:hidden max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]"
 	>
 		<div class="flex flex-row space-x-16 w-1/3">
 			<div><a href="/cv" class="menu-item">CV</a></div>
@@ -59,10 +59,10 @@
 
 	<!-- Mobile menu -->
 	<div
-		class="flex flex-col w-full gap-2 my-6 py-2 md:hidden max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+		class="flex flex-col w-full my-6 py-2 md:hidden max-md:px-[2vh] max-xl:px-[8vh] xl:px-[12vh]"
 	>
 		<a href="/" class="flex justify-center w-full menu-item text-center">SOFÍA J. POLETTE STUBB</a>
-		<div class="flex flex-col gap-1 w-full my-6 items-center">
+		<div class="flex flex-col gap-1 w-full my-4 items-center">
 			<div><a href="/cv" class="menu-item text-center">CV</a></div>
 			<div class="opacity-60 text-center">
 				<p href="" class=" menu-item text-center">Additional works</p>
