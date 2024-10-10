@@ -17,7 +17,7 @@
         "solution": "A digital platform was developed to promote self-awareness and emotional self-management. The design process was iterative, emphasizing accessibility and engagement by breaking content into small, easily digestible fragments, complemented by illustrations that aid interpretation and captivate users. This project aimed to foster an exploratory approach, encouraging students to delve into their emotions without the pressure of rapidly achieving emotional well-being.",
         "thumbnail": {
             "caption": "Itinerary",
-            "path": "influyo/itinerary.png"
+            "path": "/influyo/itinerary.png"
         },
         "images": [
             {
@@ -106,7 +106,7 @@
         "solution": "The brand differentiates itself through its use of color and typography. Instead of relying on a monochromatic palette, I introduced red, light pink, and deep blue to convey the brand’s uniqueness. The logo, composed in lowercase to stand out from competitors, combines a modern sans-serif typeface with a traditional serif, symbolizing the fusion of strength and elegance. The symbol, made from a continuous line that forms a closed shape, represents the cycle of reinvention. Corporate patterns deconstruct and reuse this symbol to reinforce the brand’s emphasis on upcycling and sustainability.",
         "thumbnail": {
             "caption": "Animated GIF",
-            "path": "margenus/tags.gif"
+            "path": "/margenus/tags.gif"
         },
         "images": [
             
@@ -182,7 +182,7 @@
         "solution": "I drew inspiration from Ancient Greece to design an identity that conveys the firm's tradition and experience. I used a neutral color palette that reflects the firm's professionalism, complemented by warm bronze to add approachability. The symbol I created is a monogram that merges the Greek letters Gamma and Lambda, representing the firm's initials in a unique and sophisticated way. The result of this fusion also resembles the letter M, which is the initial of the lawyer’s name.",
         "thumbnail": {
             "caption": "Animated GIF",
-            "path": "megl/megl.gif"
+            "path": "/megl/megl.gif"
         },
         "images": [
             {
@@ -264,7 +264,7 @@
         "thumbnail":
         {
             "caption": "Animated GIF",
-            "path": "cookbooks/cookbooks.gif"
+            "path": "/cookbooks/cookbooks.gif"
         },
         "images": [
             {
@@ -334,7 +334,7 @@
         "year": "2024",
         "thumbnail": {
             "caption": "Animated GIF",
-            "path": "abejas/abejas.gif"
+            "path": "/abejas/abejas.gif"
         },
         "areas": [
             "Infographic",
