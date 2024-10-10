@@ -8,6 +8,12 @@
         "where": "EASD Fernando Estévez",
         "grade": "Overall grade (out of 10): 9,7",
         "description": "Throughout this degree, I've improved on generating, developing, and materializing ideas, concepts, and graphics for complex communication programs. I acquired technical capabilities and skills as well as the correct use of methods and processes associated with Graphic Design.",
+        "bullets": [
+            "Generated and developed creative ideas, concepts, and graphics to solve complex communication problems.",
+            "Gained technical proficiency in industry-standard design tools (e.g., Adobe Creative Suite).",
+            "Mastered graphic design methods and processes, including design thinking, layout design, and branding strategy.",
+            "Created visuals for print, digital media, and marketing campaigns through real-world projects."        
+        ],
         "skills": [
             "Branding",
             "Typography",
@@ -26,6 +32,10 @@
         "end_date": "Jun 2023",
         "where": "ASP im. Jana Matejki w Krakowie",
         "grade": "Overall grade (out of 5,5): 5,17",
+        "bullets": [
+            "Expanded knowledge in photography, visual communication, typography, and poster design.",
+            "Completed a 3-month course focused on traditional printing techniques, including lithography, mokulito, engraving, and monotype."  
+        ],
         "description": "During this mobility, I developed my knowledge of photography, visual communication, typography, and poster design. I also participated in a 3-month course where I learned about traditional printing techniques (Lithography, mokulito, engraving, monotype...).",
         "skills": [
             "Visual Communication",
@@ -45,6 +55,9 @@
         "end_date": "Jun 2020",
         "where": "EASD Fernando Estévez",
         "grade": "Overall grade (out of 10): 9,62",
+        "bullets": [
+            "Completed a two-year program focused on design and development skills for multimedia and web-based products."        
+        ],
         "description": "This two-year vocational program focused on design and development skills to assist in the creation and upkeep of multimedia and web-based products.",
         "skills": [
             "Wireframing",

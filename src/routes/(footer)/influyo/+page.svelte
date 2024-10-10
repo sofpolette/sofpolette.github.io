@@ -9,13 +9,13 @@
 <div class="flex flex-col gap-12">
 	<div class="image-container">
 		<div class="full-width-image">
-			<img src="influyo/logo.jpg" alt="" />
+			<img src="/influyo/logo.jpg" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/symbol.jpg" alt="" />
+			<img src="/influyo/symbol.jpg" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/logo.gif" alt="" />
+			<img src="/influyo/logo.gif" alt="" />
 		</div>
 	</div>
 	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
@@ -40,7 +40,7 @@
 	</div>
 
 	<div class="full-width-image">
-		<img src="influyo/emotional-ID.png" alt="" />
+		<img src="/influyo/emotional-ID.png" alt="" />
 	</div>
 	<div class="flex lg:flex-row max-lg:flex-col gap-8 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
 		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
@@ -68,13 +68,13 @@
 
 	<div class="image-container">
 		<div class="full-width-image">
-			<img src="influyo/icons.jpg" alt="" />
+			<img src="/influyo/icons.jpg" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/homepage.png" alt="" />
+			<img src="/influyo/homepage.png" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/itinerary.png" alt="" />
+			<img src="/influyo/itinerary.png" alt="" />
 		</div>
 	</div>
 
@@ -104,28 +104,28 @@
 
 	<div class="image-container">
 		<div class="full-width-image">
-			<img src="influyo/stationary.png" alt="" />
+			<img src="/influyo/stationary.png" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/laptop.jpg" alt="" />
+			<img src="/influyo/laptop.jpg" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/cards.jpg" alt="" />
+			<img src="/influyo/cards.jpg" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/cards.gif" alt="" />
+			<img src="/influyo/cards.gif" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/stickers.png" alt="" />
+			<img src="/influyo/stickers.png" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/tote.png" alt="" />
+			<img src="/influyo/tote.png" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/plafon2.jpg" alt="" />
+			<img src="/influyo/plafon2.jpg" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="influyo/plafon.jpg" alt="" />
+			<img src="/influyo/plafon.jpg" alt="" />
 		</div>
 	</div>
 </div>

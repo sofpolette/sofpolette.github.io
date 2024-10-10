@@ -6,8 +6,11 @@
 <main>
 	<Marquee class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
 		<div class="gap-5 flex flex-row w-fit">
+			<span>/</span>
 			<span>Actively seeking in-house and agency opportunities</span>
-			<!-- <span>/</span> -->
+			<span>/</span>
+			<span>Actively seeking in-house and agency opportunities</span>
+			<span>/</span>
 		</div>
 	</Marquee>
 

@@ -42,6 +42,11 @@
 							<p>
 								{education.description}
 							</p>
+							<!-- <ul class="space-y-2">
+								{#each education.bullets as bullet}
+									<li>{bullet}</li>
+								{/each}
+							</ul> -->
 						</div>
 
 						<!-- Skill tags -->

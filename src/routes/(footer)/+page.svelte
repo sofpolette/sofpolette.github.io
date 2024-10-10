@@ -66,7 +66,7 @@
 					<div class="flex flex-row h-96 border-t-[1px] border-[#1040B0]">
 						{#each project.images.slice(0, 3) as image}
 							<img
-								class="md:w-1/3 max-md:w-full object-cover"
+								class="lg:w-1/3 max-lg:w-full object-cover"
 								src={image.path}
 								alt={image.caption}
 							/>
@@ -102,7 +102,7 @@
 					<div class="flex flex-row h-96 border-t-[1px] border-[#1040B0]">
 						{#each project.images.slice(2, 3) as image}
 							<img
-								class="md:w-1/3 max-md:w-full object-cover"
+								class="lg:w-1/3 max-lg:w-full object-cover"
 								src={image.path}
 								alt={image.caption}
 							/>

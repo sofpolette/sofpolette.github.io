@@ -27,15 +27,15 @@
 				</li>
 				<li>
 					Béhance — <a class="lora underline" href="https://www.behance.net/sofapolette1"
-						>Sofía Polette</a
-					>
+						>Sofía J. Polette Stubb
+					</a>
 				</li>
 				<li>
 					LinkedIn — <a
 						class="lora underline"
 						href="https://www.linkedin.com/in/sof%C3%ADa-polette-stubb-72850a259/"
-						>Sofía Polette Stubb</a
-					>
+						>Sofía J. Polette Stubb
+					</a>
 				</li>
 			</ul>
 		</div>
