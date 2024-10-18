@@ -42,9 +42,7 @@
             "Poster Design",
             "Typography",
             "Photography",
-            "Lightroom",
-            "Photoshop",
-            "Figma"
+            "Print Methods"
         ]
     },
     {
@@ -60,11 +58,12 @@
         ],
         "description": "This two-year vocational program focused on design and development skills to assist in the creation and upkeep of multimedia and web-based products.",
         "skills": [
-            "Wireframing",
             "Photoshop",
+            "Illustrator",
+            "Premiere",
+            "Wireframing",
             "HTML",
-            "CSS",
-            "Premiere"
-        ]
+            "CSS"      
+          ]
     }
 ]
