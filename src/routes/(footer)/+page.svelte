@@ -17,7 +17,7 @@
 	>
 		Hi! I’m a self-motivated and <br />detail-oriented <span class="lora">Graphic Designer</span>
 		<br />with a keen eye for typography. <br />I bring hands-on experience in <br /><span
-			class="lora">branding, editorial, and UX/UI design.</span
+			class="lora">branding, print, and UX/UI design.</span
 		>
 	</p>
 
