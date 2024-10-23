@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="space-y-16 mb-16 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+<div class="space-y-16 mb-40 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
 	<h1>Get in touch</h1>
 	<div class="flex max-lg:flex-col gap-12">
 		<div class="w-1/3 max-lg:w-full">
