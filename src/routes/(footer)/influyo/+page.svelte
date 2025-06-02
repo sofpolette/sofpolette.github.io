@@ -1,7 +1,7 @@
 <script>
 	import projects from '$lib/projects_new.json';
 	import Project from '$lib/Project.svelte';
-	let data = projects[0];
+	let data = projects[2];
 </script>
 
 <!-- Content -->
@@ -123,9 +123,6 @@
 		</div>
 		<div class="full-width-image">
 			<img src="/influyo/plafon2.jpg" alt="" />
-		</div>
-		<div class="full-width-image">
-			<img src="/influyo/plafon.jpg" alt="" />
 		</div>
 	</div>
 </div>

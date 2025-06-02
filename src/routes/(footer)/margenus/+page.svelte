@@ -1,7 +1,7 @@
 <script>
 	import projects from '$lib/projects_new.json';
 	import Project from '$lib/Project.svelte';
-	let data = projects[1];
+	let data = projects[4];
 </script>
 
 <!-- Content -->
