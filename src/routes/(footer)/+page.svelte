@@ -5,116 +5,68 @@
 <svelte:head>
 	<meta
 		name="description"
-		content="Hi! I’m a self-motivated and detail-oriented Graphic Designer with a keen eye for typography. I bring hands-on experience in branding, print, and UX/UI design.."
+		content="Hi! ☺ — I’m a curious, detail-oriented Graphic Designer with experience in editorial design, digital design & visual identity."
 	/>
-	<title>Sofía J. Polette Stubb | Junior Graphic Designer | Branding, Editorial & UX/UI</title>
+	<title>Sofía J. Polette Stubb | Graphic Designer | Editorial, Digital & Visual Identity</title>
 </svelte:head>
 
-<div class="flex flex-col gap-10">
+<div class="flex flex-col max-md:my-[0.1vh] max-xl:my-14">
 	<!-- Hero text desktop -->
 	<p
-		class="max-lg:hidden text-7xl font-light leading-tight max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+		class="max-lg:hidden text-6xl font-light leading-tight uppercase max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh] py-12"
 	>
-		Hi! I’m a self-motivated and <br />detail-oriented <span class="lora">Graphic Designer</span>
-		<br />with a keen eye for typography. <br />I bring hands-on experience in <br /><span
-			class="lora">branding, print, and UX/UI design.</span
+		Hi! ☺ — I’m a curious, detail-oriented <span class="underline decoration-2 underline-offset-4"
+			>Graphic Designer</span
+		>
+		with a multidisciplinary background spanning
+		<span class="underline decoration-2 underline-offset-4"
+			>digital, editorial, and brand identity design.</span
 		>
 	</p>
 
 	<!-- Hero text mobile -->
 	<p
-		class="lg:hidden max-sm:text-4xl max-sm:leading-tight sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight font-light max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+		class="lg:hidden max-sm:text-4xl max-sm:leading-tight sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight uppercase font-light max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh] py-12"
 	>
-		Hi! I’m a self-motivated and detail-oriented <span class="lora">Graphic Designer.</span> <br />I
-		bring hands-on experience in
-		<span class="lora">branding, print, and UX/UI design.</span>
+		Hi! ☺ — I’m a curious, detail-oriented <span class="underline decoration-2 underline-offset-4"
+			>Graphic Designer</span
+		>
+		with experience in
+		<span class="underline decoration-2 underline-offset-4"
+			>editorial design, digital design & visual identity.</span
+		>
 	</p>
 
-	<!-- Transition -->
-	<div class="snap-center flex flex-col w-full items-center gap-1 animate-pulse">
-		<p class="w-fit text-sm">Highlighted projects below</p>
-		<div class="w-10 animate-bounce">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke-width="1"
-				stroke="#1040b0"
-				class="size-6"
-			>
-				<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-			</svg>
-		</div>
-	</div>
-
-	<!-- Projects desktop -->
-	<div class="h-fit overflow-y-scroll max-lg:hidden">
+	<!-- Project desktop -->
+	<div
+		class="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh] mb-12"
+	>
 		{#each projects_data as project}
-			<div>
-				<a href={project.link}>
+			<div class="overflow-hidden">
+				<!-- Title and Date -->
+				<div class="flex flex-row justify-between py-3">
+					<p class="text-xl">{project.title}</p>
+					<p class="text-xl font-light text-[#1040b0]">{project.year}</p>
+				</div>
+				<!-- Image with Hover Overlay -->
+				<a href={project.link} class="relative group block h-[56vh] overflow-hidden">
+					<img
+						src={project.thumbnail.path}
+						alt={project.title}
+						class="w-full h-full object-cover transition duration-300 ease-in-out transform group-hover:scale-105 group-hover:opacity-30"
+					/>
+					<!-- Hover Overlay (on image only) -->
 					<div
-						style="background-color: {project.color};"
-						class="flex justify-between py-4 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+						class="absolute inset-0 z-10 flex flex-col justify-center items-center text-center p-12 bg-[#1040b0] bg-opacity-80 opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 text-white gap-8"
 					>
-						<div class="flex gap-8">
-							<p class="text-2xl">{project.title}</p>
-							<div class="justify-start flex flex-row flex-wrap">
-								{#each project.areas as area}
-									<p
-										class="tag text-nowrap align-center w-fit rounded-2xl border-[1px] border-[#1040b0] h-min px-2 py-0.75 mr-1 my-[3px]"
-									>
-										{area}
-									</p>
-								{/each}
-							</div>
-						</div>
-						<p class="w-1/3 text-sm">{project.description}</p>
-					</div>
-
-					<div class="flex flex-row h-96 border-t-[1px] border-[#1040B0]">
-						{#each project.images.slice(0, 3) as image}
-							<img
-								class="md:w-1/3 max-md:w-full object-cover"
-								src={image.path}
-								alt={image.caption}
-							/>
-						{/each}
-					</div>
-				</a>
-			</div>
-		{/each}
-	</div>
-
-	<!-- Project mobile -->
-	<div class="h-fit overflow-y-scroll lg:hidden">
-		{#each projects_data as project}
-			<div>
-				<a href={project.link}>
-					<div
-						style="background-color: {project.color};"
-						class="flex flex-col gap-2 py-4 border-t-[1px] border-[#1040b0] max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
-					>
-						<p class="text-2xl text-center">{project.title}</p>
-						<div class="justify-center flex flex-row flex-wrap">
+						<p class="mb-2 font-light text-xl">{project.description}</p>
+						<div class="flex flex-wrap justify-center gap-2">
 							{#each project.areas as area}
-								<p
-									class="uppercase text-nowrap text-sm align-center w-fit rounded-2xl border-[1px] border-[#1040b0] h-min px-1.5 py-0.75 mr-1 my-[3px]"
+								<span class="text-md font-light rounded-full border border-white px-3 py-0.5"
+									>{area}</span
 								>
-									{area}
-								</p>
 							{/each}
 						</div>
-						<p class="text-sm text-center">{project.description}</p>
-					</div>
-
-					<div class="flex flex-row h-96 border-t-[1px] border-[#1040B0]">
-						{#each project.images.slice(2, 3) as image}
-							<img
-								class="md:w-1/3 max-md:w-full object-cover"
-								src={image.path}
-								alt={image.caption}
-							/>
-						{/each}
 					</div>
 				</a>
 			</div>

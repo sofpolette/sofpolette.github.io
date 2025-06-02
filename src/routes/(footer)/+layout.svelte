@@ -7,28 +7,29 @@
 	<slot />
 
 	<!-- Footer -->
-	<footer class="">
+	<footer>
 		<a
 			href="/contact"
-			class="flex flex-row w-full justify-between bg-[#1040b0] py-4 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+			class="flex flex-row w-full justify-between hover:underline text-[#1040b0] hover:bg-[#1040b0] hover:text-[#FCFCF7] transition-colors duration-300 py-8 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
 		>
-			<p class="lora text-4xl text-[#FCFCF7]">Let's collaborate!</p>
-			<div class="w-10">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="#FCFCF7"
-					viewBox="0 0 24 24"
-					stroke-width="2"
-					stroke="#FCFCF7"
-					class="size-6"
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-					/>
-				</svg>
-			</div>
+			<p class="text-2xl uppercase w-full relative">
+				Get in touch!
+				<span class="emoji-fly ml-4">✉</span>
+			</p>
 		</a>
 	</footer>
 </main>
+
+<style>
+	.emoji-fly {
+		position: relative;
+		left: 0;
+		transition: left 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+		display: inline-block;
+		font-size: 1.5em;
+	}
+
+	a:hover .emoji-fly {
+		left: calc(100%); /* move emoji right to edge of container */
+	}
+</style>
