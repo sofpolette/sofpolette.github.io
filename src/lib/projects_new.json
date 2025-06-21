@@ -20,7 +20,7 @@
         "images": [
             {
                 "caption": "Cover of Waia",
-                "path": "waia/cover1.png"
+                "path": "/waia/cover1.png"
             },
             {
                 "caption": "Cover of Waia",
@@ -85,7 +85,7 @@
         "images": [
             {
                 "caption": "Animal Farm Cover",
-                "path": "animal-farm/cover1.png"
+                "path": "/animal-farm/cover1.png"
             },
             {
                 "caption": "Animal Farm Cover",
@@ -126,7 +126,7 @@
         "images": [
                         {
                 "caption": "Emotional ID process",
-                "path": "influyo/emotional-ID.png"
+                "path": "/influyo/emotional-ID.png"
             },
             {
                 "caption": "Promotional stickers",
@@ -215,7 +215,7 @@
         "images": [
              {
                 "caption": "GIF Cookbooks",
-                "path": "cookbooks/cookbooks.gif"
+                "path": "/cookbooks/cookbooks.gif"
             },
             {
                 "caption": "Spread",
@@ -298,7 +298,7 @@
         "images": [
             {
                 "caption": "Tags GIF",
-                "path": "margenus/tags.gif"
+                "path": "/margenus/tags.gif"
             },
             {
                 "caption": "Tags",
@@ -333,7 +333,6 @@
                 "caption": "Billboard",
                 "path": "margenus/mupi.jpg"
             },
-            
             {
                 "caption": "Stand",
                 "path": "margenus/sign.jpg"
@@ -375,12 +374,12 @@
         },
         "images": [  
             {
-                "caption": "Animated GIF",
+                "caption": "Animated stamps",
                 "path": "/megl/megl.gif"
             },
             {
-            "caption": "Corporate stationary",
-            "path": "megl/stationary2.png"
+                "caption": "Corporate stationary",
+                "path": "megl/stationary2.png"
             },
             {
                 "caption": "Corporate stamp",
