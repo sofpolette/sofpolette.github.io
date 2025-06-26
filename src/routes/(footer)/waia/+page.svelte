@@ -9,45 +9,45 @@
 
 <div class="image-container">
 	<div class="full-width-image">
-		<img src="waia/cover2.png" alt="" />
+		<img src="/waia/cover2.png" alt="" />
 	</div>
 	<div class="full-width-image">
-		<img src="waia/cover3.png" alt="" />
+		<img src="/waia/cover3.png" alt="" />
 	</div>
 </div>
 
 <div class="image-row flex justify-between w-1/3">
-	<img src="waia/photo1.JPG" alt="" class="pair-image" />
-	<img src="waia/photo2.JPG" alt="" class="pair-image right-image" />
+	<img src="/waia/photo1.JPG" alt="" class="pair-image" />
+	<img src="/waia/photo2.JPG" alt="" class="pair-image right-image" />
 </div>
 
 <div class="image-row flex justify-between w-1/3">
-	<img src="waia/spread1.jpg" alt="" class="pair-image" />
-	<img src="waia/spread2.jpg" alt="" class="pair-image right-image" />
+	<img src="/waia/spread1.jpg" alt="" class="pair-image" />
+	<img src="/waia/spread2.jpg" alt="" class="pair-image right-image" />
 </div>
 
 <div class="image-row flex justify-between w-1/3">
-	<img src="waia/spread3.jpg" alt="" class="pair-image" />
-	<img src="waia/spread4.jpg" alt="" class="pair-image right-image" />
+	<img src="/waia/spread3.jpg" alt="" class="pair-image" />
+	<img src="/waia/spread4.jpg" alt="" class="pair-image right-image" />
 </div>
 
 <div class="image-row flex justify-between w-1/3">
-	<img src="waia/photo6.JPG" alt="" class="pair-image" />
-	<img src="waia/photo4.JPG" alt="" class="pair-image right-image" />
+	<img src="/waia/photo6.JPG" alt="" class="pair-image" />
+	<img src="/waia/photo4.JPG" alt="" class="pair-image right-image" />
 </div>
 
 <div class="image-row flex justify-between w-1/3">
-	<img src="waia/spread5.jpg" alt="" class="pair-image" />
-	<img src="waia/spread6.jpg" alt="" class="pair-image right-image" />
+	<img src="/waia/spread5.jpg" alt="" class="pair-image" />
+	<img src="/waia/spread6.jpg" alt="" class="pair-image right-image" />
 </div>
 
 <div class="image-row flex justify-between w-1/3">
-	<img src="waia/spread7.jpg" alt="" class="pair-image" />
-	<img src="waia/spread8.jpg" alt="" class="pair-image right-image" />
+	<img src="/waia/spread7.jpg" alt="" class="pair-image" />
+	<img src="/waia/spread8.jpg" alt="" class="pair-image right-image" />
 </div>
 
 <div class="image-container">
 	<div class="full-width-image">
-		<img src="waia/photo5.JPG" alt="" />
+		<img src="/waia/photo5.JPG" alt="" />
 	</div>
 </div>
