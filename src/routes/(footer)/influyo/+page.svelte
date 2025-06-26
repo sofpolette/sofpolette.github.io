@@ -24,7 +24,7 @@
 		</div>
 		<div class="flex flex-col gap-4 lg:w-1/2 max-lg:w-full">
 			<p>
-				Identifying emotions is key to enhancing students' self-awareness. The emotional ID process
+				Identifying emotions is key to enhancing students’ self-awareness. The emotional ID process
 				was developed to make this process more approachable. The Plutchnik emotional model is used
 				as inspiration, defining emotions through two variables:
 			</p>
@@ -34,7 +34,7 @@
 			</ul>
 			<p>
 				This system makes it easier for users to identify their emotional state. Additionally, it
-				also contributes to developing students' emotional vocabulary.
+				also contributes to developing students’ emotional vocabulary.
 			</p>
 		</div>
 	</div>
