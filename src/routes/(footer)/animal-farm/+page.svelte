@@ -9,16 +9,16 @@
 <div class="flex flex-col gap-12">
 	<div class="image-container">
 		<div class="full-width-image">
-			<img src="/animal/guardas.png" alt="" />
+			<img src="/animal-farm/guardas.png" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="/animal/cover2.png" alt="" />
+			<img src="/animal-farm/cover2.png" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="/animal/cover3.png" alt="" />
+			<img src="/animal-farm/cover3.png" alt="" />
 		</div>
 		<div class="full-width-image">
-			<img src="/animal/cover4.png" alt="" />
+			<img src="/animal-farm/cover4.png" alt="" />
 		</div>
 	</div>
 </div>
