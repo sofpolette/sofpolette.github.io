@@ -1,5 +1,6 @@
 <script>
 	import projects_data from '$lib/projects_new.json';
+	import '$lib/typography.css';
 </script>
 
 <svelte:head>
@@ -7,40 +8,19 @@
 		name="description"
 		content="Hi! ☺ — I’m a curious, detail-oriented Graphic Designer with experience in editorial design, digital design & visual identity."
 	/>
-	<title>Sofía J. Polette Stubb | Graphic Designer | Editorial, Digital & Visual Identity</title>
+	<title>Sofía J. Polette Stubb | Graphic designer | Editorial & product design</title>
 </svelte:head>
 
 <div class="flex flex-col max-md:my-[0.1vh] max-xl:my-14">
 	<!-- Hero text desktop -->
-	<p
-		class="max-lg:hidden text-6xl font-light leading-tight uppercase max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh] py-12"
-	>
-		Hi! ☺ — I’m a curious, detail-oriented <span class="underline decoration-2 underline-offset-4"
-			>Graphic Designer</span
-		>
-		with a multidisciplinary background spanning
-		<span class="underline decoration-2 underline-offset-4"
-			>digital, editorial, and brand identity design.</span
-		>
-	</p>
-
-	<!-- Hero text mobile -->
-	<p
-		class="lg:hidden max-sm:text-4xl max-sm:leading-tight sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight uppercase font-light max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh] py-12"
-	>
-		Hi! ☺ — I’m a curious, detail-oriented <span class="underline decoration-2 underline-offset-4"
-			>Graphic Designer</span
-		>
-		with experience in
-		<span class="underline decoration-2 underline-offset-4"
-			>editorial design, digital design & visual identity.</span
-		>
-	</p>
+	<h1 class="text-h1 margins my-12">
+		Hi! ☺ — I’m a <span class="highlight">Visual Designer</span> with a passion for
+		<span class="highlight">editorial and product design.</span> I bring empathy, structure, and
+		data together to create <span class="highlight">clear, human-centered experiences.</span>
+	</h1>
 
 	<!-- Project desktop -->
-	<div
-		class="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh] mb-12"
-	>
+	<div class="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3 margins mb-12">
 		{#each projects_data as project}
 			<div class="overflow-hidden">
 				<!-- Title and Date -->

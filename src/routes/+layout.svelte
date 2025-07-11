@@ -28,9 +28,7 @@
 	<div class="bg-[#1040B0] h-2" />
 
 	<!-- Desktop menu -->
-	<div
-		class="flex flex-row w-full justify-between my-6 gap-8 max-md:hidden max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
-	>
+	<div class="flex flex-row w-full justify-between my-6 gap-8 max-md:hidden margins">
 		<a href="/" class="flex justify-right w-2/3 menu-item hover:underline">
 			SOFÍA J. POLETTE STUBB
 		</a>
@@ -42,9 +40,7 @@
 	</div>
 
 	<!-- Mobile menu -->
-	<div
-		class="flex flex-row w-full justify-between items-center my-6 md:hidden max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
-	>
+	<div class="flex flex-row w-full justify-between items-center my-6 md:hidden margins">
 		<a href="/" class="flex menu-item w-1/2">SOFÍA J. <br />POLETTE STUBB</a>
 		<div class="w-2/3 flex flex-col gap-1 justify-between">
 			<div class="flex flex-row w-full h-fit items-center gap-2 justify-end">
