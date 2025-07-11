@@ -14,9 +14,8 @@
 <div class="flex flex-col">
 	<!-- Hero text desktop -->
 	<h1 class="text-h1 margins my-12">
-		Hi! ☺ — I’m a <span class="highlight">Graphic Designer Designer</span> with a passion for
-		<span class="highlight">editorial and product design.</span> I bring empathy, structure, and
-		data together to create <span class="highlight">clear, human-centered experiences.</span>
+		Hello 👋 I’m Sofía — a Graphic Designer with a passion for editorial and product design 👩‍💻 I
+		bring empathy, structure, and data together to create clear, human-centered experiences 🫂
 	</h1>
 
 	<!-- Project desktop -->
