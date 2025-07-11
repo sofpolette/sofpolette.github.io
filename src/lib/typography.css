@@ -28,7 +28,7 @@
 	}
 
 	.text-h5 {
-		@apply text-[1.55rem] leading-[2rem] uppercase;
+		@apply text-[1.55rem] leading-[2rem] font-normal uppercase;
 	}
 
 	.text-body-lg {
@@ -45,6 +45,14 @@
 
 	.text-body-xs {
 		@apply text-[0.65rem] leading-[1rem] font-normal uppercase opacity-50 tracking-[0.04em];
+	}
+
+	.text-menu {
+		@apply text-[1rem] leading-[1.5rem] uppercase font-bold;
+	}
+
+	.text-tags {
+		@apply text-[1rem] leading-[1.5rem] font-normal uppercase tracking-[0.04em];
 	}
 
 	.highlight {

@@ -11,10 +11,10 @@
 	<title>Sofía J. Polette Stubb | Graphic designer | Editorial & product design</title>
 </svelte:head>
 
-<div class="flex flex-col max-md:my-[0.1vh] max-xl:my-14">
+<div class="flex flex-col">
 	<!-- Hero text desktop -->
 	<h1 class="text-h1 margins my-12">
-		Hi! ☺ — I’m a <span class="highlight">Visual Designer</span> with a passion for
+		Hi! ☺ — I’m a <span class="highlight">Graphic Designer Designer</span> with a passion for
 		<span class="highlight">editorial and product design.</span> I bring empathy, structure, and
 		data together to create <span class="highlight">clear, human-centered experiences.</span>
 	</h1>
@@ -25,8 +25,8 @@
 			<div class="overflow-hidden">
 				<!-- Title and Date -->
 				<div class="flex flex-row justify-between py-3">
-					<p class="text-xl">{project.title}</p>
-					<p class="text-xl font-light text-[#1040b0]">{project.year}</p>
+					<p class="text-body-lg">{project.title}</p>
+					<p class="text-body-lg font-light text-[#1040b0]">{project.year}</p>
 				</div>
 				<!-- Image with Hover Overlay -->
 				<a href={project.link} class="relative group block h-[56vh] overflow-hidden">
@@ -37,12 +37,12 @@
 					/>
 					<!-- Hover Overlay (on image only) -->
 					<div
-						class="absolute inset-0 z-10 flex flex-col justify-center items-center text-center p-12 bg-[#1040b0] bg-opacity-80 opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 text-white gap-8"
+						class="absolute inset-0 z-10 flex flex-col justify-center items-center text-center p-8 bg-[#1040b0] bg-opacity-80 opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 text-white gap-8"
 					>
-						<p class="mb-2 font-light text-xl">{project.description}</p>
-						<div class="flex flex-wrap justify-center gap-2">
+						<p class="mb-2 font-light text-body-lg">{project.description}</p>
+						<div class="flex flex-row flex-wrap justify-center gap-1">
 							{#each project.areas as area}
-								<span class="text-md font-light rounded-full border border-white px-3 py-0.5"
+								<span class="text-body-sm rounded-full border-[1.5px] border-white px-3 py-0.5"
 									>{area}</span
 								>
 							{/each}

@@ -1,7 +1,7 @@
-<div class="space-y-10 mb-16 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
+<div class="flex flex-col mb-12">
 	<!-- Title -->
-	<div class=" flex flex-col gap-3 pt-12">
-		<h1 class="uppercase sm:text-5xl md:text-6xl">Contact</h1>
+	<div class=" flex flex-col gap-3">
+		<h1 class="text-h1 text-center my-12">Contact</h1>
 	</div>
 
 	<!-- Description -->

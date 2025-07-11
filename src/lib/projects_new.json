@@ -68,7 +68,7 @@
         "title": "Animal Farm",
         "color": "",
         "link": "/animal-farm",
-        "context": "Coursework, Editorial Design Specialist (Cursiva)",
+        "context": "Coursework (Cursiva)",
         "year": "2024",
         "areas": [
             "Editorial Design", 
@@ -112,7 +112,8 @@
         "context": "Bachelor’s Thesis",
         "year": "2024",
         "areas": [
-            "Digital", 
+            "Research",
+            "UX/UI", 
             "Visual Identity", 
             "Naming"
         ],
@@ -280,7 +281,7 @@
         "title": "Margenus",
         "color":"#EDABD9",
         "link": "/margenus",
-        "context": "Coursework, collaboration with Fashion Design student",
+        "context": "Coursework, Client work",
         "year": "2022",
         "areas": [
             "Branding",

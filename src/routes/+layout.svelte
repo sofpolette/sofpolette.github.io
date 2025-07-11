@@ -29,25 +29,23 @@
 
 	<!-- Desktop menu -->
 	<div class="flex flex-row w-full justify-between my-6 gap-8 max-md:hidden margins">
-		<a href="/" class="flex justify-right w-2/3 menu-item hover:underline">
+		<!-- Left -->
+		<a href="/" class="flex justify-start w-1/3 text-menu hover:underline">
 			SOFÍA J. POLETTE STUBB
 		</a>
-		<div class="flex flex-row w-1/3 h-fit items-center space-x-2">
-			<a href="/contact" class="menu-item h-full w-full hover:underline">
-				Get in touch!&nbsp;&nbsp;<span class="emoji-fly" style="font-size: 1.6em;">✉</span>
-			</a>
-		</div>
-	</div>
 
-	<!-- Mobile menu -->
-	<div class="flex flex-row w-full justify-between items-center my-6 md:hidden margins">
-		<a href="/" class="flex menu-item w-1/2">SOFÍA J. <br />POLETTE STUBB</a>
-		<div class="w-2/3 flex flex-col gap-1 justify-between">
-			<div class="flex flex-row w-full h-fit items-center gap-2 justify-end">
-				<a href="/contact" class="menu-item"
-					>Get in touch! &nbsp &nbsp<span style="font-size: 1.6em;">✉</span></a
+		<!-- Center -->
+		<a href="/about-me" class="flex justify-center w-1/3 text-menu hover:underline"> about me </a>
+
+		<!-- Right -->
+		<div class="flex justify-end items-center w-1/3">
+			<a href="/contact" class="flex items-center gap-2 text-menu group">
+				<span class="hover:underline">Get in touch!</span>
+				<span
+					class="emoji-fly inline-block not-italic group-hover:animate-fly transition-transform"
+					style="font-size: 1.6em;">✉</span
 				>
-			</div>
+			</a>
 		</div>
 	</div>
 
@@ -64,13 +62,13 @@
 		display: inline-block;
 	}
 
-	.menu-item {
+	.text-menu {
 		position: relative; /* container for relative positioning */
 		font-weight: 600; /* example styling */
 		text-transform: uppercase;
 	}
 
-	.menu-item:hover .emoji-fly {
+	.text-menu:hover .emoji-fly {
 		left: calc(100%); /* move emoji to container's right edge */
 	}
 </style>
