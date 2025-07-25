@@ -16,7 +16,9 @@
 				I’m currently based between the Canary Islands and Tübingen, Germany. I’m also willing to
 				relocate for the right opportunity.
 			</p>
-			<p class="text-body-base w-1/3">If you think we’d be a good match, feel free to reach out!</p>
+			<p class="text-body-base w-1/3">
+				If you think we’d be a good match, please feel free to reach out!
+			</p>
 		</div>
 
 		<!-- Contact information -->
@@ -28,7 +30,7 @@
 			<div class="flex flex-row gap-4 items-end">
 				<p class="text-body-sm w-1/3">E-mail</p>
 				<div class="text-h4 w-2/3">
-					<a href="mailto:sofpolette@gmail.com" rel="external" class="hover:highlight"
+					<a href="mailto:sofpolette@gmail.com" rel="external" class="hover:underline"
 						>sofpolette@gmail.com</a
 					>
 				</div>
@@ -41,11 +43,11 @@
 			<div class="flex flex-row gap-4 items-end">
 				<p class="text-body-sm w-1/3">Social Media</p>
 				<div class="flex flex-row gap-8 w-2/3 text-h4">
-					<a href="https://www.linkedin.com/in/sofiajpolettestubb" class="hover:highlight"
+					<a href="https://www.linkedin.com/in/sofiajpolettestubb" class="hover:underline"
 						>LinkedIn</a
 					>
-					<a href="https://www.behance.net/sofapolette1" class="hover:highlight">Béhance</a>
-					<a href="https://www.instagram.com/jacpolstu/" class="hover:highlight">Instagram</a>
+					<a href="https://www.behance.net/sofapolette1" class="hover:underline">Béhance</a>
+					<a href="https://www.instagram.com/jacpolstu/" class="hover:underline">Instagram</a>
 				</div>
 			</div>
 
@@ -56,7 +58,7 @@
 			<div class="flex flex-row gap-4 items-end">
 				<p class="text-body-sm w-1/3">Writing</p>
 				<div class="text-h4 w-2/3">
-					<a href="https://medium.com/@sofpolette" class="hover:highlight">Medium</a>
+					<a href="https://medium.com/@sofpolette" class="hover:underline">Medium</a>
 				</div>
 			</div>
 

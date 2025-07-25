@@ -1,14 +1,6 @@
 /* typography.css */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* src/lib/typography.css */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import '../app.css';
+@import 'tailwindcss';
 
 @layer components {
 	.text-h1 {
@@ -24,27 +16,31 @@
 	}
 
 	.text-h4 {
-		@apply text-[1.95rem] leading-[2.5rem] font-light;
+		@apply text-[1.95rem] leading-[2.5rem] font-light text-balance;
 	}
 
 	.text-h5 {
-		@apply text-[1.55rem] leading-[2rem] font-normal uppercase;
+		@apply text-[1.55rem] leading-[2rem] font-normal uppercase text-balance;
 	}
 
 	.text-body-lg {
-		@apply text-[1.25rem] leading-[1.75rem] font-normal;
+		@apply text-[1.25rem] leading-[1.75rem] font-normal text-pretty;
 	}
 
 	.text-body-base {
-		@apply text-[1rem] leading-[1.5rem] font-normal;
+		@apply text-[1rem] leading-[1.5rem] font-normal text-pretty;
 	}
 
 	.text-body-sm {
-		@apply text-[0.8rem] leading-[1.25rem] font-normal uppercase opacity-50 tracking-[0.04em];
+		@apply text-[0.8rem] leading-[1.25rem] font-normal uppercase opacity-50 tracking-[0.04em] text-pretty;
 	}
 
 	.text-body-xs {
-		@apply text-[0.65rem] leading-[1rem] font-normal uppercase opacity-50 tracking-[0.04em];
+		@apply text-[0.65rem] leading-[1rem] font-normal uppercase opacity-50 tracking-[0.04em] text-pretty;
+	}
+
+	.text-body-xxs {
+		@apply text-[0.65rem] leading-[1rem] font-normal text-pretty;
 	}
 
 	.text-menu {

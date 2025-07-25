@@ -1,5 +1,5 @@
 <script>
-	import '../../app.postcss';
+	import '../../app.css';
 	import '$lib/typography.css';
 </script>
 
@@ -11,9 +11,9 @@
 	<footer>
 		<a
 			href="/contact"
-			class="flex flex-row w-full justify-between margins hover:underline text-[#1040b0] hover:bg-[#1040b0] hover:text-[#FCFCF7] transition-colors duration-300 py-8"
+			class="flex flex-row w-full justify-between margins hover:underline text-[#1040b0] hover:bg-[#1040b0] transition-colors duration-300 py-8"
 		>
-			<p class="text-2xl uppercase w-full relative">
+			<p class="text-2xl uppercase w-full relative hover:text-[#FCFCF7]">
 				Get in touch!
 				<span class="emoji-fly ml-4">✉</span>
 			</p>

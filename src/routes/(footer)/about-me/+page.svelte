@@ -8,14 +8,14 @@
 <div class="flex flex-col mx-12 gap-24 mb-12">
 	<!-- Intro Section -->
 	<div class="flex flex-col gap-4">
-		<h1 class="text-h1 text-center my-12">Hello!</h1>
+		<h1 class="text-h1 text-center my-12">About me</h1>
 		<div class="flex flex-row gap-8">
 			<div class="w-1/3 flex justify-center items-center">
 				<img src="/about-me/perfil-color.jpg" class="w-1/2 rounded-full justify-end" alt="" />
 			</div>
 			<p class="w-2/3 text-h4">
 				I’m Sofía, a Graphic Designer with a passion for editorial and product design. I bring
-				empathy, structure, and data together to create clear, human-centered experiences.
+				empathy, structure, and storytelling together to create clear, human-centered experiences.
 			</p>
 		</div>
 	</div>
@@ -42,14 +42,15 @@
 				<p class="w-1/3 text-body-base">
 					After graduating, I focused on the two areas I loved most: editorial design and product
 					design. <br /><br /> I’ve taken courses to build skills in book design, typography, UX, human-centered
-					methods, and data-informed design. I enjoy understanding how users interact with what I create
-					and improving the experience through collaboration and iteration.
+					and data-informed methods. I enjoy understanding how users interact with what I create and
+					improving experiences through collaboration and iteration.
 				</p>
 				<p class="w-1/3 text-body-base">
 					Freelancing has taught me how to manage projects, work closely with clients, and keep
 					improving both my process and communication. <br /><br />Currently, I’m a member of the
-					Interaction Design Foundation and volunteer as a visual designer at Habits for a Better
-					World, where I help design for social impact.
+					Interaction Design Foundation, where I continuously develop new skills. I also volunteer
+					as a visual designer at Habits for a Better World, contributing to projects that drive
+					social impact.
 				</p>
 			</div>
 		</div>
@@ -74,20 +75,22 @@
 		<div class="flex flex-row gap-8">
 			<div class="flex flex-col gap-4 w-1/4">
 				<img src="/about-me/hike.jpg" alt="" />
-				<p class="text-body-xs">Me on a recent hike near my home in Tenerife</p>
+				<p class="text-body-xs">Exploring the trails near my home in Tenerife</p>
 			</div>
 			<div class="flex flex-col gap-4 w-1/4">
 				<img src="/about-me/oreo.JPG" alt="" />
-				<p class="text-body-xs">sometimes the family dog, Oreo, joins in too</p>
+				<p class="text-body-xs">Oreo, the family dog, often joins in on these walks</p>
 			</div>
 			<div class="flex flex-col gap-4 w-1/4">
 				<img src="/about-me/camera.jpg" alt="" />
-				<p class="text-body-xs">I’m very nostalgic and love taking pictures at all times</p>
+				<p class="text-body-xs">
+					Capturing everyday moments helps me stay connected to the world around me
+				</p>
 			</div>
 			<div class="flex flex-col gap-4 w-1/4">
 				<img src="/about-me/lisboa.JPG" alt="" />
 				<p class="text-body-xs">
-					On my latest trip, I went to Lisboa and became fascinated by the history of the city
+					Visiting Lisbon on my latest trip, where I became fascinated by the city’s layered history
 				</p>
 			</div>
 		</div>

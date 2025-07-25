@@ -11,11 +11,17 @@
 	<title>Sofía J. Polette Stubb | Graphic designer | Editorial & product design</title>
 </svelte:head>
 
-<div class="flex flex-col">
+<main class="flex flex-col gap-12">
 	<!-- Hero text desktop -->
-	<h1 class="text-h1 margins my-12">
-		Hello 👋 I’m Sofía — a Graphic Designer with a passion for editorial and product design 👩‍💻 I
-		bring empathy, structure, and data together to create clear, human-centered experiences 🫂
+	<h1 class="margins text-start mt-12 text-h1 max-md:hidden">
+		Hello! — I’m Sofía, a Graphic Designer with a passion for editorial and product design ✎ I bring
+		empathy, structure, and storytelling together to create clear, human-centered experiences ✺
+	</h1>
+
+	<!-- Hero text mobile -->
+	<h1 class="margins text-start mt-12 text-h4 md:hidden">
+		Hello! — I’m Sofía, a Graphic Designer with a passion for editorial and product design ✎ I bring
+		empathy, structure, and storytelling together to create clear, human-centered experiences ✺
 	</h1>
 
 	<!-- Project desktop -->
@@ -51,4 +57,4 @@
 			</div>
 		{/each}
 	</div>
-</div>
+</main>

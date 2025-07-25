@@ -7,6 +7,23 @@
 <!-- Content -->
 <Project {data} />
 
+<!-- Brief and Solution -->
+<div
+	class="flex lg:flex-row max-lg:flex-col gap-8 my-12 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]"
+>
+	<div class="flex flex-col gap-8 lg:w-1/2 max-lg:w-full">
+		<p class="text-h5 text-center">Brief</p>
+		<div class="bg-[#1040b0] h-[1.5px] opacity-50" />
+		<p class="text-body-base">{data.brief}</p>
+	</div>
+	<div class="flex flex-col gap-8 lg:w-1/2 max-lg:w-full">
+		<h3 class="text-h5 text-center">Solution</h3>
+		<div class="bg-[#1040b0] h-[1.5px] opacity-50" />
+
+		<p class="text-body-base">{data.solution}</p>
+	</div>
+</div>
+
 <div class="image-container">
 	<div class="image-row flex">
 		<img src="/megl/process1.png" alt="" class="row-image" />

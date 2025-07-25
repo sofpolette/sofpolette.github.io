@@ -1,34 +1,37 @@
 <script>
-	import '../app.postcss';
+	import '../app.css';
 	import Marquee from 'svelte-fast-marquee';
+	import Analytics from '/src/lib/Analytics.svelte';
 </script>
 
-<main>
-	<!-- Desktop marquee -->
-	<!-- <Marquee class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
+<Analytics />
+
+<!-- Desktop marquee -->
+<!-- <Marquee class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
 		<div class="max-lg:hidden flex flex-row justify-between w-[95vw]">
-			<span>Seeking in-house opportunities</span>
+			<span>Seeking a junior UX/UI position and book design projects</span>
 			<span>/</span>
-			<span>Seeking in-house opportunities</span>
+			<span>Seeking a junior UX/UI position and book design projects</span>
 			<span>/</span>
-			<span>Seeking in-house opportunities</span>
+			<span>Seeking junior UX/UI opportunities and book design projects</span>
 			<span>/</span>
 		</div>
 	</Marquee> -->
 
-	<!-- Mobile marquee -->
-	<!-- <Marquee class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
+<!-- Mobile marquee -->
+<!-- <Marquee class="sticky top-0 left-0 right-0 bg-[#1040B0] text-white marquee-text">
 		<div class="lg:hidden flex flex-row gap-16 w-[100vw]">
-			<span>Actively seeking in-house opportunities</span>
+			<span>Seeking a junior UX/UI position and book design projects</span>
 			<span>/</span>
 		</div>
 	</Marquee> -->
 
+<header>
 	<!-- Blue line -->
 	<div class="bg-[#1040B0] h-2" />
 
 	<!-- Desktop menu -->
-	<div class="flex flex-row w-full justify-between my-6 gap-8 max-md:hidden margins">
+	<div class="flex flex-row my-6 gap-8 mx-12 max-md:hidden">
 		<!-- Left -->
 		<a href="/" class="flex justify-start w-1/3 text-menu hover:underline">
 			SOFÍA J. POLETTE STUBB
@@ -49,9 +52,29 @@
 		</div>
 	</div>
 
-	<!-- Body -->
-	<slot />
-</main>
+	<!-- Mobile menu -->
+	<div class="flex flex-col my-6 gap-4 mx-12 md:hidden">
+		<!-- Left -->
+		<a href="/" class="flex justify-center text-menu hover:underline"> SOFÍA J. POLETTE STUBB </a>
+
+		<!-- Center -->
+		<a href="/about-me" class="flex justify-center text-menu hover:underline"> about me </a>
+
+		<!-- Right -->
+		<div class="flex justify-center items-center">
+			<a href="/contact" class="flex items-center gap-2 text-menu group">
+				<span class="hover:underline">Get in touch!</span>
+				<span
+					class="emoji-fly inline-block not-italic group-hover:animate-fly transition-transform"
+					style="font-size: 1.6em;">✉</span
+				>
+			</a>
+		</div>
+	</div>
+</header>
+
+<!-- Body -->
+<slot />
 
 <style>
 	/* Reuse styles or create new ones for top menu emoji */
