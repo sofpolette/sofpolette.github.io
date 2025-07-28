@@ -8,20 +8,20 @@
 		name="description"
 		content="Hi! ☺ — I’m a curious, detail-oriented Graphic Designer with experience in editorial design, digital design & visual identity."
 	/>
-	<title>Sofía J. Polette Stubb | Graphic designer | Editorial & product design</title>
+	<title>Sofía J. Polette Stubb | Editorial & product design</title>
 </svelte:head>
 
 <main class="flex flex-col gap-12">
 	<!-- Hero text desktop -->
 	<h1 class="margins text-start mt-12 text-h1 max-md:hidden">
-		Hello! — I’m Sofía, a Graphic Designer with a passion for editorial and product design ✎ I bring
-		empathy, structure, and storytelling together to create clear, human-centered experiences ✺
+		Hello! — I’m Sofía, a designer specializing in editorial design and digital user experiences ✎ I
+		create clear, human-centered solutions through empathy, structure, and storytelling ✺
 	</h1>
 
 	<!-- Hero text mobile -->
 	<h1 class="margins text-start mt-12 text-h4 md:hidden">
-		Hello! — I’m Sofía, a Graphic Designer with a passion for editorial and product design ✎ I bring
-		empathy, structure, and storytelling together to create clear, human-centered experiences ✺
+		Hello! — I’m Sofía, a designer focused on editorial and digital user experiences ✎ I bring
+		empathy, structure, and storytelling together to create clear, human-centered solutions ✺
 	</h1>
 
 	<!-- Project desktop -->

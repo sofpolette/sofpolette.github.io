@@ -68,7 +68,7 @@
 
 		<!-- Design process -->
 		<div class="flex flex-col px-12 py-8 gap-6 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
-			<p class="text-h5 text-center">Design process</p>
+			<p class="text-h6 text-center">Design process</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex justify-center gap-24">
 				<div class="flex flex-col items-center justify-center gap-2">
@@ -127,7 +127,7 @@
 	<div class="flex flex-col gap-12 my-12">
 		<div class="flex flex-row margins gap-8">
 			<div class="flex flex-col margins px-12 py-8 gap-6 bg-[#1040b0]/10 rounded-2xl">
-				<p class="text-h5 text-center">The problem</p>
+				<p class="text-h6 text-center">The problem</p>
 				<hr class="border-t-[1.5px] border-[#1040b0]/50" />
 				<p class="text-body-base">
 					Students at EASD Fernando Estévez faced emotional challenges like stress, burnout, and low
@@ -137,7 +137,7 @@
 				</p>
 			</div>
 			<div class="flex flex-col margins px-12 py-8 gap-6 bg-[#1040b0]/10 rounded-2xl">
-				<p class="text-h5 text-center">The goal</p>
+				<p class="text-h6 text-center">The goal</p>
 				<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 				<p class="text-body-base">
 					To design a user-centered, research-driven initiative that helps students develop
@@ -151,7 +151,7 @@
 		<div
 			class="flex flex-col gap-6 mx-12 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 		>
-			<p class="text-h5 text-center">Why the problem was challenging</p>
+			<p class="text-h6 text-center">Why the problem was challenging</p>
 			<hr class="border-t-[1.5px] border-[#1040b0]/50" />
 			<div class="flex flex-row gap-8">
 				<div class="flex flex-col items-center justify-center gap-2">
@@ -184,7 +184,7 @@
 		<div
 			class="flex flex-col gap-6 mx-12 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 		>
-			<p class="text-h5 text-center">Main Objectives</p>
+			<p class="text-h6 text-center">Main Objectives</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-row gap-8">
 				<div class="flex flex-col items-center justify-center gap-2">
@@ -277,7 +277,7 @@
 		<div
 			class="flex flex-col gap-6 mx-12 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 		>
-			<p class="text-h5 text-center">Key insights</p>
+			<p class="text-h6 text-center">Key insights</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-row gap-8">
 				<div class="flex flex-col items-center justify-center gap-2">
@@ -320,7 +320,7 @@
 		<div
 			class="flex flex-col gap-6 mx-12 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 		>
-			<p class="text-h5 text-center">Questions included</p>
+			<p class="text-h6 text-center">Questions included</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-row gap-8">
 				<div class="flex flex-col items-center justify-center gap-2">
@@ -589,7 +589,7 @@
 
 		<!-- User insights -->
 		<div class="flex flex-col gap-6 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
-			<p class="text-h5 text-center">Users expressed wanting to</p>
+			<p class="text-h6 text-center">Users expressed wanting to</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-row gap-8">
 				<div class="flex w-1/3 flex-col items-center justify-center gap-2">
@@ -638,7 +638,7 @@
 
 		<!-- User insights -->
 		<div class="flex flex-col gap-6 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
-			<p class="text-h5 text-center">Key additions</p>
+			<p class="text-h6 text-center">Key additions</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-row gap-8">
 				<div class="flex w-1/3 flex-col items-center justify-center gap-2">
@@ -835,7 +835,7 @@
 
 		<!-- User insights -->
 		<div class="flex flex-col gap-6 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
-			<p class="text-h5 text-center">Pain points</p>
+			<p class="text-h6 text-center">Pain points</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-row gap-8">
 				<div class="flex w-1/4 flex-col items-center justify-center gap-2">
@@ -882,7 +882,7 @@
 
 		<!-- User insights -->
 		<div class="flex flex-col gap-6 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
-			<p class="text-h5 text-center">Pain points</p>
+			<p class="text-h6 text-center">Pain points</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-row gap-8">
 				<div class="flex w-1/4 flex-col items-center justify-start gap-2">
@@ -1019,7 +1019,7 @@
 
 		<!-- Onboarding kit included -->
 		<div class="flex flex-col gap-6 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
-			<p class="text-h5 text-center">Onboarding kit included</p>
+			<p class="text-h6 text-center">Onboarding kit included</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-row gap-8 text-center">
 				<div class="flex w-1/3 flex-col items-center justify-start gap-2">
@@ -1089,7 +1089,7 @@
 
 		<!-- Potential long-term impact -->
 		<div class="flex flex-col gap-6 px-12 py-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
-			<p class="text-h5 text-center">Potential long-term impact</p>
+			<p class="text-h6 text-center">Potential long-term impact</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-row gap-8 text-center">
 				<div class="flex w-1/3 flex-col items-center justify-start gap-2">

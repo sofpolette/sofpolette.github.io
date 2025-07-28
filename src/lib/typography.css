@@ -20,6 +20,10 @@
 	}
 
 	.text-h5 {
+		@apply text-[1.55rem] leading-[2rem] font-light text-balance;
+	}
+
+	.text-h6 {
 		@apply text-[1.55rem] leading-[2rem] font-normal uppercase text-balance;
 	}
 
