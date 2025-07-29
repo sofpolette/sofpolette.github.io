@@ -8,7 +8,7 @@
 <div class="flex flex-col margins gap-24 mb-12">
 	<!-- Intro Section -->
 	<div class="flex flex-col gap-4">
-		<h1 class="text-h1 text-center my-12">About me</h1>
+		<h1 class="text-h2 md:text-h1 text-center my-12">About me</h1>
 		<div class="flex gap-8 flex-col md:flex-row">
 			<div class="w-full md:w-1/3 flex justify-center items-center">
 				<img
@@ -17,10 +17,17 @@
 					alt=""
 				/>
 			</div>
-			<p class="w-full md:w-2/3 text-h4">
-				I’m Sofía, a Graphic Designer with a passion for editorial and product design. I bring
-				empathy, structure, and storytelling together to create clear, human-centered experiences.
-			</p>
+			<!-- Hero text desktop -->
+			<h1 class="w-2/3 md:w-full text-start text-h4 max-md:hidden">
+				Hello! — I’m Sofía, a designer specializing in editorial design and digital user experiences
+				✎ I create clear, human-centered solutions through empathy, structure, and storytelling ✺
+			</h1>
+
+			<!-- Hero text mobile -->
+			<h1 class="w-full text-start text-h4 md:hidden">
+				Hello! — I’m Sofía, a designer specializing in editorial design and digital user experiences
+				✎ I create clear, human-centered solutions through empathy, structure, and storytelling ✺
+			</h1>
 		</div>
 	</div>
 
@@ -78,23 +85,23 @@
 		</div>
 		<div class="flex flex-col md:flex-row gap-8">
 			<div class="flex flex-row gap-4 md:gap-8 w-full">
-				<div class="flex flex-col gap-4 w-full md:w-1/4">
+				<div class="flex flex-col gap-4 w-full md:w-2/4">
 					<img src="/about-me/hike.jpg" alt="" />
 					<p class="text-body-xs">Exploring the trails near my home in Tenerife</p>
 				</div>
-				<div class="flex flex-col gap-4 w-full md:w-1/4">
+				<div class="flex flex-col gap-4 w-full md:w-2/4">
 					<img src="/about-me/oreo.JPG" alt="" />
 					<p class="text-body-xs">Oreo, the family dog, often joins in on these walks</p>
 				</div>
 			</div>
 			<div class="flex flex-row gap-4 md:gap-8 w-full">
-				<div class="flex flex-col gap-4 w-full md:w-1/4">
+				<div class="flex flex-col gap-4 w-full md:w-2/4">
 					<img src="/about-me/camera.jpg" alt="" />
 					<p class="text-body-xs">
 						Capturing everyday moments helps me stay connected to the world around me
 					</p>
 				</div>
-				<div class="flex flex-col gap-4 w-full md:w-1/4">
+				<div class="flex flex-col gap-4 w-full md:w-2/4">
 					<img src="/about-me/lisboa.JPG" alt="" />
 					<p class="text-body-xs">
 						Visiting Lisbon on my latest trip, where I became fascinated by the city’s layered

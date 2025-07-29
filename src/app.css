@@ -60,6 +60,19 @@ ul {
 	border-color: #1040b0;
 }
 
+.full-image-stroke {
+	display: flex; /* Use flexbox */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	width: 100%; /* Full width of the container */
+	object-fit: cover;
+	max-height: 120vh;
+	overflow: hidden;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-color: #1040b0;
+}
+
 .image-row {
 	width: 100%; /* Full width of the container */
 	display: flex; /* Enable flexbox layout */

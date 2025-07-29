@@ -19,9 +19,9 @@
 	</h1>
 
 	<!-- Hero text mobile -->
-	<h1 class="margins text-start mt-12 text-h4 md:hidden">
-		Hello! — I’m Sofía, a designer focused on editorial and digital user experiences ✎ I bring
-		empathy, structure, and storytelling together to create clear, human-centered solutions ✺
+	<h1 class="margins text-start mt-12 text-h3 text-balanced md:hidden">
+		Hello! — I’m Sofía. <br /> I specialize in editorial and digital experience design ✎ I create clear,
+		human-centered solutions through empathy, structure, and storytelling ✺
 	</h1>
 
 	<!-- Project desktop -->

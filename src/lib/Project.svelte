@@ -5,10 +5,12 @@
 <div class="space-y-10 py-12 max-md:px-[4vh] max-xl:px-[8vh] xl:px-[12vh]">
 	<!-- Title, year, context -->
 	<div class="flex flex-col gap-2">
-		<h1 class="text-h1 text-center">{data.title}</h1>
-		<div class="flex gap-8 justify-center text-h4 opacity-50">
-			<h5>{data.year}</h5>
-			<h5>{data.context}</h5>
+		<h1 class="text-h2 md:text-h1 text-center">{data.title}</h1>
+		<div
+			class="flex flex-col md:flex-row gap-2 md:gap-8 text-h5 md:text-h4 opacity-50 justify-center items-center"
+		>
+			<p class="flex">{data.year}</p>
+			<p class="flex">{data.context}</p>
 		</div>
 	</div>
 
@@ -25,7 +27,7 @@
 
 	<!-- Description -->
 	<div class="flex justify-center">
-		<h4 class="text-h4 text-center w-[56rem]">
+		<h4 class="text-h5 md:text-h4 text-center w-[56rem]">
 			{data.description}
 		</h4>
 	</div>
