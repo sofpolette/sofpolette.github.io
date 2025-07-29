@@ -8,12 +8,14 @@
 	<slot />
 
 	<!-- Footer -->
-	<footer>
+	<footer class="">
 		<a
 			href="/contact"
-			class="flex flex-row w-full justify-between margins hover:underline text-[#1040b0] hover:bg-[#1040b0] transition-colors duration-300 py-8"
+			class="group flex flex-row w-full justify-between margins hover:bg-[#1040b0] transition-colors duration-300 py-8"
 		>
-			<p class="text-2xl uppercase w-full relative hover:text-[#FCFCF7]">
+			<p
+				class="text-h5 uppercase font-normal w-full relative group-hover:text-[#FCFCF7] group-hover:underline group-hover:decoration-[#FCFCF7]"
+			>
 				Get in touch!
 				<span class="emoji-fly ml-4">✉</span>
 			</p>

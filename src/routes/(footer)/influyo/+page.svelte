@@ -31,7 +31,7 @@
 					<div class="flex flex-col w-full md:w-1/2">
 						<p class="text-body-sm">Role</p>
 						<p class="text-body-base">
-							Research, UX/UI Design, Visual Design, Brand Identity, Project Management
+							Research, UX, UI, Visual Design, Brand Identity, Project Management
 						</p>
 					</div>
 					<div class="flex flex-col w-full md:w-1/2">
@@ -227,21 +227,25 @@
 		<p class="text-h3 md:text-h2 text-center">Empathise</p>
 	</div>
 
-	<div class="flex flex-col gap-8 margins md:gap-12 my-8 md:my-12">
-		<div class="flex flex-col md:flex-row gap-8">
-			<div class="flex flex-col md:flex-row gap-6">
-				<div class="flex flex-col gap-8 w-full md:w-1/2">
+	<div class="flex flex-col gap-8 margins md:gap-12 my-8 md:my-12 md:mx-24">
+		<div class="flex flex-col gap-8">
+			<div class="flex flex-col gap-4 md:gap-12">
+				<div class="flex flex-col gap-8">
 					<p class="text-h3">Research methods</p>
-					<p class="">
-						Since the issue initially came to light through my own and peers’ experiences, I used
-						three research methods to confirm whether it impacted other student groups as well.
-						Combining these approaches allowed me to explore the topic thoroughly while staying
-						focused and avoiding distractions.
-					</p>
+					<div class="flex flex-row gap-8">
+						<p class="w-1/2">
+							Since the issue initially came to light through my own and peers’ experiences, I used
+							three research methods to confirm whether it impacted other student groups as well.
+						</p>
+						<p class="w-1/2">
+							Since the issue initially came to light through my own and peers’ experiences, I used
+							three research methods to confirm whether it impacted other student groups as well.
+						</p>
+					</div>
 				</div>
 
 				<div
-					class="flex flex-col md:flex-row gap-8 p-8 w-full md:w-1/2 items-center justify-center border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+					class="flex flex-col md:flex-row gap-8 p-8 items-center justify-center border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 				>
 					<div class="flex flex-col items-center justify-center gap-2">
 						<i class="ph-user-focus text-3xl" />
@@ -260,15 +264,18 @@
 		</div>
 
 		<div class="flex flex-col md:flex-row gap-8">
-			<p class="text-h5 md:text-h4 w-full md:w-2/4">Interviews with experts</p>
-			<div class="flex flex-col w-full md:w-full md:w-1/4 gap-2">
+			<p class="text-h5 md:text-h4 w-full md:w-1/3">
+				Interviews <span class="hidden md:inline"><br /></span>
+				with experts
+			</p>
+			<div class="flex flex-col w-full md:w-1/3 gap-2">
 				<p class="text-body-xs">Interview 1</p>
 				<div>
 					<p class="text-body-base font-bold">Evelia Sánchez Afonso</p>
 					<p class="text-body-base">School Counselor</p>
 				</div>
 			</div>
-			<div class="flex flex-col w-full md:w-1/4 gap-2">
+			<div class="flex flex-col w-full md:w-1/3 gap-2">
 				<p class="text-body-xs">Interview 2</p>
 				<div>
 					<p class="text-body-base font-bold">Víctor Socas Guerra</p>
@@ -306,13 +313,13 @@
 		</div>
 
 		<div class="flex flex-col md:flex-row gap-8">
-			<p class="text-h5 md:text-h4 w-2/4">Student Survey</p>
-			<p class="text-body-base w-full md:w-1/4">
-				To capture firsthand insights at scale, I designed a primarily closed-ended survey focused
-				on students’ academic and emotional experiences. This format enabled efficient analysis and
-				comparison.
+			<p class="text-h5 md:text-h4 w-1/3">Student Survey</p>
+			<p class="text-body-base w-full md:w-1/3">
+				To capture firsthand insights at scale, a primarily closed-ended survey was designed,
+				focusing on students’ academic and emotional experiences. This format enabled efficient
+				analysis and comparison.
 			</p>
-			<p class="text-body-base w-full md:w-1/4">
+			<p class="text-body-base w-full md:w-1/3">
 				<span class="font-bold">120 students</span> from different academic levels and specializations
 				participated, showing deep interest in the initiative.
 			</p>
@@ -370,8 +377,8 @@
 	</div>
 
 	<!-- Content -->
-	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 md:my-24 margins md:margins md:mx-32">
-		<div class="flex flex-col gap-8 md:gap-12">
+	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 margins">
+		<div class="flex flex-col gap-8 md:gap-12 md:mx-24">
 			<p class="text-h3">Redefining the Problem Through Research</p>
 			<div class=" flex flex-col md:flex-row gap-8 text-body-base">
 				<p class="w-full md:w-1/2">
@@ -388,12 +395,24 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex flex-col md:flex-row gap-8 items-center justify-center">
-			<img src="/influyo/cluster1.jpg" alt="" class="w-full md:w-1/3" />
-			<img src="/influyo/cluster2.jpg" alt="" class="w-full md:w-1/3" />
-			<img src="/influyo/cluster3.jpg" alt="" class="w-full md:w-1/3" />
+		<div class="flex flex-col md:flex-row gap-8 items-center justify-center margins">
+			<img
+				src="/influyo/cluster1.jpg"
+				alt=""
+				class="w-full md:w-1/3 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+			/>
+			<img
+				src="/influyo/cluster2.jpg"
+				alt=""
+				class="w-full md:w-1/3 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+			/>
+			<img
+				src="/influyo/cluster3.jpg"
+				alt=""
+				class="w-full md:w-1/3 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+			/>
 		</div>
-		<div class=" flex flex-col md:flex-row gap-8 text-body-base">
+		<div class=" flex flex-col md:flex-row gap-8 text-body-base md:mx-24">
 			<p class="w-full md:w-1/2">
 				By clustering the survey data and synthesizing insights with user personas and empathy maps,
 				the focus sharpened on two main categories: self-awareness and self-management.
@@ -403,16 +422,24 @@
 				challenges, outweighing interpersonal or technical skill concerns.
 			</p>
 		</div>
-		<div class="flex flex-col md:flex-row gap-8 items-center justify-center">
-			<img src="/influyo/user-persona.jpg" alt="" class="w-full md:w-1/2" />
-			<img src="/influyo/empathy-map.jpg" alt="" class="w-full md:w-1/2" />
+		<div class="flex flex-col md:flex-row gap-8 items-center justify-center margins">
+			<img
+				src="/influyo/user-persona.jpg"
+				alt=""
+				class="w-full md:w-1/2 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+			/>
+			<img
+				src="/influyo/empathy-map.jpg"
+				alt=""
+				class="w-full md:w-1/2 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+			/>
 		</div>
 	</div>
 
 	<!-- Divider -->
 	<hr class="border-t-[1.5px] border-[#1040b0]/50" />
 
-	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 md:my-24 margins md:mx-32">
+	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 margins mx-24">
 		<div class="flex flex-col gap-8 md:gap-12">
 			<p class="text-h3">From Problem to Content Strategy</p>
 			<p class="">
@@ -428,7 +455,7 @@
 	<!-- Divider -->
 	<hr class="border-t-[1.5px] border-[#1040b0]/50" />
 
-	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 md:my-24 margins md:mx-32">
+	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 margins mx-24">
 		<p class="text-h3">Choosing the Right platform: Digital vs. Physical</p>
 		<div class=" flex flex-col md:flex-row gap-8 text-body-base">
 			<p class="w-full md:w-1/2">
@@ -458,7 +485,7 @@
 		</div>
 
 		<!-- Content -->
-		<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 md:my-24 margins md:margins md:mx-32">
+		<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 margins md:mx-24">
 			<div class="flex flex-col gap-8 md:gap-12">
 				<p class="text-h3">Content strategy</p>
 				<div class=" flex flex-col md:flex-row gap-8 text-body-base">
@@ -474,7 +501,7 @@
 				</div>
 			</div>
 
-			<div class="flex flex-col md:flex-row gap-8 items-start justify-center">
+			<div class="flex flex-col md:flex-row w-full gap-8 items-start justify-center h-auto">
 				<img
 					src="/influyo/content-sketch1.jpg"
 					alt=""
@@ -491,7 +518,7 @@
 		<!-- Divider -->
 		<hr class="border-t-[1.5px] border-[#1040b0]/50" />
 
-		<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 md:my-24 margins md:mx-32">
+		<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 margins md:mx-24">
 			<div class="flex flex-col gap-8 md:gap-12">
 				<p class="text-h3">UX design</p>
 				<div class=" flex flex-col md:flex-row gap-8 text-body-base">
@@ -506,43 +533,43 @@
 				</div>
 			</div>
 
-			<div class="flex flex-col md:flex-row gap-8 w-fit max-w-full md:md:h-64">
+			<div class="flex flex-col md:flex-row w-full gap-8 items-start justify-center margins">
 				<img
 					src="/influyo/ux-sketch1.jpg"
 					alt=""
-					class="w-full md:w-64
+					class="w-full md:w-2/8
  object-cover h-auto border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 				/>
 				<img
 					src="/influyo/ux-sketch2.jpg"
 					alt=""
-					class="w-full md:w-32
+					class="w-full md:w-1/8
  object-cover h-auto border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 				/>
 				<img
 					src="/influyo/ux-sketch3.jpg"
 					alt=""
-					class="w-full md:w-32
+					class="w-full md:w-2/8
  object-cover h-auto border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 				/>
 				<img
 					src="/influyo/ux-sketch4.jpg"
 					alt=""
-					class="w-full md:w-64
+					class="w-full md:w-3/8
  object-cover h-auto border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 				/>
 			</div>
 
-			<div class="flex flex-col md:flex-row gap-8 items-start justify-center">
+			<div class="flex flex-col w-full md:flex-row gap-8 items-start justify-center">
 				<img
 					src="/influyo/wireframe1.jpg"
 					alt=""
-					class="w-full md:w-1/2 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+					class="w-full md:w-1/2 object-cover h-auto border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 				/>
 				<img
 					src="/influyo/wireframe2.jpg"
 					alt=""
-					class="w-full md:w-1/2 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+					class="w-full md:w-1/2 object-cover h-auto border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 				/>
 			</div>
 		</div>
@@ -570,7 +597,7 @@
 		</div>
 
 		<!-- Prototype stills -->
-		<!-- <div class="grid grid-cols-4 gap-8 justify-istems-center mx-24">
+		<!-- <div class="grid grid-cols-4 gap-8 justify-istems-center">
 			<img src="/influyo/prototype1-landing.png" alt="" class="w-full h-auto" />
 			<img src="/influyo/prototype1-itinerary.png" alt="" class="w-full h-auto" />
 			<img src="/influyo/prototype1-technique.png" alt="" class="w-full h-auto" />
@@ -587,11 +614,28 @@
 		<p class="text-h3 md:text-h2 text-center">Test</p>
 	</div>
 
-	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-12 margins">
-		<p class="md:mx-24">
+	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-12 margins md:mx-24">
+		<p class="">
 			The first prototype was tested with 5 users, whose feedback provided valuable direction for
 			refinement. The most relevant insight was the need for a more personalized and continuous
 			experience.
+		</p>
+
+		<!-- Quote -->
+		<div
+			class="flex flex-col md:flex-row gap-2 md:gap-8 margins p-8 bg-[#1040b0] text-white rounded-2xl"
+		>
+			<p class="text-h5 md:text-h4">
+				“It’d be helpful to reread my older answers or check what I wrote earlier.”
+			</p>
+			<p class="text-h5 md:text-h4 opacity-50">— Student participant, usability testing session</p>
+		</div>
+
+		<p class="">
+			These suggestions highlighted the importance of continuity and reflection within the tool, not
+			just one-time use. Based on this, new functionalities were proposed, and the design process
+			returned to the sketching phase. User flows were also created to identify potential gaps or
+			friction points in the navigation and user experience.
 		</p>
 
 		<!-- User insights -->
@@ -613,23 +657,6 @@
 				</div>
 			</div>
 		</div>
-
-		<p class="md:mx-24">
-			These suggestions highlighted the importance of continuity and reflection within the tool, not
-			just one-time use. Based on this, new functionalities were proposed, and the design process
-			returned to the sketching phase. User flows were also created to identify potential gaps or
-			friction points in the navigation and user experience.
-		</p>
-
-		<!-- Quote -->
-		<div
-			class="flex flex-col md:flex-row gap-2 md:gap-8 margins p-8 bg-[#1040b0] text-white rounded-2xl"
-		>
-			<p class="text-h5 md:text-h4">
-				“It’d be helpful to reread my older answers or check what I wrote earlier.”
-			</p>
-			<p class="text-h5 md:text-h4 opacity-50">— Student participant, usability testing session</p>
-		</div>
 	</div>
 
 	<!-- Back to phase 3: -->
@@ -637,18 +664,18 @@
 	<div
 		class=" flex flex-col md:flex-row margins py-12 gap-2 md:gap-8 items-center justify-center bg-[#1040b0] text-white"
 	>
-		<p class="text-h3 md:text-h2 opacity-50">Phase 5:</p>
-		<p class="text-h3 md:text-h2 text-center">Test</p>
+		<p class="text-h3 md:text-h2 opacity-50">Back to phase 4:</p>
+		<p class="text-h3 md:text-h2 text-center">Ideate</p>
 	</div>
 
-	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-12 margins md:mx-32">
-		<p class="">
+	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-12 margins">
+		<p class="md:mx-24">
 			The second round of ideation followed a similar wireframing process as the first, now focused
 			on implementing new functionalities based on user feedback.
 		</p>
 
 		<!-- User insights -->
-		<div class="flex flex-col gap-6 margins p-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
+		<div class="flex flex-col gap-6 p-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl md:mx-24">
 			<p class="text-h6 text-center">Key additions</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-col md:flex-row gap-8">
@@ -691,22 +718,22 @@
 			/>
 		</div>
 
-		<p class="">
+		<p class="md:mx-24">
 			Additionally, a new emotion identification flow was designed, inspired by Plutchik’s Wheel of
 			Emotions. The session also introduced basic interactions for sign-up and login, building the
 			foundation for a more personalized user experience.
 		</p>
 
-		<div class="flex flex-col md:flex-row gap-8 items-start justify-center">
+		<div class="flex flex-col w-full md:flex-row gap-8 items-start justify-center md:px-24 margins">
 			<img
 				src="/influyo/wireframe3.jpg"
 				alt=""
-				class="w-full md:w-1/2 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+				class="w-full md:w-1/2 object-cover h-auto border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 			/>
 			<img
 				src="/influyo/wireframe4.jpg"
 				alt=""
-				class="w-full md:w-1/2 border-[1.5px] border-[#1040b0]/50 rounded-2xl"
+				class="w-full md:w-1/2 object-cover h-auto border-[1.5px] border-[#1040b0]/50 rounded-2xl"
 			/>
 		</div>
 	</div>
@@ -715,8 +742,8 @@
 	<hr class="border-t-[1.5px] border-[#1040b0]/50" />
 
 	<!-- Visual Identity & UI Design -->
-	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 md:my-24 margins">
-		<div class="flex flex-col gap-8 md:gap-12 md:mx-24">
+	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 margins md:mx-24">
+		<div class="flex flex-col gap-8 md:gap-12">
 			<p class="text-h3">Visual Identity & UI Design</p>
 			<p class="">
 				The visual direction of the project began to take shape with the naming process. Through a
@@ -725,7 +752,7 @@
 			</p>
 		</div>
 
-		<div class="flex flex-col md:flex-row gap-8 items-start justify-center">
+		<div class="flex flex-col md:flex-row w-full gap-8 items-start justify-center margins">
 			<img
 				src="/influyo/naming-sketch1.jpg"
 				alt=""
@@ -738,7 +765,7 @@
 			/>
 		</div>
 
-		<div class="md:mx-24">
+		<div class="">
 			<p class="">
 				From there, the visual identity began to take form. Early sketching explored metaphors for
 				emotional complexity and user transformation, while also considering color, texture, and
@@ -746,7 +773,7 @@
 			</p>
 		</div>
 
-		<div class="flex flex-col md:flex-row gap-8 items-start justify-center">
+		<div class="flex flex-col md:flex-row w-full gap-8 items-start justify-center margins">
 			<img
 				src="/influyo/visual-sketch1.jpg"
 				alt=""
@@ -773,7 +800,7 @@
 		</div>
 
 		<!-- Sketches -->
-		<div class="flex flex-wrap gap-8 justify-center items-start">
+		<div class="flex flex-col md:flex-row w-full gap-8 items-start justify-center margins">
 			<img
 				src="/influyo/ui-sketch1.jpg"
 				alt=""
@@ -800,7 +827,7 @@
 		</div>
 
 		<!-- Color reference and result -->
-		<div class="flex flex-col md:flex-row gap-2 md:gap-8 justify-center items-start">
+		<div class="flex flex-col md:flex-row w-full gap-8 items-start justify-center margins">
 			<img src="/influyo/plutchnik.png" alt="" class="w-full md:w-1/2" />
 			<img src="/influyo/visual-colors.png" alt="" class=" w-full md:w-1/2" />
 		</div>
@@ -824,7 +851,7 @@
 		/>
 
 		<!-- Prototype stills -->
-		<!-- <div class="grid grid-cols-4 gap-8 justify-istems-center mx-24">
+		<!-- <div class="grid grid-cols-4 gap-8 justify-istems-center">
 			<img src="/influyo/prototype2-landing.png" alt="" class="w-full h-auto" />
 			<img src="/influyo/prototype2-ID.png" alt="" class="w-full h-auto" />
 			<img src="/influyo/prototype2-itinerary.png" alt="" class="w-full h-auto" />
@@ -849,7 +876,9 @@
 		</p>
 
 		<!-- User insights -->
-		<div class="flex flex-col gap-6 margins p-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
+		<div
+			class="flex flex-col gap-6 margins p-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl md:mx-24"
+		>
 			<p class="text-h6 text-center">Pain points</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-col md:flex-row gap-8">
@@ -882,7 +911,7 @@
 
 		<!-- Quote -->
 		<div
-			class="flex flex-col md:flex-row gap-2 md:gap-8 margins p-8 bg-[#1040b0] text-white rounded-2xl"
+			class="flex flex-col md:flex-row gap-2 md:gap-8 margins p-8 bg-[#1040b0] text-white rounded-2xl md:mx-24"
 		>
 			<p class="text-h5 md:text-h4">
 				"There’s too much text... I kind of lose interest halfway through."
@@ -906,7 +935,9 @@
 		</p>
 
 		<!-- User insights -->
-		<div class="flex flex-col gap-6 margins p-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl">
+		<div
+			class="flex flex-col gap-6 margins p-8 border-[1.5px] border-[#1040b0]/50 rounded-2xl md:mx-24"
+		>
 			<p class="text-h6 text-center">Pain points</p>
 			<hr class="border-t-[1.5px] border-[#1040b0] opacity-50" />
 			<div class="flex flex-col md:flex-row gap-8">
@@ -955,7 +986,7 @@
 		</div>
 	</div>
 
-	<div class="flex flex-col gap-8 my-8 md:my-16 md:my-24 margins md:mx-32">
+	<div class="flex flex-col gap-8 my-8 md:my-16 margins md:mx-24">
 		<p class="text-h3">Emotional ID Flow</p>
 		<div class=" flex flex-col md:flex-row gap-4 md:gap-8 text-body-base">
 			<p class="w-full md:w-1/2">
@@ -1000,7 +1031,7 @@
 	<!-- Divider -->
 	<hr class="border-t-[1.5px] border-[#1040b0]/50" />
 
-	<div class="flex flex-col gap-8 my-8 md:my-16 md:my-24 margins md:mx-32">
+	<div class="flex flex-col gap-8 my-8 md:my-16 margins md:mx-24">
 		<p class="text-h3">Visual Identity</p>
 		<p class="">
 			The visual identity builds on the project’s unique emotion system—represented by a filled
@@ -1013,7 +1044,7 @@
 		<img src="/influyo/logo.gif" alt="" />
 	</div>
 
-	<div class="flex flex-col gap-8 my-8 md:my-16 md:my-24 margins md:mx-32">
+	<div class="flex flex-col gap-8 my-8 md:my-16 margins md:mx-24">
 		<p>
 			To ensure adaptability across digital formats, especially in small sizes, a simplified symbol
 			(the emotion icon) is used as a standalone brand mark when needed, such as for the favicon.
@@ -1024,7 +1055,7 @@
 		<img src="/influyo/symbol.jpg" alt="" />
 	</div>
 
-	<div class="flex flex-col gap-8 my-8 md:my-16 md:my-24 margins md:mx-32">
+	<div class="flex flex-col gap-8 my-8 md:my-16 margins md:mx-24">
 		<p>
 			The color palette assigns one distinct color to each of the eight core emotions, complemented
 			by neutral tones (gray and white). To maintain clarity and visual harmony, emotion colors are
@@ -1037,7 +1068,7 @@
 		<img src="/influyo/colors.jpg" alt="" />
 	</div>
 
-	<div class="flex flex-col gap-8 my-8 md:my-16 md:my-24 margins md:mx-32">
+	<div class="flex flex-col gap-8 my-8 md:my-16 margins md:mx-24">
 		<p class="text-h3">Launch Campaign</p>
 		<p class="">
 			To ensure that students were aware of and used the platform, a launch campaign was designed
@@ -1088,7 +1119,7 @@
 		<p class="text-h3 md:text-h2 text-center">The Impact</p>
 	</div>
 
-	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 md:my-24 margins">
+	<div class="flex flex-col gap-8 md:gap-12 my-8 md:my-16 margins">
 		<div class="flex flex-col md:flex-row gap-8">
 			<div class="w-full md:w-1/3 flex flex-col gap-4">
 				<p class="text-body-sm">Validated by users and experts</p>
