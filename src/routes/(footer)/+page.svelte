@@ -21,7 +21,7 @@
 	</h1>
 
 	<!-- Hero text mobile -->
-	<h1 class="margins text-start mt-8 text-h3 text-balanced md:hidden">
+	<h1 class="margins text-start mt-8 text-h4 text-balanced md:hidden">
 		Hello! — I’m Sofía. <br /> I specialize in
 		<span class="highlight">editorial and digital experience design</span>
 		✎ I create clear, human-centered solutions through
