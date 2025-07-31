@@ -13,13 +13,15 @@
 
 <main class="flex flex-col gap-12">
 	<!-- Hero text desktop -->
-	<h1 class="margins text-start mt-12 text-h1 max-md:hidden">
-		Hello! — I’m Sofía, a designer specializing in editorial design and digital user experiences ✎ I
-		create clear, human-centered solutions through empathy, structure, and storytelling ✺
+	<h1 class="margins text-start mt-8 text-h1 max-md:hidden">
+		Hello! — I’m Sofía, a designer specializing in <span class="highlight">editorial design</span>
+		and
+		<span class="highlight">digital user experiences</span> ✎ I create clear, human-centered
+		solutions through <span class="highlight">empathy, structure, and storytelling</span> ✺
 	</h1>
 
 	<!-- Hero text mobile -->
-	<h1 class="margins text-start mt-12 text-h3 text-balanced md:hidden">
+	<h1 class="margins text-start mt-8 text-h3 text-balanced md:hidden">
 		Hello! — I’m Sofía. <br /> I specialize in editorial and digital experience design ✎ I create clear,
 		human-centered solutions through empathy, structure, and storytelling ✺
 	</h1>

@@ -113,11 +113,12 @@
         "year": "2024",
         "areas": [
             "Research",
-            "UX/UI", 
+            "UX",
+            "UI", 
             "Visual Identity", 
             "Naming"
         ],
-        "description": "A digital kit for the autonomous development of emotional skills in art and design students.",
+        "description": "Digital kit for the autonomous development of emotional skills in art and design students.",
         "brief": "The project aimed to enhance the emotional competencies of art and design students. Intense emotions—such as stress, anxiety, and frustration—significantly impact students’ well-being and academic performance. A primary challenge was to useful information and techniques in an engaging and accessible manner, catering to a diverse student audience that varies in gender, age, and personal experiences.",
         "solution": "A digital platform was developed to promote self-awareness and emotional self-management. The design process was iterative, emphasizing accessibility and engagement by breaking content into small, easily digestible fragments, complemented by illustrations that aid interpretation and captivate users. This project aimed to foster an exploratory approach, encouraging students to delve into their emotions without the pressure of rapidly achieving emotional well-being.",
         "thumbnail": {
@@ -205,7 +206,7 @@
             "Photography",
             "Typography"
         ],
-        "description": "A series of two cookbooks that explore heritage through shared recipes and traditions.",
+        "description": "Two cookbooks that explore heritage through shared recipes and traditions.",
         "brief":"This project is a personal exploration of my heritage through family recipes and traditions. These cookbooks also serve as a family archive, connecting generations through shared culinary experiences. The main challenge was creating a cohesive set while ensuring each book reflected the unique cultural backgrounds of both sides of my family.",
         "solution":"To unify the distinct heritages, I cooked and photographed the recipes with a raw, homemade aesthetic, keeping the kitchen settings natural. The books are distinguished by typography, color, and composition. My father’s Chilean book uses bold imagery, a serif typeface, and deep red tones to evoke savory flavors, while my mother’s Finnish book features smaller pieces, a sans-serif typeface, and lighter blue tones, reflecting sweeter dishes. Despite their differences, both books share a handmade, scrapbook aesthetic, evoking the feeling of sorting through a drawer of memories and family heirlooms.",
         "thumbnail":
@@ -289,7 +290,7 @@
             "Naming", 
             "Merchandising"
         ],
-        "description": "A striking yet refined visual identity for an emerging fashion brand, dedicated to redefining luxury for professional women.",
+        "description": "Visual identity for an emerging fashion brand, dedicated to redefining luxury for professional women.",
         "brief": "Margenus is an emerging fashion brand with a mission to redefine luxury for professional women. The goal was to develop a brand identity that captured the designer’s unique approach to fashion while appealing to women who value individuality, boldness, and sustainability. A key challenge was setting the brand apart in a fashion landscape where most competitors use monochromatic, all-caps logos, while also highlighting its focus on upcycling.",
         "solution": "The brand differentiates itself through its use of color and typography. Instead of relying on a monochromatic palette, I introduced red, light pink, and deep blue to convey the brand’s uniqueness. The logo, composed in lowercase to stand out from competitors, combines a modern sans-serif typeface with a traditional serif, symbolizing the fusion of strength and elegance. The symbol, made from a continuous line that forms a closed shape, represents the cycle of reinvention. Corporate patterns deconstruct and reuse this symbol to reinforce the brand’s emphasis on upcycling and sustainability.",
         "thumbnail": {
