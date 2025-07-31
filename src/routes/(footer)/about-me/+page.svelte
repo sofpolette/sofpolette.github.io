@@ -18,7 +18,7 @@
 			<!-- Hero text desktop -->
 			<h1 class="w-2/3 md:w-full text-start text-h4 max-md:hidden">
 				Hello! — I’m Sofía, a designer specializing in editorial design and digital user experiences
-				✎ I create clear, human-centered solutions through empathy, structure, and storytelling ✺
+				I create clear, human-centered solutions through empathy, structure, and storytelling.
 			</h1>
 
 			<!-- Hero text mobile -->
@@ -95,15 +95,12 @@
 			<div class="flex flex-row gap-4 md:gap-8 w-full">
 				<div class="flex flex-col gap-4 w-full md:w-2/4">
 					<img src="/about-me/camera.jpg" alt="" />
-					<p class="text-body-xs">
-						Capturing everyday moments helps me stay connected to the world around me
-					</p>
+					<p class="text-body-xs">Photography helps me stay connected to the world around me</p>
 				</div>
 				<div class="flex flex-col gap-4 w-full md:w-2/4">
 					<img src="/about-me/lisboa.JPG" alt="" />
 					<p class="text-body-xs">
-						Visiting Lisbon on my latest trip, where I became fascinated by the city’s layered
-						history
+						Visiting Lisbon on my latest trip, where I became fascinated by the city’s history
 					</p>
 				</div>
 			</div>

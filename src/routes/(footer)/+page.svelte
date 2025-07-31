@@ -22,8 +22,10 @@
 
 	<!-- Hero text mobile -->
 	<h1 class="margins text-start mt-8 text-h3 text-balanced md:hidden">
-		Hello! — I’m Sofía. <br /> I specialize in editorial and digital experience design ✎ I create clear,
-		human-centered solutions through empathy, structure, and storytelling ✺
+		Hello! — I’m Sofía. <br /> I specialize in
+		<span class="highlight">editorial and digital experience design</span>
+		✎ I create clear, human-centered solutions through
+		<span class="highlight">empathy, structure, and storytelling</span> ✺
 	</h1>
 
 	<!-- Project desktop -->
