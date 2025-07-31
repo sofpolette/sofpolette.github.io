@@ -22,7 +22,7 @@
 			</h1>
 
 			<!-- Hero text mobile -->
-			<h1 class="w-full text-start text-h4 md:hidden">
+			<h1 class="w-full text-start text-h5 md:hidden">
 				Hello! — I’m Sofía, a designer specializing in editorial design and digital user experiences
 				✎ I create clear, human-centered solutions through empathy, structure, and storytelling ✺
 			</h1>
