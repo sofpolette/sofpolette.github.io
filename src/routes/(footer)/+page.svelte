@@ -6,9 +6,10 @@
 <svelte:head>
 	<meta
 		name="description"
-		content="Hi! ☺ — I’m a curious, detail-oriented Graphic Designer with experience in editorial design, digital design & visual identity."
+		content="Hello! — I’m Sofía, a designer specializing in digital and editorial user experiences. I create clear, human-centered
+		solutions through empathy, structure, and storytelling."
 	/>
-	<title>Sofía J. Polette Stubb | Editorial & product design</title>
+	<title>Sofía J. Polette Stubb | Editorial & Product Design</title>
 </svelte:head>
 
 <main class="flex flex-col gap-12">

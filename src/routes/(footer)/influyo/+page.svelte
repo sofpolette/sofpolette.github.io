@@ -112,8 +112,8 @@
 				<div class="flex flex-col md:flex-row gap-4 md:gap-8">
 					<i class="ph-timer text-lg" />
 					<p class="text-body-xs">
-						The approach was iterative and non-linear, allowing flexibility to revisit phases as
-						needed.
+						Both UX and visual design were developed in parallel given the tight deadline for the
+						required deliverables.
 					</p>
 				</div>
 			</div>
